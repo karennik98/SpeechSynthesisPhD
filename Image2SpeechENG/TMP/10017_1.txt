@@ -1,0 +1,27 @@
+Ground truth:
+New York family is the last in their neighborhood to get a television set, which nearly ruins David Niven's marriage to Mitzi Gaynor.
+Bedroom comedy that rarely ventures into the bedroom(and nothing sexy happens there anyway).
+Gaynor as an actress has about as much range as an oven--she turns on, she turns off.
+Film's sole compensation is a supporting performance by perky Patty Duke, pre-"Miracle Worker", as Niven's daughter.
+She's delightful; "Happy Anniversary" is not.
+* from ****
+
+
+Corrected:
+New!
+The York family is the last in their neighborhood to get a television set, which nearly ruins David Niven's marriage to Mitzé.
+Gayner.
+Bedford comedy that rarely ventures into, "the bedroom (and nothing sexy, happens there anyway).
+Gayhor's an actress has about as much range.
+An oven--she turns on, she turns off.
+Films.
+The sole compensation is a supporting role by the side of a great man.
+Perky Patty Duke; pre-"Miracle Worker", 3s: Niven's Gaughier.
+She's.
+"Happy Anniversary" is from 8, A
+
+
+WER: 0.4358974358974359
+CER: 0.17248459958932238
+WER%: 43.58974358974359
+CER%: 17.248459958932237

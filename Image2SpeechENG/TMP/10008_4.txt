@@ -1,0 +1,32 @@
+Ground truth:
+20th Century-Fox musical has a glossy veneer yet seems a bit tatty around the edges.
+It is very heavy on the frenetic, gymnastic-like dancing, exceedingly thin on story.
+Betty Grable (an eleventh hour replacement for Alice Faye) gives it a boost, even though she's paired with leaden Don Ameche (in tan make-up and slick hair).
+Also good: Charlotte Greenwood as Betty's pithy aunt, a limousine driver who's constantly asleep on the job, and Carmen Miranda playing herself (who else?).
+The stock shots of Argentina far outclass the action filmed on the Fox backlot, and some of the supporting performances are quite awful.
+By the time of the big horserace finale, most viewers will have had enough.
+*1/2 from ****
+
+
+Corrected:
+20th Century: Fox musical has a glossy veneer.
+Yet seems a bit tatty around the edges. His very heavy on the frenetic gymnastic dancing, exceedingly.
+There isnt much history to this thin town.
+"Betty" is a one-word sentence. It is not possible to correct the punctuation and spelling in this sentence.
+Grable an eleventh hour.
+Replacement for Alice Faye, gives it a boost; even though she's been reading.
+black-and-white) plays.a.man who must.choose.between.a life.of.luxury and.true.love
+
+Den Ameche (in tan makeup and black-and-white) plays a man who must choose between a life of luxury and true love.
+”
+
+“Charlotte Greenwood as Betty's pithy.”
+My aunt, a limousine driver who's constantly on the road, is coming to visit me next week.
+Asleep on the job, ‘and Cariien: Miranda playing herself (who can The'stock shots of ‘Argentina tar outclass the action filmed-on the Fox backlot!).
+And some of the supporting performances are quite awful. By the time of the big horse race finale, most viewers will have had enough.
+
+
+WER: 0.7983193277310925
+CER: 0.5646067415730337
+WER%: 79.83193277310924
+CER%: 56.46067415730337

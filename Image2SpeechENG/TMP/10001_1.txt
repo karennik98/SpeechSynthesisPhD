@@ -1,0 +1,30 @@
+Ground truth:
+First of all I hate those moronic rappers, who could'nt act if they had a gun pressed against their foreheads.
+There is pretty much no plot and it is a big problem when you root for no-one.
+At lest they have characters you care about, a sense of humor and nothing but real actors in the cast.
+
+
+Corrected:
+First of all, I hate those moronic fappers.
+Who?
+Couldn't act if they had a gun pressed against their foreheads.
+are trying to’paint
+
+There is pretty much no point and it is a big problem when you are trying to paint.
+I'm going to root for the home team.
+
+I'm going to root for the home team.
+No one likes to be left out.
+huMour
+
+At least they have a sense of humour.
+Humer and nothing but Teal actors: in the cast.
+, what's up
+
+Eh, what's up?
+
+
+WER: 0.8421052631578947
+CER: 0.6404109589041096
+WER%: 84.21052631578947
+CER%: 64.04109589041096

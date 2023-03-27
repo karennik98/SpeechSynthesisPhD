@@ -1,0 +1,18 @@
+Ground truth:
+I felt like this film could have done a whole lot better than it did.
+I felt like it kept leading the viewer up to a big event that never materialized.
+So, I have to give it a lower rating than I would have liked to and say that it fell short of my expectations.
+
+
+Corrected:
+I felt like this film could have done a whale lot better than it did. I felt like it kept leading the viewer up to a big event.
+So, "If I have to give it a star rating, I would have liked it to be five stars, but it's more like four and a half."
+My expectations, for the most part, were met. The food was good, the staff was attentive, and the room was comfortable. I did, however, find the music to be a bit too loud.
+
+My expectations, for the most part, were met. The food was good, the staff was attentive, and the room was comfortable. I did, however, find the music to be a bit too loud.
+
+
+WER: 1.5636363636363637
+CER: 1.4274809160305344
+WER%: 156.36363636363637
+CER%: 142.74809160305344

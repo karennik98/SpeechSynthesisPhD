@@ -1,5 +1,6 @@
 import nltk
-import Levenshtein
+from jiwer import wer
+from jiwer import cer
 
 nltk.download('punkt')
 
@@ -9,39 +10,20 @@ def split_text_into_sentences(text):
 
 def read_file(file):
     with open(file, 'r') as file:
-        # read the file into a list of lines
         lines = file.readlines()
-        # remove newline characters from each line
         return [line.strip() for line in lines]
 
-def wer(reference, hypothesis):
-    """
-    Calculate the Word Error Rate (WER) metric between the reference and hypothesis strings
-    """
-    # Split reference and hypothesis into words
-    ref_words = reference.split()
-    hyp_words = hypothesis.split()
+def write_file(file_name, sentences):
+    with open(file_name, "a") as f:
+        for item in sentences:
+            f.write(item + "\n")
 
-    # Calculate edit distance using Levenshtein distance algorithm
-    distance = Levenshtein.distance(reference, hypothesis)
+def WER(reference, hypothesis):
+    if len(reference) == 0 or len(hypothesis) == 0:
+        return 1.0
+    return wer(reference, hypothesis)
 
-    # Calculate WER
-    wer_result = distance / len(ref_words)
-
-    return wer_result
-
-def cer(gt, pred):
-    """
-    Calculates the Character Error Rate (CER) between two strings.
-    :param gt: Ground truth string
-    :param pred: Predicted string
-    :return: CER value
-    """
-    # Remove whitespaces and convert to lowercase
-    gt = gt.strip().lower()
-    pred = pred.strip().lower()
-    # Calculate Levenshtein distance between the two strings
-    lev_distance = Levenshtein.distance(gt, pred)
-    # Calculate CER
-    cer = lev_distance / max(len(gt), 1)
-    return cer
+def CER(gt, pred):
+    if len(gt) == 0 or len(pred) == 0:
+        return 1.0
+    return cer(gt, pred)

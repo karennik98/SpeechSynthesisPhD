@@ -1,0 +1,19 @@
+Ground truth:
+he also has a doll fetish, but I cannot figure out where that came from.
+They are all attractive, of course, else we wouldn't care about the fact that he usually tears their clothing down to the waist.
+
+
+Corrected:
+He.
+Also has a dol!
+I cannot figure out where the fetish came from.
+never
+
+"They never came," she said.
+Are they attractive, of course, else we couldn’t care about the fact that he usually fears their clothing diving in the waist.
+
+
+WER: 0.5
+CER: 0.3333333333333333
+WER%: 50.0
+CER%: 33.33333333333333

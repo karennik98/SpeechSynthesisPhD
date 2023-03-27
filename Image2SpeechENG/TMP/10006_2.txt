@@ -1,0 +1,40 @@
+Ground truth:
+Being a long-time fan of Japanese film, I expected more than this.
+I can't really be bothered to write to much, as this movie is just so poor.
+If you've noticed how many Japanese movies use characters, plots and twists that seem too "different", forcedly so, then steer clear of this movie.
+
+
+Corrected:
+Being a long-time fan of Japanese film, I expected more than this.
+Can't really be.
+I've never even bothered to write to them.
+This movie is just 80, poor.
+She sells seashells,
+
+She sells seashells by the seashore.
+
+The shells she sells are surely seashells.
+
+So if she sells shells on the seashore,
+
+I'm sure she sells seashore shells.
+
+She sells seashells,
+
+She sells seashells by the seashore.
+
+The shells she sells are surely seashells.
+
+So if she sells shells on the seashore,
+
+I'm sure she sells seashore shells.
+On IE, if you've noticed how.
+Many people choose not to vote because they feel that their vote won't make a difference.
+Japanese movies use characters, plots, and twists that seem too diferent farcedly.
+$0, then. Steer clear of this may-vie.
+
+
+WER: 1.8653846153846154
+CER: 1.710344827586207
+WER%: 186.53846153846155
+CER%: 171.0344827586207

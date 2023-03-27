@@ -1,8 +1,8 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "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"
 
 def correct_sentence(sentence):
-    prompt = f"Please correct the following sentence: {sentence}"
+    prompt = f"Please correct only the punctuation and spelling errors in the following text: {sentence}"
     response = openai.Completion.create(
         engine="text-davinci-002",
         prompt=prompt,

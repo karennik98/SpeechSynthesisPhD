@@ -1,0 +1,26 @@
+Ground truth:
+He initially kills a sentry and leaves him in his jeep.
+Upon discovery of the said corpse, the villains response?
+(bearing in mind that our hero has come to brutally murder them all)  They resolve to wait until the next morning to look for the culprit (!!!!!!!!!!
+
+
+Corrected:
+He "initially killed"
+Sentry, and leaves him in, his jeep.
+hidden message
+
+Upon discovery of the hidden message, the detectives were elated.
+"Said the corpse, 'The villain's response?'"
+(Beating.)
+In most cases, a semicolon is used to join two independent clauses that are closely related in thought; however, there are other uses as well.
+
+In most cases, a semicolon is used to join two independent clauses that are closely related in thought; however, there are other uses as well.
+their campsite)
+
+"Hero has come! A Tae murder 'them all!" Eo They resolve to wait until the next morning to look for the cult (ie their campsite).
+
+
+WER: 1.6666666666666667
+CER: 1.4867924528301886
+WER%: 166.66666666666669
+CER%: 148.67924528301884

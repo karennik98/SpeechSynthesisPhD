@@ -1,0 +1,24 @@
+Ground truth:
+Earth has been destroyed in a nuclear holocaust.
+Alan has been trained to kill by former NYPD cop Sam (Woody Strode) who mostly hangs around giving his pupil moral support and mooching for tinned meat.
+Strode is by far the best thing about the film, though he doesn't look at all well and only appears for about a third of the running time.
+As for the story, it's a blending of elements from better films and stories, including Ten Little Indians, The Most Dangerous Game, and Escape From New York.
+The Final Executioner moves along at a fair pace and provides reasonable entertainment for less discriminate action fans.
+
+
+Corrected:
+Earth has been destroyed in a nuclear holocaust. Ben (Sean Young) is a former NYC cop who now hangs around.
+Giving high-rat thermal support and meoaching for tinned meat.
+Strode is by far the best thing about the film, though he doesn't look at all well and only appears for about a third of the running time.
+Guinea,
+
+As for the story, it's a blending of elements from better films and stories, including The Island of Dr. Moreau, The Most Dangerous Game, and one from New Guinea.
+York: The Final ene, moves along at a fair Bate.
+And provides: Reasonable: entertainment: ie, fees discriminate-action.
+Fans.
+
+
+WER: 0.3611111111111111
+CER: 0.21129032258064517
+WER%: 36.11111111111111
+CER%: 21.129032258064516

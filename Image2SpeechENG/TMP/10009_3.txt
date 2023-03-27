@@ -1,0 +1,34 @@
+Ground truth:
+Cage plays a drunk and gets high critically praise.
+Elizabeth Shue Actually has to do a love seen with the most unattractive and overrated piece of dung flesh in Hollywood.
+I literally vomited while watching this film.
+Of course I had the flu, but that does not mean this film did not contribute to the vomit in the kamode.
+Why can't Nick Cage play something he can really pull off like a bad actor.
+Nick Cage who be brilliant in a role as a bad actor.
+Heck nobody could do it better.The search begins for Nick's contract with Lucifer or was it Lou Cipher from "Night Train To Terror".
+
+
+Corrected:
+Cage: plays a -drun| and gets high critically Praise.
+Oni e 3 elizabeth.
+Shue actually has to do with: love seen with the.
+Much content; and attractive.
+Overrated piece of "dung flesh" in Hollywood:
+"Literally vomited while watching this film's"
+
+Of course, I had the flu, but that does not mean this "is not" contribute to the vomit-inducing scene.
+Why can't Nick Cage play something he's good at?
+Can really pull off: IEEE a bad actor;
+Cage.
+You’d be brilliant in a role as a bad actor.”
+
+"Heck, nobody could do it better. You'd be brilliant in a role as a bad actor."
+” a Roddy McDowell movie)
+
+The search begins: a Nicks contract, with Luster, er, was it (from "Nont Train To Terror," a Roddy McDowell movie)
+
+
+WER: 0.6605504587155964
+CER: 0.39658119658119656
+WER%: 66.05504587155964
+CER%: 39.65811965811966

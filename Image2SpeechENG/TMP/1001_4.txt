@@ -1,0 +1,77 @@
+Ground truth:
+The too brief scenes in which he portrays a languid, infinitely entitled, worthless son of a rich Lord are spot-on and entertaining.
+But for a love triangle there was remarkably little chemistry to speak of between anyone.
+The music was annoyingly movie-of-the-week quality, and the voice-over jarring and totally unnecessary.
+Clearly the work of a first-time director with a small budget who either lacked or didn't sufficiently heed good advice.
+The Lord's dog?).
+The scene where the Lord visits Wilkinson and relates how brave Watson is, the bestest nurse any dying boyfriend could ever ask for, Florence Nightingale incarnate, etc.
+was OK until he started over-the-top sobbing like a baby.
+Good God!
+Instead he acted like an abused dog, his open craving for his wife's affection increasing with every kick she gives him.
+I'm not anti PC or anything, it just didn't ring true, even after taking into account all of the harsh realities of middle age we all tend to face.
+The ending for me was (and not the director's intention I am certain) depressing.
+The movie spent the last 80 minutes convincing me that these two people just don't belong together, so I found no joy in the promise of their relationship continuing.
+I'm not above wanting my emotions manipulated by a story, it just has to be somewhat plausible and not hackneyed.
+Is that asking too much?My score: 4/10
+
+
+Corrected:
+The too.
+Brief,
+
+Please correct only the punctuation and spelling errors in the following text:
+
+Brief,
+
+Please correct only the punctuation and spelling errors in the text.
+Scenes in which he portrays.
+@ languid, infinitely: éntit!
+Led worthless Scn-of.a tich: bord are: spot-o ‘on nvand entertaining.
+
+Led worthless Scn-of-a-tich: bord are: spot-o ‘on nvand entertaining.
+But for a love triangle, there was remarkably little.
+Chemistry to 'speak of "between: anyone.
+The.
+Music: Was annoyingly.
+Movie-of-the-week quality, and the voice over jarring and 'totally unheceseary,'
+clearly the work of a first time director with a small budget.
+Either way, I'm going to the party.
+Jackedc or-didn't Srey) heed.
+
+Jackie or didn't Srey heed.
+Fees advice.
+The Lara's: deg?
+The scene where the Lord visits Wilkinson and Gare how.
+Brave.
+Watson is the bestest nurse ary 'ev boyftiend could ever ask con Florence Nighingele icarnate, ete.
+It was OK until the Started over. The penal ‘like.
+’ said Mr. Lorry, recoiling from the window, ‘who’s that?
+
+‘Good God!’ said Mr. Lorry, recoiling from the window. ‘Who’s that?
+He was the one: in charge
+
+Instead he acted like he was the one in charge.
+An,
+
+Please correct the errors as indicated.
+Abused dog, his "open eeuy" sf08 his Wife's affection "increasing wit" every kick she.
+"Gives fini," she said.
+We've not.
+Anti-PC, or.
+Anything, it just didn't ring true; even after taking into account all of the harsh realities of middle age.
+We went to the movies.
+still.is)
+
+The ending for me was (and still is).
+net.the:director's intention arn certain).
+The movie spent the last .80 rainutes convincing me that these two people just don't belong together: $0 found nO.
+Joy in the purest of the relationships: senpurg.
+I'm not above wanting my emotions manipulated by a story; it needn't be hackneyed.
+Is that asking too much?
+Much? My score 440.
+
+
+WER: 0.853448275862069
+CER: 0.5531295487627366
+WER%: 85.34482758620689
+CER%: 55.31295487627366

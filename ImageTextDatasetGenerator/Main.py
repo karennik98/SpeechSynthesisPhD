@@ -38,4 +38,5 @@ if __name__ == '__main__':
             img = create_text_image(sentences, Config.fontPath, Config.fontSize, Config.width, Config.height, (255, 237, 201), (0, 0, 0))
             file_name, file_ext = os.path.splitext(os.path.basename(file_path))
             img.save(Config.imageDir + file_name + Config.imageExt)
+            Utilities.AddSaltAndPepperNoise(Config.imageDir + file_name + Config.imageExt)
             create_text_file(file_name, sentences)

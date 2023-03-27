@@ -1,0 +1,29 @@
+Ground truth:
+This is an example of why the majority of action films are the same.
+Generic and boring, there's really nothing worth watching here.
+A complete waste of the then barely-tapped talents of Ice-T and Ice Cube, who've each proven many times over that they are capable of acting, and acting well.
+Ice-T's horribly cliched dialogue alone makes this film grate at the teeth, and I'm still wondering what the heck Bill Paxton was doing in this film?
+And why the heck does he always play the exact same character?
+4/10.
+
+
+Corrected:
+This is.
+An example of why the majority of action films are not good is that they often have weak plots.
+We are the same.
+“Genetic and boring, there’s really nothing.
+hammy =and ‘ice Cube's ‘attempts to-be a-‘comic-relief fall completely flat.
+
+A complete waste of the then barely tapped talents of Ice-T. and Ice Cube, who've each proven many times over that they are masters of acting, and acting well. Ice-T's horribly hammy and Ice Cube's attempts to be comic relief fall completely flat.
+Cliched.
+"Aldne makes this film great at the teeth; and I'm still wondering what the heck Bill and I were doing in this film?" And why.
+The heck does: he always play.
+The exact, same-character?
+fy 2 Be ate <ANO2.
+PGE Le 8 6 EAE
+
+
+WER: 0.7444444444444445
+CER: 0.5078431372549019
+WER%: 74.44444444444444
+CER%: 50.78431372549019
