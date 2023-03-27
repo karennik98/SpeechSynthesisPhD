@@ -1,0 +1,2 @@
+testImagesDir = ''
+testTextsDir = ''

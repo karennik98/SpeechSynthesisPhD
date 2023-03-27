@@ -1,7 +1,7 @@
 from TesseractWrapper import TesseractWrapper
 import Utilities
 import PyTTS
-import GPT_API
+import Davinci_API
 
 if __name__ == '__main__':
     ocr_model = TesseractWrapper()
@@ -12,7 +12,7 @@ if __name__ == '__main__':
 
     corrected_sentences = list()
     for sentence in sentences:
-        gpt_out = GPT_API.correct_sentence(sentence)
+        gpt_out = Davinci_API.correct_sentence(sentence)
         corrected_sentences.append(gpt_out)
 
     print("len of corrected_sentences: ", len(corrected_sentences))
