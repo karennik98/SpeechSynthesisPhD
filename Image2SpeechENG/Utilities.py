@@ -8,6 +8,9 @@ def split_text_into_sentences(text):
     sentences = nltk.sent_tokenize(text)
     return sentences
 
+def remove_empty_lines(text):
+    return '\n'.join(filter(lambda x: x.strip(), text.splitlines()))
+
 def read_file(file):
     with open(file, 'r') as file:
         lines = file.readlines()

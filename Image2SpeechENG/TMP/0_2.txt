@@ -10,30 +10,31 @@ We are told why Kutcher is driven to be the best with no prior inkling or foresh
 No magic here, it was all I could do to keep from turning it off an hour in.
 
 
+OCR:
+Once again Mr. Costner has dragged out a movie for far longer than necessary.
+Aside from the terrific sea rescue sequences, of which there are very few | just did not care about any of the characters.
+Most of us have ghosts in the closet, and Costner's character are realized early on, and then forgotten until much later, by which time | did not care.
+The character we should really care about is a very cocky, overconfident Ashton Kutcher.
+The problem is he comes off as kid who thinks he's better than anyone else around him and shows no signs of a cluttered closet.
+His only obstacle appears to be winning over Costner.
+Finally when we are well past the half way point of this stinker, Costner tells us all about Kutcher's ghosts.
+We are told why Kutcher is driven to be the best with no prior inkling or foreshadowing.
+No magic here, it was all | could do to keep from turning it off an hour in.
+
+
 Corrected:
 Once again, Mr. Costner has dragged out a movie for far longer than necessary.
-’
-
-Aside,
-From the terrific sea rescue sequences, of which there are very few, just did not care about any of the characters.
-attic
-
-Most of us have ghosts in the attic.
-Ang cosiner's character was very closet.
-Ate realized early on, and then forgotten until later.
-Which: character: we should really care about is a very cocky; overconfident Ashton Kutcher.
-The problem is he comes off as a ‘kid who thinks he's better than anyone else around him’ and shows no signs of a ‘cloistered closet.’
-‘His only obstacle appears to be winning over.’
-Costner:
-
-Finally, when we ate “well-past the halt, way point of this stinker,” Gostner tells us cal about Kutehe's ahésts.
-We are told why; "Kutcher is diverse to be the best: with no prior inkling!
-or.
-"No magic: here, it was all I could do to keep from turning it off."
-Howrin.
+Aside from the terrific sea rescue sequences, of which there are very few, I just did not care about any of the characters.
+Most of us have ghosts in the closet, and Costner's character are realized early on, and then forgotten until much later, by which time | did not care.
+The character we should really care about is a very cocky, overconfident Ashton Kutcher.
+The problem is, he comes off as a kid who thinks he's better than anyone else around him, and shows no signs of a cluttered closet.
+His only obstacle appears to be winning over Costner.
+Finally, when we are well past the half-way point of this stinker, Costner tells us all about Kutcher's ghosts.
+We are told why Kutcher is driven to be the best with no prior inkling or foreshadowing.
+No magic here, it was all I could do to keep from turning it off an hour in.
 
 
-WER: 0.3392857142857143
-CER: 0.15444444444444444
-WER%: 33.92857142857143
-CER%: 15.444444444444445
+WER: 0.05357142857142857
+CER: 0.01
+WER%: 5.357142857142857
+CER%: 1.0
