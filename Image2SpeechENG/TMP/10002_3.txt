@@ -1,0 +1,58 @@
+Ground truth:
+Not even the Beatles could write songs everyone liked, and although Walter Hill is no mop-top he's second to none when it comes to thought provoking action movies.
+This was one of the many ice-t movies i saw as a kid and loved, only to watch them later and cringe.
+Bill Paxton and William Sadler are firemen with basic lives until a burning building tenant about to go up in flames hands over a map with gold implications.
+I hand it to Walter for quickly and neatly setting up the main characters and location.
+But i fault everyone involved for turning out Lame-o performances.
+Ice-t and cube must have been red hot at this time, and while I've enjoyed both their careers as rappers, in my opinion they fell flat in this movie.
+It's about ninety minutes of one guy ridiculously turning his back on the other guy to the point you find yourself locked in multiple states of disbelief.
+Now this is a movie, its not a documentary so i wont waste my time recounting all the stupid plot twists in this movie, but there were many, and they led nowhere.
+I got the feeling watching this that everyone on set was sord of confused and just playing things off the cuff.
+There are two things i still enjoy about it, one involves a scene with a needle and the other is Sadler's huge 45 pistol.
+Bottom line this movie is like domino's pizza.
+Yeah ill eat it if I'm hungry and i don't feel like cooking, But I'm well aware it tastes like crap.
+3 stars, meh.
+
+
+OCR:
+Not even the Beatles could write songs everyone liked, and although Walter Hill is no mop-top he's second to none when it comes to thought provoking action movies.
+This was one of the many ice-t movies i saw as a kid and loved, only to watch them later and cringe.
+Bill Paxton and William Sadler are firemen with basic lives until a burning building tenant about to go up in flames hands over a map with gold implications.
+| hand it to Walter for quickly and neatly setting up the main characters and location.
+But i fault everyone involved for turning out Lame-o performances.
+ice-t and cube must have been red hot at this time, and while I've enjoyed both their careers as rappers, in my opinion they fell flat in this movie.
+It's about ninety minutes of one guy ridiculously turning his back on the other guy to the point you find yourself locked in multiple states of disbelief.
+Now this is a movie, its not a documentary so i wont waste my time recounting all the stupid piot twists in this movie, but there were many, and they led nowhere.
+| got the feeling watching this that everyone on set was sord of confused and just playing things off the cuff.
+There are two things i still enjoy about it, one involves a scene with a needle and the other is Sadler's huge 45 pistol.
+Bottom line this movie is like domino's pizza.
+Yeah ill eat it if 'm hungry and i don't feel like cooking, But I'm well aware it tastes like crap.
+3 stars, meh.
+
+
+Corrected:
+Not even the Beatles could write songs everyone liked, and although Walter Hill is no mop-top, he's second to none when it comes to thought-provoking action movies.
+This was one of the many Ice-T movies I saw as a kid and loved, only to watch them later and cringe.
+Bill Paxton and William Sadler are firemen with basic lives until a burning building tenant, about to go up in flames, hands over a map with gold implications.
+Hand it to Walter for quickly and neatly setting up the main characters and location.
+But I fault everyone involved for turning out lame-o performances.
+Ice-T and Cube must have been red hot at this time, and while I've enjoyed both their careers as rappers, in my opinion they fell flat in this movie.
+It's about ninety minutes of one guy ridiculously turning his back on the other guy, to the point you find yourself locked in multiple states of disbelief.
+Now this is a movie, it's not a documentary, so I won't waste my time recounting all the stupid plot twists in this movie, but there were many, and they led nowhere.
+I got the feeling watching this that everyone on set was sort of confused and just playing things off the cuff.
+There are two things I still enjoy about it, one involves a scene with a needle and the other is Sadler's huge 45 pistol.
+Bottom line: this movie is like Domino's pizza.
+Yeah, I'll eat it if I'm hungry and I don't feel like cooking, but I'm well aware it tastes like crap.
+3 stars, meh.
+
+
+WER (gt vs final): 0.09665427509293681
+CER (gt vs final): 0.01943095072866065
+WER% (gt vs final): 9.66542750929368
+CER% (gt vs final): 1.9430950728660652
+
+
+WER (gt vs ocr): 0.09665427509293681
+CER (gt vs ocr): 0.01179736294240111
+WER (gt vs ocr): 9.66542750929368
+CER (gt vs ocr): 1.179736294240111

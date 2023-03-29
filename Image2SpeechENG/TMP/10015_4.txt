@@ -1,0 +1,34 @@
+Ground truth:
+Earth has been destroyed in a nuclear holocaust.
+Alan has been trained to kill by former NYPD cop Sam (Woody Strode) who mostly hangs around giving his pupil moral support and mooching for tinned meat.
+Strode is by far the best thing about the film, though he doesn't look at all well and only appears for about a third of the running time.
+As for the story, it's a blending of elements from better films and stories, including Ten Little Indians, The Most Dangerous Game, and Escape From New York.
+The Final Executioner moves along at a fair pace and provides reasonable entertainment for less discriminate action fans.
+
+
+OCR:
+Earth has been destroyed in a nuclear holocaust.
+Alan has been trained to kill by former NYPD cop Sarn (Woody Strode) who mostly hangs around giving his pupil moral support and mooching for tinned meat.
+Strode is by far the best thing about the film, though he doesn't look at all well and only appears for about a third of the running time.
+As for the story, it's a blending of elements from better films and stories, including Ten Little Indians, The Most Dangerous Game, and Escape From New York.
+The Final Executioner moves along at a fair pace and provides reasonable entertainment for less discriminate action fans.
+
+
+Corrected:
+Earth has been destroyed in a nuclear holocaust.
+Alan has been trained to kill by former NYPD cop Sarn (Woody Strode) who mostly hangs around giving his pupil moral support and mooching for tinned meat.
+Strode is by far the best thing about the film, though he doesn't look at all well and only appears for about a third of the running time.
+As for the story, it's a blending of elements from better films and stories, including Ten Little Indians, The Most Dangerous Game, and Escape From New York.
+The Final Executioner moves along at a fair pace and provides reasonable entertainment for less discriminate action fans.
+
+
+WER (gt vs final): 0.009259259259259259
+CER (gt vs final): 0.0032258064516129032
+WER% (gt vs final): 0.9259259259259258
+CER% (gt vs final): 0.3225806451612903
+
+
+WER (gt vs ocr): 0.08333333333333333
+CER (gt vs ocr): 0.00967741935483871
+WER (gt vs ocr): 8.333333333333332
+CER (gt vs ocr): 0.967741935483871

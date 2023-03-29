@@ -1,0 +1,33 @@
+Ground truth:
+He initially kills a sentry and leaves him in his jeep.
+Upon discovery of the said corpse, the villains response?
+(bearing in mind that our hero has come to brutally murder them all)  They resolve to wait until the next morning to look for the culprit (!!!!!!!!!!
+
+
+OCR:
+He initially kills a sentry and leaves him in his jeep.
+Upon discovery of the said corpse, the villains response?
+(bearing in mind that our hero has come to brutally murder them all) A- They resolve to wait until the next morning to look for the culprit (!!!
+
+
+Corrected:
+He initially kills a sentry and leaves him in his jeep.
+Upon discovery of the said corpse, the villain's response?
+!)
+
+They resolve to wait until the next morning to look for the culprit.
+The cat slept through the storm, purring contentedly.
+
+The cat slept through the storm, purring contentedly.
+
+
+WER (gt vs final): 0.6041666666666666
+CER (gt vs final): 0.5207547169811321
+WER% (gt vs final): 60.416666666666664
+CER% (gt vs final): 52.075471698113205
+
+
+WER (gt vs ocr): 0.125
+CER (gt vs ocr): 0.04150943396226415
+WER (gt vs ocr): 12.5
+CER (gt vs ocr): 4.150943396226415

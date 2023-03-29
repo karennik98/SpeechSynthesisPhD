@@ -1,0 +1,65 @@
+Ground truth:
+The too brief scenes in which he portrays a languid, infinitely entitled, worthless son of a rich Lord are spot-on and entertaining.
+But for a love triangle there was remarkably little chemistry to speak of between anyone.
+The music was annoyingly movie-of-the-week quality, and the voice-over jarring and totally unnecessary.
+Clearly the work of a first-time director with a small budget who either lacked or didn't sufficiently heed good advice.
+The Lord's dog?).
+The scene where the Lord visits Wilkinson and relates how brave Watson is, the bestest nurse any dying boyfriend could ever ask for, Florence Nightingale incarnate, etc.
+was OK until he started over-the-top sobbing like a baby.
+Good God!
+Instead he acted like an abused dog, his open craving for his wife's affection increasing with every kick she gives him.
+I'm not anti PC or anything, it just didn't ring true, even after taking into account all of the harsh realities of middle age we all tend to face.
+The ending for me was (and not the director's intention I am certain) depressing.
+The movie spent the last 80 minutes convincing me that these two people just don't belong together, so I found no joy in the promise of their relationship continuing.
+I'm not above wanting my emotions manipulated by a story, it just has to be somewhat plausible and not hackneyed.
+Is that asking too much?My score: 4/10
+
+
+OCR:
+The too brief scenes in which he portrays a languid, infinitely entitled, worthless son of a rich Lord are spot-on and entertaining.
+But for a love triangle there was remarkably little chemistry to speak of between anyone.
+The music was annoyingly movie-of-the-week quality, and the voice-over jarring and totally unnecessary.
+Clearly the work of a first-time director with a small budget who either lacked or didn't sufficiently heed good advice.
+The Lord's dog?).
+The scene where the Lord visits Wilkinson and relates how brave Watson is, the bestest nurse any dying boyfriend could ever ask for, Florence Nightingale incarnate, etc.
+was OK until he started over-the-top sobbing like a baby.
+Good God!
+Instead he acted like an abused dog, his open craving for his wife’s affection increasing with every kick she gives him.
+I'm not anti PC or anything, it just didn't ring true, even after taking into account all of the harsh realities of middle age we ail tend to face.
+The ending for me was (and not the director's intention | am certain) depressing.
+The movie spent the last 80 minutes convincing me that these two people just don't belong together, so | found no joy in the promise of their relationship continuing.
+I'm not above wanting my emotions manipulated by a story, it just has to be somewhat plausible and not hackneyed.
+Is that asking too much?My score: 4/10
+
+
+Corrected:
+The too-brief scenes in which he portrays a languid, infinitely entitled, worthless son of a rich lord are spot-on and entertaining.
+But for a love triangle there was remarkably little chemistry to speak of between anyone.
+The music was annoyingly movie-of-the-week quality, and the voice-over jarring and totally unnecessary.
+Clearly, the work of a first-time director with a small budget who either lacked or didn't sufficiently heed good advice.
+The Lord's dog?
+etc. is one of the funniest in the play
+
+The scene where the Lord visits Wilkinson and relates how brave Watson is, the best nurse any dying boyfriend could ever ask for, Florence Nightingale incarnate, etc. etc. is one of the funniest in the play.
+It was OK until he started over-the-top sobbing like a baby.
+Good God!
+Instead he acted like an abused dog, his open craving for his wife's affection increasing with every kick she gives him.
+"I'm not anti-PC or anything, it just didn't ring true, even after taking into account all of the harsh realities of middle age we all tend to face."
+The ending for me was (and not the director's intention | am certain) depressing.
+The movie spent the last 80 minutes convincing me that these two people just don't belong together, so I found no joy in the promise of their relationship continuing.
+I'm not above wanting my emotions manipulated by a story, it just has to be somewhat plausible and not hackneyed.
+Is that asking too much?
+
+My score: 4/10
+
+
+WER (gt vs final): 0.13793103448275862
+CER (gt vs final): 0.06986899563318777
+WER% (gt vs final): 13.793103448275861
+CER% (gt vs final): 6.986899563318777
+
+
+WER (gt vs ocr): 0.12931034482758622
+CER (gt vs ocr): 0.012372634643377001
+WER (gt vs ocr): 12.931034482758621
+CER (gt vs ocr): 1.2372634643377

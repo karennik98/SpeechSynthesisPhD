@@ -1,0 +1,46 @@
+Ground truth:
+Supercraptastic slasher fare, which feels overly long at 80 minutes.
+Years ago, a bunch of "gypsies" who lived in the caves of a mountain, were burned up in a forest fire.
+Years later, campers are going missing from the area of the fire.
+A bunch of horny kids are, of course, en route to this area for a debaucherous camping trip of there own.
+Despite an ominous welcome from the forest ranger (Jackson Bostwick) the kids troop up to the mountain any way.
+Before long, the kids start to get picked off by the monster, who remains unseen to the very end of the movie, probably because the makeup was so embarrassingly bad.
+On the plus side, the wildlife footage is rather nice.
+This is a far cry from Charlie Chaplin, but it was still nice to see him.
+This is for slasher completists only.
+
+
+OCR:
+Supercraptastic slasher fare, which feels overly long at 80 minutes.
+Years ago, a bunch of "gypsies" who lived in the caves of a mountain, were burned up in a forest fire.
+Years later, campers are going missing from the area of the fire.
+A bunch of horny kids are, of course, en route to this area for a debaucherous camping trip of there own.
+Despite an ominous welcome from the forest ranger (Jackson Bostwick) the kids troop up to the mountain any way.
+Before long, the kids start to get picked off by the monster, who remains unseen to the very end of the movie, probably because the makeup was so embarrassingly bad.
+On the plus side, the wildlife footage is rather nice.
+This is a far cry from Charlie Chaplin, but it was still nice to see him.
+This is for slasher completists only.
+
+
+Corrected:
+Supercraptastic slasher fare, which feels overly long at 80 minutes.
+Years ago, a bunch of "gypsies" who lived in the caves of a mountain, were burned up in a forest fire.
+Years later, campers are going missing from the area of the fire.
+A bunch of horny kids are, of course, en route to this area for a debaucherous camping trip of their own.
+Despite an ominous welcome from the forest ranger (Jackson Bostwick), the kids troop up to the mountain any way.
+Before long, the kids start to get picked off by the monster, who remains unseen to the very end of the movie, probably because the makeup was so embarrassingly bad.
+On the plus side, the wildlife footage is rather nice.
+This is a far cry from Charlie Chaplin, but it was still nice to see him.
+This is for slasher completists only.
+
+
+WER (gt vs final): 0.013793103448275862
+CER (gt vs final): 0.0038071065989847717
+WER% (gt vs final): 1.3793103448275863
+CER% (gt vs final): 0.3807106598984772
+
+
+WER (gt vs ocr): 0.1103448275862069
+CER (gt vs ocr): 0.01015228426395939
+WER (gt vs ocr): 11.03448275862069
+CER (gt vs ocr): 1.015228426395939

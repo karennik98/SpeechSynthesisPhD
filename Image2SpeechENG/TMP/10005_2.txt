@@ -1,0 +1,25 @@
+Ground truth:
+he also has a doll fetish, but I cannot figure out where that came from.
+They are all attractive, of course, else we wouldn't care about the fact that he usually tears their clothing down to the waist.
+
+
+OCR:
+he also has a doll fetish, but | cannot figure out where that came from.
+They are all attractive, of course, else we wouldn't care about the fact that he usually tears their clothing down to the waist.
+
+
+Corrected:
+He also has a doll fetish, but I cannot figure out where that came from.
+They are all attractive, of course, else we wouldn't care about the fact that he usually tears their clothing down to the waist.
+
+
+WER (gt vs final): 0.02631578947368421
+CER (gt vs final): 0.004975124378109453
+WER% (gt vs final): 2.631578947368421
+CER% (gt vs final): 0.4975124378109453
+
+
+WER (gt vs ocr): 0.07894736842105263
+CER (gt vs ocr): 0.009950248756218905
+WER (gt vs ocr): 7.894736842105263
+CER (gt vs ocr): 0.9950248756218906

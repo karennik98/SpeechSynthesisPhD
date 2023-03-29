@@ -1,0 +1,28 @@
+Ground truth:
+Being a long-time fan of Japanese film, I expected more than this.
+I can't really be bothered to write to much, as this movie is just so poor.
+If you've noticed how many Japanese movies use characters, plots and twists that seem too "different", forcedly so, then steer clear of this movie.
+
+
+OCR:
+Being a long-time fan of Japanese film, | expected more than this.
+| can't really be bothered to write to much, as this movie is just so poor.
+If you've noticed how many Japanese movies use characters, plots and twists that seem too "different", forcedly so, then steer clear of this movie.
+
+
+Corrected:
+Being a long-time fan of Japanese film, I expected more than this.
+Can't really be bothered to write too much, as this movie is just so poor.
+If you've noticed how many Japanese movies use characters, plots, and twists that seem too "different," forcedly so, then steer clear of this movie.
+
+
+WER (gt vs final): 0.09615384615384616
+CER (gt vs final): 0.02413793103448276
+WER% (gt vs final): 9.615384615384617
+CER% (gt vs final): 2.413793103448276
+
+
+WER (gt vs ocr): 0.09615384615384616
+CER (gt vs ocr): 0.013793103448275862
+WER (gt vs ocr): 9.615384615384617
+CER (gt vs ocr): 1.3793103448275863

@@ -1,0 +1,31 @@
+Ground truth:
+The best thing about "The Prey" is the tag line..."It's not human and it's got an axe"!
+The movie itself is a padded stinkaroo....endless insect and wildlife shots make the viewer wanna die!
+No slasher fan will like this garbage.....Watch "Friday the 13th" again and burn any copy of this film you find!
+It also rates as one of the 25 worst films ever made!
+
+
+OCR:
+The best thing about "The Prey” is the tag line..."It's not human and it's got an axe"!
+The movie itself is a padded stinkaroo....endless insect and wildlife shots make the viewer wanna die!
+No slasher fan will like this garbage.....Watch “Friday the 13th" again and burn any copy of this film you find!
+It also rates as one of the 25 worst films ever made!
+
+
+Corrected:
+The best thing about "The Prey" is the tag line..."It's not human and it's got an axe"!
+The movie itself is a padded stinkaroo. Endless insect and wildlife shots make the viewer wanna die!
+No slasher fan will like this garbage. Watch "Friday the 13th" again and burn any copy of this film you find!
+It also rates as one of the 25 worst films ever made!
+
+
+WER (gt vs final): 0.06153846153846154
+CER (gt vs final): 0.022408963585434174
+WER% (gt vs final): 6.153846153846154
+CER% (gt vs final): 2.2408963585434174
+
+
+WER (gt vs ocr): 0.12307692307692308
+CER (gt vs ocr): 0.014005602240896359
+WER (gt vs ocr): 12.307692307692308
+CER (gt vs ocr): 1.400560224089636

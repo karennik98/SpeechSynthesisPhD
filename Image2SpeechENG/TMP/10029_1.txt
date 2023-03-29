@@ -1,0 +1,40 @@
+Ground truth:
+Unlike Evil Dead it never gains any speed at all.
+The gore is horrible.
+The "climax" is such a total joke, its hard to laugh at it is so bad.
+The back of the box says "The ending will shock and haunt you."
+One person is killed with an axe in the whole movie and it is off screen.A true 1 out of 10.
+I LOVE laughing at bad movies, but this one is so bad that it even lacks campy qualities.
+No bad movie night is compete without a true character building flick :P
+
+
+OCR:
+Unlike Evil Dead it never gains any speed at all.
+The gore is horrible.
+The "climax" is such a total joke, its hard to laugh at it is so bad.
+The back of the box says "The ending will shock and haunt you."
+One person is killed with an axe in the whole movie and it is off screen.A true 1 out of 10.
+| LOVE laughing at bad movies, but this one is so bad that it even lacks campy qualities.
+No bad movie night is compete without a true character building flick :P.
+
+
+Corrected:
+Unlike Evil Dead, it never gains any speed at all.
+The gore is horrible.
+The "climax" is such a total joke, it's hard to laugh at it is so bad.
+The back of the box says "The ending will shock and haunt you."
+One person is killed with an axe in the whole movie and it is off screen. A true 1 out of 10.
+I love laughing at bad movies, but this one is so bad that it even lacks campy qualities.
+No bad movie night is complete without a true character building flick :P.
+
+
+WER (gt vs final): 0.07368421052631578
+CER (gt vs final): 0.019522776572668113
+WER% (gt vs final): 7.368421052631578
+CER% (gt vs final): 1.9522776572668112
+
+
+WER (gt vs ocr): 0.1368421052631579
+CER (gt vs ocr): 0.01735357917570499
+WER (gt vs ocr): 13.684210526315791
+CER (gt vs ocr): 1.735357917570499

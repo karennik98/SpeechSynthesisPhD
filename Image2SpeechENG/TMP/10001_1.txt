@@ -1,0 +1,28 @@
+Ground truth:
+First of all I hate those moronic rappers, who could'nt act if they had a gun pressed against their foreheads.
+There is pretty much no plot and it is a big problem when you root for no-one.
+At lest they have characters you care about, a sense of humor and nothing but real actors in the cast.
+
+
+OCR:
+First of all | hate those moronic rappers, who could'nt act if they had a gun pressed against their foreheads.
+There is pretty much no plot and it is a big problem when you root for no-one.
+At lest they have characters you care about, a sense of humor and nothing but real actors in the cast.
+
+
+Corrected:
+First of all, I hate those moronic rappers, who couldn't act if they had a gun pressed against their foreheads.
+There is pretty much no plot, and it is a big problem when you root for no one.
+At least they have characters you care about, a sense of humor, and nothing but real actors in the cast.
+
+
+WER (gt vs final): 0.12280701754385964
+CER (gt vs final): 0.023972602739726026
+WER% (gt vs final): 12.280701754385964
+CER% (gt vs final): 2.3972602739726026
+
+
+WER (gt vs ocr): 0.08771929824561403
+CER (gt vs ocr): 0.010273972602739725
+WER (gt vs ocr): 8.771929824561402
+CER (gt vs ocr): 1.0273972602739725

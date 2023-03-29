@@ -27,14 +27,20 @@ Once again, Mr. Costner has dragged out a movie for far longer than necessary.
 Aside from the terrific sea rescue sequences, of which there are very few, I just did not care about any of the characters.
 Most of us have ghosts in the closet, and Costner's character are realized early on, and then forgotten until much later, by which time | did not care.
 The character we should really care about is a very cocky, overconfident Ashton Kutcher.
-The problem is, he comes off as a kid who thinks he's better than anyone else around him, and shows no signs of a cluttered closet.
+The problem is he comes off as a kid who thinks he's better than anyone else around him and shows no signs of a cluttered closet.
 His only obstacle appears to be winning over Costner.
 Finally, when we are well past the half-way point of this stinker, Costner tells us all about Kutcher's ghosts.
 We are told why Kutcher is driven to be the best with no prior inkling or foreshadowing.
 No magic here, it was all I could do to keep from turning it off an hour in.
 
 
-WER: 0.05357142857142857
-CER: 0.01
-WER%: 5.357142857142857
-CER%: 1.0
+WER (gt vs final): 0.041666666666666664
+CER (gt vs final): 0.0077777777777777776
+WER% (gt vs final): 4.166666666666666
+CER% (gt vs final): 0.7777777777777778
+
+
+WER (gt vs ocr): 0.1130952380952381
+CER (gt vs ocr): 0.012222222222222223
+WER (gt vs ocr): 11.30952380952381
+CER (gt vs ocr): 1.2222222222222223

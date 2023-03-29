@@ -1,0 +1,50 @@
+Ground truth:
+At the bottom end of the apocalypse movie scale is this piece of pish called 'The Final Executioner'.. at least where I come from.
+A bloke is trained by an ex-cop to seek vengeance on those that killed his woman and friends in cold blood.. and that's about it.
+Lots of fake explosions and repetitive shootings ensue.
+Has one of the weirdest array of costumes I've seen in a film for a while, and a massive fortress which is apparently only run by 7 people.
+GREAT job on the dubbing too guys(!)
+Best moment: when our hero loses a swordfight and is about to be skewered through the neck, he just gets out his gun and BANG!
+Why not do that earlier?
+It's a mystery.
+As is why anyone would want to sit through this in the first place.
+I'm still puzzling over that one myself now.. 2/10
+
+
+OCR:
+At the bottom end of the apocalypse movie scale is this piece of pish called ‘The Final Executioner’. at least where | come from.
+A bloke is trained by an ex-cop to seek vengeance on those that killed his woman and friends in cold blood.. and that's about it.
+Lots of fake explosions and repetitive shootings ensue.
+Has one of the weirdest array of costumes I've seen in a film for a while, and a massive fortress which is apparently only run by 7 people.
+GREAT job on the dubbing too guys(!)
+Best moment: when our hero loses a swordfight and is about to be skewered through the neck, he just gets out his gun and BANG!
+Why not do that earlier?
+It's a mystery.
+As is why anyone would want to sit through this in the first place.
+I'm still puzzling over that one myself now.. 2/10
+
+
+Corrected:
+At the bottom end of the apocalypse movie scale is this piece of pish called 'The Final Executioner.'
+At least, where I come from.
+A bloke is trained by an ex-cop to seek vengeance on those that killed his woman and friends in cold blood. And that's about it.
+Lots of fake explosions and repetitive shootings ensue.
+Has one of the weirdest array of costumes I've seen in a film for a while, and a massive fortress which is apparently only run by 7 people.
+Great job on the dubbing too, guys!
+Best moment: when our hero loses a swordfight and is about to be skewered through the neck, he just gets out his gun and BANG!
+Why not do that earlier?
+It's a mystery.
+As is why anyone would want to sit through this in the first place.
+"I'm still puzzling over that one myself now."
+
+
+WER (gt vs final): 0.07432432432432433
+CER (gt vs final): 0.02564102564102564
+WER% (gt vs final): 7.4324324324324325
+CER% (gt vs final): 2.564102564102564
+
+
+WER (gt vs ocr): 0.14189189189189189
+CER (gt vs ocr): 0.016666666666666666
+WER (gt vs ocr): 14.18918918918919
+CER (gt vs ocr): 1.6666666666666667

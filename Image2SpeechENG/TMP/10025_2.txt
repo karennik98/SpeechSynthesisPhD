@@ -1,0 +1,52 @@
+Ground truth:
+Oh yeah, this one is definitely a strong contender to win the questionable award of "worst 80's slasher ever made".
+and two occasions where characters tell dillydally jokes that aren't even remotely funny!
+The set-up is as rudimentary as it gets, with the intro showing images of a devastating forest fire with OTT voice-over human screams.
+Fast forward nearly forty years later, when an elderly couple out camping in that same area get axe-whacked by something that breathes heavily off-screen.
+This ought to be enough information for you to derive that someone survived the fire all these years ago and remained prowling around ever since.
+"The Prey" is an irredeemable boring film.
+Apparently it was shot in 1978 already, but nobody wanted to distribute it up until 1984 and it isn't too hard to see why.
+In case you would filter out all the content that is actually relevant, this would only be a short movie with a running time of 30 minutes; possibly even less.
+There's an unimaginably large of nature and wildlife footage, sometimes of animals that I think don't even live in that type of area, and they seem to go on forever.
+The only thing missing, in fact, is the typical National Geographic narration providing educational information regarding the animals' habits.
+Animals in their own natural biotope are undeniably nice to look at, but not in a supposedly vile and cheesy 80's slasher movie, for crying out loud.
+
+
+OCR:
+Oh yeah, this one is definitely a strong contender to win the questionable award of "worst 80's slasher ever made".
+and two occasions where characters tell dillydally jokes that aren't even remotely funny!
+The set-up is as rudimentary as it gets, with the intro showing images of a devastating forest fire with OTT voice-over human screarns.
+Fast forward nearly forty years later, when an elderly couple out camping in that same area get axe-whacked by something that breathes heavily off-screen.
+This ought to be enough information for you to derive that someone survived the fire all these years ago and remained prowling around ever since.
+"The Prey" is an irredeemable boring film.
+Apparently it was shot in 1978 already, but nobody wanted to distribute it up until 1984 and it isn't too hard to see why.
+In case you would filter out all the content that is actually relevant, this would only be a short movie with a running time of 30 minutes; possibly even less.
+There's an unimaginably large of nature and wildlife footage, sometimes of animals that | think don't even live in that type of area, and they seem to go on forever.
+The only thing missing, in fact, is the typical National Geographic narration providing educational information regarding the animals’ habits.
+Animals in their own natural biotope are undeniably nice to look at, but not in a supposedly vile and cheesy 80's slasher movie, for crying out loud.
+
+
+Corrected:
+"Oh, yeah. This one is definitely a strong contender to win the questionable award of 'worst 80's slasher ever made.'
+And two occasions where characters tell dilly-dally jokes that aren't even remotely funny!
+The set-up is as rudimentary as it gets, with the intro showing images of a devastating forest fire with OTT voice-over human screams.
+Fast forward nearly forty years later, when an elderly couple out camping in that same area get axe-whacked by something that breathes heavily off-screen.
+This ought to be enough information for you to derive that someone survived the fire all these years ago and remained prowling around ever since.
+"The Prey" is an irredeemably boring film.
+Apparently it was shot in 1978 already, but nobody wanted to distribute it up until 1984 and it isn't too hard to see why.
+In case you would filter out all the content that is actually relevant, this would only be a short movie with a running time of 30 minutes; possibly even less.
+There's an unimaginably large amount of nature and wildlife footage, sometimes of animals that I think don't even live in that type of area, and they seem to go on forever.
+The only thing missing, in fact, is the typical National Geographic narration providing educational information regarding the animals' habits.
+Animals in their own natural biotope are undeniably nice to look at, but not in a supposedly vile and cheesy 80's slasher movie, for crying out loud!
+
+
+WER (gt vs final): 0.04132231404958678
+CER (gt vs final): 0.012622720897615708
+WER% (gt vs final): 4.132231404958678
+CER% (gt vs final): 1.262272089761571
+
+
+WER (gt vs ocr): 0.09090909090909091
+CER (gt vs ocr): 0.009817671809256662
+WER (gt vs ocr): 9.090909090909092
+CER (gt vs ocr): 0.9817671809256662

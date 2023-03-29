@@ -1,0 +1,43 @@
+Ground truth:
+All the criticisms of this movie are quite valid!
+It is pretty boring, and filled with all kinds of pointless ridiculous stuff.
+A couple exchanging nods over their "good grub."
+A medium shot of a desk as a phone rings until someone finally comes, sits down, and answers it at a pretty leisurely pace.
+Quadruple-takes or more when people look at things.
+Solitary banjo-tuning and playing, taking a break for a beer.
+The sharing of cucumber and cream cheese sandwiches on oatmeal bread, which to the squeamish become unpalatable when there's talk of people burned in a fire.
+Otherwise, it's simply not very interesting, and would probably try the patience of even the most hardcore outdoors-slasher fan.
+
+
+OCR:
+All the criticisms of this movie are quite valid!
+It is pretty boring, and filled with all kinds of pointless ridiculous stuff.
+A couple exchanging nods over their "good grub."
+A medium shot of a desk as a phone rings until someone finally comes, sits down, and answers it at a pretty leisurely pace.
+Quadruple-takes or more when people look at things.
+Solitary banjo-tuning and playing, taking a break for a beer.
+The sharing of cucumber and cream cheese sandwiches on oatmeal bread, which to the squeamish become unpalatable when there's talk of people burned in a fire.
+Otherwise, it's simply not very interesting, and would probably try the patience of even the most hardcore outdoors-slasher fan.
+
+
+Corrected:
+All the criticisms of this movie are quite valid.
+It is pretty boring, and filled with all kinds of pointless, ridiculous stuff.
+A couple exchanging nods over their "good grub."
+A medium shot of a desk as a phone rings until someone finally comes, sits down, and answers it at a pretty leisurely pace.
+Quadruple-takes or more when people look at things.
+Solitary banjo-tuning and playing, taking a break for a beer.
+The sharing of cucumber and cream cheese sandwiches on oatmeal bread, which to the squeamish become unpalatable when there's talk of people burned in a fire.
+Otherwise, it's simply not very interesting, and would probably try the patience of even the most hardcore outdoors-slasher fan.
+
+
+WER (gt vs final): 0.017094017094017096
+CER (gt vs final): 0.0028530670470756064
+WER% (gt vs final): 1.7094017094017095
+CER% (gt vs final): 0.28530670470756064
+
+
+WER (gt vs ocr): 0.11965811965811966
+CER (gt vs ocr): 0.009985734664764621
+WER (gt vs ocr): 11.965811965811966
+CER (gt vs ocr): 0.9985734664764622

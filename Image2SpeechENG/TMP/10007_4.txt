@@ -1,0 +1,33 @@
+Ground truth:
+"Tokyo Eyes" tells of a 17 year old Japanese girl who falls in like with a man being hunted by her big bro who is a cop.
+This lame flick is about 50% filler and 50% talk, talk, and more talk.
+as you read subtitles waiting for something to happen.
+(C-)
+
+
+OCR:
+"Tokyo Eyes" tells of a 17 year old Japanese girl who falls in like with a man being hunted by her big bro who is a cop.
+This lame flick is about 50% filler and 50% talk, talk, and more talk.
+as you read subtitles waiting for something to happen.
+(C-)
+
+
+Corrected:
+"Tokyo Eyes" tells of a 17-year-old Japanese girl who falls in like with a man being hunted by her big bro who is a cop.
+This lame flick is about 50% filler and 50% talk, talk, and more talk.
+As you read subtitles, waiting for something to happen.
+The teacher said we could use our phones in class to text
+
+The teacher said we could use our phones in class to text.
+
+
+WER (gt vs final): 0.5686274509803921
+CER (gt vs final): 0.4820717131474104
+WER% (gt vs final): 56.86274509803921
+CER% (gt vs final): 48.20717131474104
+
+
+WER (gt vs ocr): 0.11764705882352941
+CER (gt vs ocr): 0.01195219123505976
+WER (gt vs ocr): 11.76470588235294
+CER (gt vs ocr): 1.1952191235059761

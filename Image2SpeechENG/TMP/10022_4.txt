@@ -1,0 +1,25 @@
+Ground truth:
+1980 was certainly a year for bad backwoods slasher movies.
+But in all fairness "The Prey" is nowhere near as bad as "Don't Go Into The Woods" but it's still not great either.
+
+
+OCR:
+1980 was certainly a year for bad backwoods slasher movies.
+But in all fairness "The Prey" is nowhere near as bad as "Don't Go Into The Woods" but it's still not great either.
+
+
+Corrected:
+1980 was certainly a year for bad backwoods slasher movies.
+But in all fairness, "The Prey" is nowhere near as bad as "Don't Go Into The Woods," but it's still not great either.
+
+
+WER (gt vs final): 0.06060606060606061
+CER (gt vs final): 0.011428571428571429
+WER% (gt vs final): 6.0606060606060606
+CER% (gt vs final): 1.1428571428571428
+
+
+WER (gt vs ocr): 0.06060606060606061
+CER (gt vs ocr): 0.005714285714285714
+WER (gt vs ocr): 6.0606060606060606
+CER (gt vs ocr): 0.5714285714285714

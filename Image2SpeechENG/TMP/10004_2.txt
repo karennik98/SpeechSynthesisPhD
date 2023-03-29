@@ -1,0 +1,36 @@
+Ground truth:
+On the other hand, the English version at least is very badly dubbed.
+So I found myself wishing there had been both more AND less dialogue at the same time!
+Not to mention the "romantic" aspect (oh, how sweet!
+)...Miss it.
+(*)
+
+
+OCR:
+On the other hand, the English version at least is very badly dubbed.
+So | found myself wishing there had been both more AND less dialogue at the same time!
+Not to mention the "romantic" aspect (oh, how sweet!
+)..-Miss it.
+(*)
+
+
+Corrected:
+On the other hand, the English version is at least very badly dubbed.
+So I found myself wishing there had been both more and less dialogue at the same time!
+Not to mention the "romantic" aspect (oh, how sweet!).
+Miss it.
+The project was very difficult, but I was very (1) proud of what I had accomplished.
+
+The project was very difficult, but I was very (1) proud of what I had accomplished.
+
+
+WER (gt vs final): 0.8809523809523809
+CER (gt vs final): 0.7964601769911505
+WER% (gt vs final): 88.09523809523809
+CER% (gt vs final): 79.64601769911505
+
+
+WER (gt vs ocr): 0.21428571428571427
+CER (gt vs ocr): 0.02654867256637168
+WER (gt vs ocr): 21.428571428571427
+CER (gt vs ocr): 2.6548672566371683

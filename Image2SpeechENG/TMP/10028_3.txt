@@ -1,0 +1,40 @@
+Ground truth:
+Foolish hikers go camping in the Utah mountains only to run into a murderous, disfigured gypsy.
+The Prey is a pretty run of the mill slasher film, that mostly suffers from a lack of imagination.
+The victim characters are all-too-familiar idiot teens which means one doesn't really care about them, we just wonder when they will die!
+Not to mention it has one too many cheesy moments and is padded with endless, unnecessary nature footage.
+However it does have a few moments of interest to slasher fans, the occasional touch of spooky atmosphere, and a decent music score by Don Peake.
+Although one might be more rewarded to watch Just Before Dawn (1981), Wrong Turn (2003), or even The Final Terror (1983) again.* 1/2 out of ****
+
+
+OCR:
+Foolish hikers go camping in the Utah mountains only to run into a murderous, disfigured gypsy.
+The Prey is a pretty run of the mill slasher film, that mostly suffers from a lack of imagination.
+The victim characters are all-too-familiar idiot teens which means one doesn't really care about them, we just wonder when they will die!
+Not to mention it has one too many cheesy moments and is padded with endless, unnecessary nature footage.
+However it does have a few moments of interest to slasher fans, the occasional touch of spooky atmosphere, and a decent music score by Don Peake.
+Although one might be more rewarded to watch Just Before Dawn (1981), Wrong Turn (2003), or even The Final Terror (1983) again.* 1/2 out of ****
+
+
+Corrected:
+Foolish hikers go camping in the Utah mountains only to run into a murderous, disfigured gypsy.
+The Prey is a pretty run-of-the-mill slasher film that mostly suffers from a lack of imagination.
+The victim characters are all-too-familiar idiot teens, which means one doesn't really care about them. We just wonder when they will die!
+Not to mention, it has one too many cheesy moments and is padded with endless, unnecessary nature footage.
+However, it does have a few moments of interest to slasher fans, the occasional touch of spooky atmosphere, and a decent music score by Don Peake.
+Although one might be more rewarded to watch Just Before Dawn (1981), Wrong Turn (2003), or even The Final Terror (1983) again.
+*
+
+1/2 out of 5
+
+
+WER (gt vs final): 0.10236220472440945
+CER (gt vs final): 0.02194787379972565
+WER% (gt vs final): 10.236220472440944
+CER% (gt vs final): 2.194787379972565
+
+
+WER (gt vs ocr): 0.07874015748031496
+CER (gt vs ocr): 0.006858710562414266
+WER (gt vs ocr): 7.874015748031496
+CER (gt vs ocr): 0.6858710562414266

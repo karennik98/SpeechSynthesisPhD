@@ -1,0 +1,33 @@
+Ground truth:
+Even by the lowered standards of '80s slasher movies, this one stinks.
+The usual gaggle of oversexed teens heads for a "forbidden" part of forest, which burned in the 1940s and apparently left a sole angry survivor.
+Finally, more killings--but nothing you haven't seen a zillion times before.
+If you want to see the kids butchered, opt for SLEEPAWAY CAMP or the first FRIDAY THE 13TH over this
+
+
+OCR:
+Even by the lowered standards of '80s slasher movies, this one stinks.
+The usual gaggle of oversexed teens heads for a “forbidden” part of forest, which burned in the 1940s and apparently left a sole angry survivor.
+Finally, more killings--but nothing you haven't seen a zillion times before.
+If you want to see the kids butchered, opt for SLEEPAWAY CAMP or the first FRIDAY THE 13TH over this
+
+
+Corrected:
+Even by the lowered standards of '80s slasher movies, this one stinks.
+The usual gaggle of oversexed teens heads for a "forbidden" part of the forest, which burned in the 1940s and apparently left a sole angry survivor.
+Finally, more killings--but nothing you haven't seen a million times before.
+remake
+
+If you want to see the kids butchered, opt for SLEEPAWAY CAMP or the first FRIDAY THE 13TH over this remake.
+
+
+WER (gt vs final): 0.058823529411764705
+CER (gt vs final): 0.05343511450381679
+WER% (gt vs final): 5.88235294117647
+CER% (gt vs final): 5.343511450381679
+
+
+WER (gt vs ocr): 0.10294117647058823
+CER (gt vs ocr): 0.01272264631043257
+WER (gt vs ocr): 10.294117647058822
+CER (gt vs ocr): 1.2722646310432568

@@ -1,0 +1,34 @@
+Ground truth:
+Are you kidding me?
+This is quite possibly the worst, amateur movie I've ever seen.
+When I herd about the Bell Witch, I wanted to believe.
+I read some literature on it and thought it sounded like it was possible a plausible story.
+But this movie just destroyed that.
+
+
+OCR:
+Are you kidding me?
+This is quite possibiy the worst, amateur movie I've ever seen.
+When | herd about the Bell Witch, | wanted to believe.
+| read some literature on it and thought it sounded like it was possible a plausible story.
+But this movie just destroyed that.
+
+
+Corrected:
+Are you kidding me?
+This is quite possibly the worst, amateur movie I've ever seen.
+When I heard about the Bell Witch, I wanted to believe.
+Read some literature on it and thought it sounded like a plausible story.
+But this movie just destroyed that.
+
+
+WER (gt vs final): 0.12244897959183673
+CER (gt vs final): 0.07518796992481203
+WER% (gt vs final): 12.244897959183673
+CER% (gt vs final): 7.518796992481203
+
+
+WER (gt vs ocr): 0.22448979591836735
+CER (gt vs ocr): 0.03007518796992481
+WER (gt vs ocr): 22.448979591836736
+CER (gt vs ocr): 3.007518796992481

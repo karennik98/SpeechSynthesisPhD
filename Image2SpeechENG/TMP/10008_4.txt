@@ -1,0 +1,44 @@
+Ground truth:
+20th Century-Fox musical has a glossy veneer yet seems a bit tatty around the edges.
+It is very heavy on the frenetic, gymnastic-like dancing, exceedingly thin on story.
+Betty Grable (an eleventh hour replacement for Alice Faye) gives it a boost, even though she's paired with leaden Don Ameche (in tan make-up and slick hair).
+Also good: Charlotte Greenwood as Betty's pithy aunt, a limousine driver who's constantly asleep on the job, and Carmen Miranda playing herself (who else?).
+The stock shots of Argentina far outclass the action filmed on the Fox backlot, and some of the supporting performances are quite awful.
+By the time of the big horserace finale, most viewers will have had enough.
+*1/2 from ****
+
+
+OCR:
+20th Century-Fox musical has a glossy veneer yet seems a bit tatty around the edges.
+It is very heavy on the frenetic, gymnastic-like dancing, exceedingly thin on story.
+Betty Grable (an eleventh hour replacement for Alice Faye) gives it a boost, even though she's paired with leaden Don Ameche (in tan make-up and slick hair).
+Also good: Charlotte Greenwood as Betty's pithy aunt, a limousine driver who's constantly asleep on the job, and Carmen Miranda playing herself (who else?).
+The stock shots of Argentina far outclass the action filmed on the Fox backlot, and some of the supporting performances are quite awful.
+By the time of the big horserace finale, most viewers will have had enough.
+*1/2 from ****
+
+
+Corrected:
+20th Century-Fox musical has a glossy veneer yet seems a bit tatty around the edges.
+It is very heavy on the frenetic, gymnastic-like dancing, exceedingly thin on story.
+Betty Grable (an eleventh hour replacement for Alice Faye) gives it a boost, even though she's paired with leaden Don Ameche (in tan make-up and slick hair).
+Also good: Charlotte Greenwood as Betty's pithy aunt, a limousine driver who's constantly asleep on the job, and Carmen Miranda playing herself (who else?).
+The stock shots of Argentina far outclass the action filmed on the Fox backlot, and some of the supporting performances are quite awful.
+By the time of the big horserace finale, most viewers will have had enough.
+*
+
+1/2 from *****
+
+1/2 from *****
+
+
+WER (gt vs final): 0.05042016806722689
+CER (gt vs final): 0.026685393258426966
+WER% (gt vs final): 5.042016806722689
+CER% (gt vs final): 2.6685393258426964
+
+
+WER (gt vs ocr): 0.10084033613445378
+CER (gt vs ocr): 0.008426966292134831
+WER (gt vs ocr): 10.084033613445378
+CER (gt vs ocr): 0.8426966292134831

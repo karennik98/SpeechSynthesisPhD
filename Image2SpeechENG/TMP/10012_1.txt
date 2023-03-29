@@ -1,0 +1,46 @@
+Ground truth:
+This film is absolutely appalling and awful.
+It's not low budget, it's a no budget film that makes Ed Wood's movies look like art.
+The acting is abysmal but sets and props are worse then anything I have ever seen.
+There is sadism as you would expect from an 80s Italian video nasty.
+No talent was used to make this film.
+And the female love interest has a huge bhind- Italian taste maybe.
+This piece of crap has no entertainment value whatsoever and it's not even funny, just boring and extremely cheap.
+It's actually and insult to the most stupid audience.
+I just wonder how on earth an actor like Woody Strode ended up ia a turkey like this?
+
+
+OCR:
+This film is absolutely appalling and awful.
+It's not low budget, it's a no budget film that makes Ed Wood's movies look like art.
+The acting is abysmal but sets and props are worse then anything | have ever seen.
+There is sadism as you would expect from an 80s Italian video nasty.
+No talent was used to make this film.
+And the female love interest has a huge bhind- Italian taste maybe.
+This piece of crap has no entertainment value whatsoever and it's not even funny, just boring and extremely cheap.
+It's actually and insult to the most stupid audience.
+| just wonder how on earth an actor like Woody Strode ended up ia a turkey like this?
+
+
+Corrected:
+This film is absolutely appalling and awful.
+"It's not low budget, it's a no budget film that makes Ed Wood's movies look like art."
+The acting is abysmal but sets and props are worse than anything I have ever seen.
+There is sadism as you would expect from an 80s Italian video nasty.
+No talent was used to make this film.
+And the female love interest has a huge bhind- Italian taste maybe.
+This piece of crap has no entertainment value whatsoever, and it's not even funny, just boring and extremely cheap.
+"It's actually an insult to the most stupid audience."
+Just wonder how on earth an actor like Woody Strode ended up in a turkey like this?
+
+
+WER (gt vs final): 0.08403361344537816
+CER (gt vs final): 0.015552099533437015
+WER% (gt vs final): 8.403361344537815
+CER% (gt vs final): 1.5552099533437014
+
+
+WER (gt vs ocr): 0.14285714285714285
+CER (gt vs ocr): 0.015552099533437015
+WER (gt vs ocr): 14.285714285714285
+CER (gt vs ocr): 1.5552099533437014

@@ -1,0 +1,39 @@
+Ground truth:
+New York family is the last in their neighborhood to get a television set, which nearly ruins David Niven's marriage to Mitzi Gaynor.
+Bedroom comedy that rarely ventures into the bedroom(and nothing sexy happens there anyway).
+Gaynor as an actress has about as much range as an oven--she turns on, she turns off.
+Film's sole compensation is a supporting performance by perky Patty Duke, pre-"Miracle Worker", as Niven's daughter.
+She's delightful; "Happy Anniversary" is not.
+* from ****
+
+
+OCR:
+New York family is the last in their neighborhood to get a television set, which nearly ruins David Niven's marriage to Mitzi Gaynor.
+Bedroom cornedy that rarely ventures into the bedroom(and nothing sexy happens there anyway).
+Gaynor as an actress has about as much range as an oven--she turns on, she turns off.
+Film's sole compensation is a supporting performance by perky Patty Duke, pre-"Miracle Worker", as Niven’s daughter.
+She's delightful; "Happy Anniversary" is not.
+* from
+
+
+Corrected:
+New York family is the last in their neighborhood to get a television set, which nearly ruins David Niven's marriage to Mitzi Gaynor.
+Bedroom comedy that rarely ventures into the bedroom (and nothing sexy happens there anyway).
+Gaynor, as an actress, has about as much range as an oven--she turns on, she turns off.
+Film's sole compensation is a supporting performance by perky Patty Duke, pre-"Miracle Worker", as Niven's daughter.
+She's delightful; "Happy Anniversary" is not.
+The United States of America is a federal republic consisting of fifty states, a federal district, five major self-governing territories, and various possessions.
+
+The United States of America is a federal republic consisting of fifty states, a federal district, five major self-governing territories, and various possessions.
+
+
+WER (gt vs final): 0.6410256410256411
+CER (gt vs final): 0.6632443531827515
+WER% (gt vs final): 64.1025641025641
+CER% (gt vs final): 66.32443531827515
+
+
+WER (gt vs ocr): 0.16666666666666666
+CER (gt vs ocr): 0.026694045174537988
+WER (gt vs ocr): 16.666666666666664
+CER (gt vs ocr): 2.6694045174537986
