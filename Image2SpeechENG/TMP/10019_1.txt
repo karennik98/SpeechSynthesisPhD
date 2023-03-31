@@ -29,13 +29,13 @@ Thank God it seems to have vanished from earth.
 
 
 Corrected:
-This is truly, without exaggerating, one of the worst slasher movies ever made.
-I know, it came out in the 80s, following a tendency started by "Friday the 13th".
+This is truly, without exaggerating, one of the worst Slasher movies ever made.
+I know, it came out in the 80's following a tendency started by "Friday the 13th".
 "The Prey" copies the aforementioned movie in many aspects.
 The woods setting, the killer, the dumb teens, the gore, etc. But "The Prey" is as bad as you might expect.
-"I didn't even remember about it if it wasn't for coincidence. Well, the killer is in fact human so don't expect a supernatural killer in the likes of Jason."
-The situations are rather boring and lack tension, gore, violence, etc.
-It just does not work for a slasher flick.
+I didn't even remember about it if it wasn't for coincidence. Well, the killer is in fact human so don't expect a supernatural killer in the likes of Jason.
+The situation is rather boring and lacks tension, gore, violence, etc.
+It just doesn't work for a slasher flick.
 The acting is simply horrid.
 The score is horrible!
 A combination of boring instruments with cheesy 80's tunes?!
@@ -45,9 +45,9 @@ Thank God it seems to have vanished from earth.
 
 
 WER (gt vs final): 0.10404624277456648
-CER (gt vs final): 0.02127659574468085
+CER (gt vs final): 0.016210739614994935
 WER% (gt vs final): 10.404624277456648
-CER% (gt vs final): 2.127659574468085
+CER% (gt vs final): 1.6210739614994936
 
 
 WER (gt vs ocr): 0.13872832369942195

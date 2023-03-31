@@ -1,0 +1,37 @@
+Ground truth:
+It's clear that for this film they wanted to have the story line driven by the characters.
+But immediately the story line causes you to dislike the new main characters.
+The fly-over of the island and dinosaurs below lacked any impact at all and almost looked like a cartoon.
+The all action entrance to the island is merely a rehash of parts from JP 1 and 2.
+The story-line is predictable to the point of annoyance and it's entirely unsatisfying end left me feeling cheated.
+This gave me with no option but to award the film 3/10!
+
+
+OCR:
+It's clear that for this film they wanted to have the story line driven by the characters.
+But immediately the story line causes you to dislike the new main characters.
+The fly-over of the island and dinosaurs below lacked any impact at all and almost looked like a cartoon.
+The ail action entrance to the island is merely a rehash of parts from JP 1 and 2.
+The story-line is predictable to the point of annoyance and it's entirely unsatisfying end left me feeling cheated.
+This gave me with no option but to award the film 3/10!
+
+
+Corrected:
+It's clear that, for this film, they wanted to have the story line driven by the characters.
+But immediately the story line causes you to dislike the new main characters.
+The fly-over of the island and dinosaurs below lacked any impact at all and almost looked like a cartoon.
+The all-action entrance to the island is merely a rehash of parts from JP 1 and 2.
+The story-line is predictable to the point of annoyance and it's entirely unsatisfying end left me feeling cheated.
+This gave me no option but to award the film 3/10!
+
+
+WER (gt vs final): 0.05154639175257732
+CER (gt vs final): 0.015122873345935728
+WER% (gt vs final): 5.154639175257731
+CER% (gt vs final): 1.5122873345935728
+
+
+WER (gt vs ocr): 0.1134020618556701
+CER (gt vs ocr): 0.011342155009451797
+WER (gt vs ocr): 11.34020618556701
+CER (gt vs ocr): 1.1342155009451798

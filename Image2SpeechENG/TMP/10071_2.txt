@@ -1,0 +1,43 @@
+Ground truth:
+Did people expect "Jurassic Park 3" to be full of surprises?
+Not one moment of it is worth it.
+Many elements could easily scare people out of the movies...and it's not the dinos!
+Tea Leoni...I think she's a great actress, but I'm sorry to say that this time she reached the bottom line.
+Alessandro Nivola - "have you ever heard of something called facial expression?
+Fellings, emotions..."..he's got to work harder on that!
+Sam Neil, no big deal.
+The soundtrack...got to change that record, or you get tired of it.
+
+
+OCR:
+Did people expect "Jurassic Park 3” to be full of surprises?
+Not one moment of it is worth it.
+Many elements could easily scare people out of the movies...and it's not the dinos!
+Tea Leoni...| think she's a great actress, but I'm sorry to say that this time she reached the bottom line.
+Alessandro Nivola - "have you ever heard of something called facial expression?
+Fellings, emotions..."..he's got to work harder on that!
+Sam Neil, no big deal.
+The soundtrack...got to change that record, or you get tired of it.
+
+
+Corrected:
+Did people expect "Jurassic Park 3” to be full of surprises?
+Not one moment of it is worth it.
+Many elements could easily scare people out of the movies...and it's not the dinos!
+Tea Leoni... I think she's a great actress, but I'm sorry to say that this time she reached the bottom line.
+Alessandro Nivola - "Have you ever heard of something called facial expression?"
+"Feelings, emotions... he's got to work harder on that!"
+Sam Neil, no big deal.
+The soundtrack...got to change that record, or you get tired of it.
+
+
+WER (gt vs final): 0.1
+CER (gt vs final): 0.019455252918287938
+WER% (gt vs final): 10.0
+CER% (gt vs final): 1.9455252918287937
+
+
+WER (gt vs ocr): 0.17777777777777778
+CER (gt vs ocr): 0.017509727626459144
+WER (gt vs ocr): 17.77777777777778
+CER (gt vs ocr): 1.7509727626459144

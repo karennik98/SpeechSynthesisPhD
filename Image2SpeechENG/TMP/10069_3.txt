@@ -1,0 +1,40 @@
+Ground truth:
+But then no one would need to see the film.
+That explains why the film seems to have little or no purpose other than to demonstrate state-of-the-art special effects.
+Sure, there are a few clever scenes and some moderately funny bits, but no meaningful plot line to tie them together.
+The dinosaur puppets and animation in JP3 are very good to excellent, and more numerous than ever.
+Even at that, I found myself frequently checking my wristwatch.
+The audience I saw it with left the theater in silence.A better bet: see the movie LEGALLY BLONDE.Dave
+
+
+OCR:
+But then no one would need to see the film.
+That explains why the film seems to have little or no purpose other than to demonstrate state-of-the-art special effects.
+Sure, there are a few clever scenes and some moderately funny bits, but no meaningful plot line to tie them together.
+The dinosaur puppets and animation in JP3 are very good to excellent, and more numerous than ever.
+Even at that, | found myself frequently checking my wristwatch.
+The audience | saw it with left the theater in silence.A better bet: see the movie LEGALLY BLONDE. Dave
+
+
+Corrected:
+But then, no one would need to see the film.
+That explains why the film seems to have little or no purpose other than to demonstrate state-of-the-art special effects.
+Sure, there are a few clever scenes and some moderately funny bits, but no meaningful plot line to tie them together.
+The dinosaur puppets and animation in JP3 are very good to excellent, and more numerous than ever.
+Even at that, I found myself frequently checking my wristwatch.
+The audience saw it and left the theater in silence.
+is the best basketball coach that their is
+
+Dave is the best basketball coach that there is.
+
+
+WER (gt vs final): 0.21052631578947367
+CER (gt vs final): 0.14571948998178508
+WER% (gt vs final): 21.052631578947366
+CER% (gt vs final): 14.571948998178508
+
+
+WER (gt vs ocr): 0.14736842105263157
+CER (gt vs ocr): 0.014571948998178506
+WER (gt vs ocr): 14.736842105263156
+CER (gt vs ocr): 1.4571948998178506

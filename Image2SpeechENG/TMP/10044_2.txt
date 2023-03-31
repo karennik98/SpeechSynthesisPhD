@@ -1,0 +1,43 @@
+Ground truth:
+If you took all the stock elements of a Shrek movie (grumpy ogre, annoying donkey, cute kitty, obligatory dance number, etc.
+), put them in a blender and condensed it to 20 minutes, you'd have this mess.
+Painful to watch; I may have laughed once.
+The story and dialogue are rushed beyond comprehension, with the voice actors sounding like they phoned in their lines.
+The final reworked rendition of "The Christmas Story" poem felt like it was written by a committee in five minutes.
+And boy, a little Eddie Murphy goes a long way.
+With its desperate attempt to be hip and current, this show will be long outdated and forgotten while classics like "The Grinch" will remain timeless.
+A sad waste of effort by all involved, a veritable "jumping of the shark" for the Shrek franchise.
+
+
+OCR:
+If you took all the stock elements of a Shrek movie (grumpy ogre, annoying donkey, cute kitty, obligatory dance number, etc.
+), put them in a blender and condensed it to 20 minutes, you'd have this mess.
+Painful to watch; | may have laughed once.
+The story and dialogue are rushed beyond comprehension, with the voice actors sounding like they phoned in their lines.
+The final reworked rendition of "The Christmas Story" poem felt like it was written by a committee in five minutes.
+And boy, a little Eddie Murphy goes a long way.
+With its desperate attempt to be hip and current, this show will be long outdated and forgotten while classics like "The GrinchA..." will remain timeless.
+A sad waste of effort by all involved, a veritable "jumping of the shark" for the Shrek franchise.
+
+
+Corrected:
+If you took all the stock elements of a Shrek movie (grumpy ogre, annoying donkey, cute kitty, obligatory dance number, etc.) and threw them into a blender, you'd end up with something that tasted an awful lot like The Cat in the Hat.
+If you took a cooking class, (put them in a blender and condensed it to 20 minutes, you'd have this mess.
+Painful to watch; may have laughed once.
+The story and dialogue are rushed beyond comprehension, with the voice actors sounding like they phoned in their lines.
+The final reworked rendition of "The Christmas Story" poem felt like it was written by a committee in five minutes.
+And boy, a little Eddie Murphy goes a long way.
+With its desperate attempt to be hip and current, this show will be long outdated and forgotten while classics like "The Grinch..." will remain timeless.
+A sad waste of effort by all involved, a veritable "jumping of the shark" for the Shrek franchise.
+
+
+WER (gt vs final): 0.23357664233576642
+CER (gt vs final): 0.18286445012787725
+WER% (gt vs final): 23.357664233576642
+CER% (gt vs final): 18.286445012787723
+
+
+WER (gt vs ocr): 0.11678832116788321
+CER (gt vs ocr): 0.015345268542199489
+WER (gt vs ocr): 11.678832116788321
+CER (gt vs ocr): 1.5345268542199488

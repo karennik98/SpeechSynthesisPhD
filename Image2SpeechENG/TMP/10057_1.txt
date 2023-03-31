@@ -1,0 +1,40 @@
+Ground truth:
+Nightkill stars Robert Mitchum as a world-weary private eye probing the case of a missing industrialist (Mike Connors).
+He is hired by Jaclyn Smith, the anxious wife of the missing man.
+What Jaclyn fails to inform Mitchum is that she knows full well her husband's whereabouts.
+This is BAD cinema.
+And this movie is sooooo poor.
+It makes it look like Halloween mixed up with Trick Or Treats.
+Avoid this.Rated R for Graphic Violence, Nudity and Sexual Situations.
+
+
+OCR:
+Nightkill stars Robert Mitchum as a world-weary private eye probing the case of a missing industrialist (Mike Connors).
+He is hired by Jaclyn Smith, the anxious wife of the missing man.
+What Jaclyn fails to inform Mitchum is that she knows full well her husband's whereabouts.
+This is BAD cinema.
+And this movie is sooooo poor.
+It makes it look like Halloween mixed up with Trick Or Treats.
+Avoid this.Rated R for Graphic Violence, Nudity and Sexual Situations.
+
+
+Corrected:
+Nightkill stars Robert Mitchum as a world-weary private eye probing the case of a missing industrialist (Mike Connors).
+He is hired by Jaclyn Smith, the anxious wife of the missing man.
+What Jaclyn fails to inform Mitchum is that she knows full well her husband's whereabouts.
+This is bad cinema.
+And this movie is so poor.
+It makes it look like Halloween mixed up with Trick or Treats.
+Avoid this. Rated R for Graphic Violence, Nudity and Sexual Situations.
+
+
+WER (gt vs final): 0.0641025641025641
+CER (gt vs final): 0.019522776572668113
+WER% (gt vs final): 6.41025641025641
+CER% (gt vs final): 1.9522776572668112
+
+
+WER (gt vs ocr): 0.15384615384615385
+CER (gt vs ocr): 0.013015184381778741
+WER (gt vs ocr): 15.384615384615385
+CER (gt vs ocr): 1.3015184381778742

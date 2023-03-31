@@ -14,17 +14,15 @@ If you want to see the kids butchered, opt for SLEEPAWAY CAMP or the first FRIDA
 
 Corrected:
 Even by the lowered standards of '80s slasher movies, this one stinks.
-The usual gaggle of oversexed teens heads for a "forbidden" part of the forest, which burned in the 1940s and apparently left a sole angry survivor.
+The usual gaggle of oversexed teens heads for a "forbidden" part of the forest, which burned in the 1940s and apparently left a sole, angry survivor.
 Finally, more killings--but nothing you haven't seen a million times before.
-remake
-
-If you want to see the kids butchered, opt for SLEEPAWAY CAMP or the first FRIDAY THE 13TH over this remake.
+If you want to see the kids butchered, opt for SLEEPAWAY CAMP or the first FRIDAY THE 13TH over this.
 
 
 WER (gt vs final): 0.058823529411764705
-CER (gt vs final): 0.05343511450381679
+CER (gt vs final): 0.017811704834605598
 WER% (gt vs final): 5.88235294117647
-CER% (gt vs final): 5.343511450381679
+CER% (gt vs final): 1.7811704834605597
 
 
 WER (gt vs ocr): 0.10294117647058823

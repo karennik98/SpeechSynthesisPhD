@@ -1,0 +1,49 @@
+Ground truth:
+This failed exercise in satire or commentary on the human condition easily earned a place as one of the 10 worst movies I've ever seen.
+I'm seriously considering buying a copy, if I can find one dirt cheap, to chase away unwanted company.
+It's honestly that bad.
+I view it as some kind of anti-personnel weapon.
+If you're the kind of person who just has to see a train wreck to witness the carnage, then this movie is a gem.
+Just to be fair, Kelsey Grammar's character has 1 line that almost works, but doesn't quite.
+If you are familiar with the term "word vomit" then you may get some picture of the cinematrocity.
+Oh, and the narrative structure is ill conceived, pretentious and amateurish.
+It has failed on both style and substance.
+But that probably violates some provision in the Geneva Conventions.
+
+
+OCR:
+This failed exercise in satire or commentary on the human condition easily earned a place as one of the 10 worst movies I've ever seen.
+I'm seriously considering buying a copy, if | can find one dirt cheap, to chase away unwanted company.
+It's honestly that bad.
+| view it as some kind of anti-personnel weapon.
+lf you're the kind of person who just has to see a train wreck to witness the carnage, then this movie is a gem.
+Just to be fair, Kelsey Grammar's character has 1 line that almost works, but doesn't quite.
+If you are familiar with the term "word vomit" then you may get some picture of the cinematrocity.
+Oh, and the narrative structure is ill conceived, pretentious and amateurish.
+It has failed on both style and substance.
+But that probably violates some provision in the Geneva Conventions.
+
+
+Corrected:
+This failed exercise in satire or commentary on the human condition easily earned a place as one of the 10 worst movies I've ever seen.
+I'm seriously considering buying a copy, if I can find one dirt cheap, to chase away unwanted company.
+"It's honestly that bad."
+"View it as some kind of anti-personnel weapon."
+If you're the kind of person who just has to see a train wreck to witness the carnage, then this movie is a gem.
+Just to be fair, Kelsey Grammar's character has one line that almost works, but doesn't quite.
+If you are familiar with the term "word vomit," then you may get some picture of the cinematrocity.
+Oh, and the narrative structure is ill conceived, pretentious, and amateurish.
+It has failed on both style and substance.
+But that probably violates some provision in the Geneva Conventions.
+
+
+WER (gt vs final): 0.055944055944055944
+CER (gt vs final): 0.013647642679900745
+WER% (gt vs final): 5.594405594405594
+CER% (gt vs final): 1.3647642679900744
+
+
+WER (gt vs ocr): 0.13286713286713286
+CER (gt vs ocr): 0.01488833746898263
+WER (gt vs ocr): 13.286713286713287
+CER (gt vs ocr): 1.488833746898263

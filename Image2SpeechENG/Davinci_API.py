@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "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"
 
 def correct_sentence(sentence):
     prompt = f"Please correct only the punctuation and spelling errors in the following text: {sentence}"

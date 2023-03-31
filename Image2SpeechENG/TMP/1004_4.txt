@@ -1,0 +1,40 @@
+Ground truth:
+Seeing this film for the first time twenty years after its release I don't quite get it.
+Why has this been such a huge hit in 1986?
+Its amateurishness drips from every scene.
+The jokes are lame and predictable.
+The sex scenes are exploitative and over the top (that is not to say that Miss Rudnik does not have nice boobs!).
+The singing is "schrecklich".
+The only genuinely funny scene is the big shoot out when the gangsters die break dancing, a trait that dates the movie firmly to the mid-eighties.
+
+
+OCR:
+Seeing this film for the first time twenty years after its release | don't quite get it.
+Why has this been such a huge hit in 1986?
+Its amateurishness drips from every scene.
+The jokes are lame and predictable.
+The sex scenes are exploitative and over the top (that is not to say that Miss Rudnik does not have nice boobs!).
+The singing is "schrecklich".
+The only genuinely funny scene is the big shoot out when the gangsters die break dancing, a trait that dates the movie firmly to the mid-eighties.
+
+
+Corrected:
+Seeing this film for the first time twenty years after its release, I don't quite get it.
+Why has this been such a huge hit in 1986?
+It's amateurishness drips from every scene.
+The jokes are lame and predictable.
+The sex scenes are exploitative and over the top (that is not to say that Miss Rudnik does not have nice boobs!).
+The singing is "schrecklich".
+The only genuinely funny scene is the big shoot out when the gangsters die break dancing, a trait that dates the movie firmly to the mid-eighties.
+
+
+WER (gt vs final): 0.02197802197802198
+CER (gt vs final): 0.003992015968063872
+WER% (gt vs final): 2.197802197802198
+CER% (gt vs final): 0.39920159680638717
+
+
+WER (gt vs ocr): 0.14285714285714285
+CER (gt vs ocr): 0.013972055888223553
+WER (gt vs ocr): 14.285714285714285
+CER (gt vs ocr): 1.3972055888223553

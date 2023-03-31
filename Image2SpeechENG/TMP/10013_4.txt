@@ -15,16 +15,16 @@ He initially kills a sentry and leaves him in his jeep.
 Upon discovery of the said corpse, the villain's response?
 !)
 
-They resolve to wait until the next morning to look for the culprit.
-The cat slept through the storm, purring contentedly.
+B- They resolve to wait until the next morning to look for the culprit.
+She didn't see the other car coming
 
-The cat slept through the storm, purring contentedly.
+She didn't see the other car coming.
 
 
 WER (gt vs final): 0.6041666666666666
-CER (gt vs final): 0.5207547169811321
+CER (gt vs final): 0.4528301886792453
 WER% (gt vs final): 60.416666666666664
-CER% (gt vs final): 52.075471698113205
+CER% (gt vs final): 45.28301886792453
 
 
 WER (gt vs ocr): 0.125

@@ -1,0 +1,48 @@
+Ground truth:
+CAUTION SPOILER: At the end of the movie it is announced that the bridge collapsed just a few days after it was captured.
+The impression is that the attack was all for nothing.
+In reality, taking the bridge at Remagen was the last important victory for the Western Allies.
+It was the crossing of the Rhine that the Allies had been trying to achieve for six months.
+Because the Remagen Bridge was taken, the war ended in just a few weeks.The bridge only need to last for a day after it was captured.
+The taking of the bridge was a complete success, and meant the that the end of the war was near, and would not last through the summer.
+Contrary to the cynical nature of the film, the victory was heralded with elation by the troops who did it.
+They knew how vital the battle was.This film has little to do with real history.
+It was more a reflection of the cynical nature of the time in which it was produced.
+
+
+OCR:
+CAUTION SPOILER: At the end of the movie it is announced that the bridge collapsed just a few days after it was captured.
+The impression is that the attack was all for nothing.
+In reality, taking the bridge at Remagen was the last important victory for the Western Allies.
+It was the crossing of the Rhine that the Allies had been trying to achieve for six months.
+Because the Remagen Bridge was taken, the war ended in just a few weeks. The bridge only need to last for a day after it was captured.
+The taking of the bridge was a complete success, and meant the that the end of the war was near, and would not last through the summer.
+Contrary to the cynical nature of the film, the victory was heralded with elation by the troops who did it.
+They knew how vital the battle was. This film has little to do with real history.
+It was more a reflection of the cynical nature of the time in which it was produced.
+
+
+Corrected:
+CAUTION SPOILER: At the end of the movie, it is announced that the bridge collapsed just a few days after it was captured.
+The impression is that the attack was all for nothing.
+In reality, taking the bridge at Remagen was the last important victory for the Western Allies.
+It was the crossing of the Rhine that the Allies had been trying to achieve for six months.
+Because the Remagen Bridge was taken, the war ended in just a few weeks.
+The bridge only needs to last for a day after it was captured.
+The taking of the bridge was a complete success, and meant that the end of the war was near, and would not last through the summer.
+Contrary to the cynical nature of the film, the victory was heralded with elation by the troops who did it.
+They knew how vital the battle was.
+This film has little to do with real history.
+It was more a reflection of the cynical nature of the time in which it was produced.
+
+
+WER (gt vs final): 0.040697674418604654
+CER (gt vs final): 0.00881057268722467
+WER% (gt vs final): 4.069767441860465
+CER% (gt vs final): 0.881057268722467
+
+
+WER (gt vs ocr): 0.11627906976744186
+CER (gt vs ocr): 0.011013215859030838
+WER (gt vs ocr): 11.627906976744185
+CER (gt vs ocr): 1.1013215859030838

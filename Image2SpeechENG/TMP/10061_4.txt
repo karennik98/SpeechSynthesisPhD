@@ -1,0 +1,27 @@
+Ground truth:
+This is indeed one of the weakest films based on Agatha Christie's work, a lifeless, muddled mystery that clearly lacks the grace (and the budget!)
+(*1/2)
+
+
+OCR:
+: lifeless, muddled mystery that clearly lacks the grace (an the budget!)
+(112)
+
+
+Corrected:
+: lifeless, muddled mystery that clearly lacks the grace (and the budget!)
+The best way to reduce the amount of waste we create is to recycle
+
+The best way to reduce the amount of waste we create is to recycle.
+
+
+WER (gt vs final): 1.4615384615384615
+CER (gt vs final): 1.0064935064935066
+WER% (gt vs final): 146.15384615384613
+CER% (gt vs final): 100.64935064935065
+
+
+WER (gt vs ocr): 0.6538461538461539
+CER (gt vs ocr): 0.5064935064935064
+WER (gt vs ocr): 65.38461538461539
+CER (gt vs ocr): 50.649350649350644

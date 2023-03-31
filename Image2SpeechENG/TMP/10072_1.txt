@@ -1,0 +1,34 @@
+Ground truth:
+This movie was perhaps the biggest waste of 2 hours of my life.
+From the opening 10 minutes, I was ready to leave.
+The cliches there slapping you in the face, and the plot was not only predictably stupid, but full of more holes than swiss cheese.
+I am considering suing for that lost 2 hours, and $6.25 along with the fact that I am now stupider for watching this waste of film.
+The T-Rex's must be flipping in their graves, so to speak.
+
+
+OCR:
+This movie was perhaps the biggest waste of 2 hours of my life.
+From the opening 10 minutes, | was ready to leave.
+The cliches there slapping you in the face, and the plot was not only predictably stupid, but full of nore holes than swiss cheese.
+| am considering suing for that lost 2 hours, and $6.25 along with the fact that | am now stupider for watching this waste of film.
+The T-Rex’s must be flipping in their graves, so to speak.
+
+
+Corrected:
+This movie was perhaps the biggest waste of 2 hours of my life.
+From the opening 10 minutes, I was ready to leave.
+The clichés are slapping you in the face, and the plot was not only predictably stupid, but full of more holes than Swiss cheese.
+I am considering suing for that lost 2 hours, and $6.25 along with the fact that I am now stupider for watching this waste of film.
+The T-Rex's must be flipping in their graves, so to speak.
+
+
+WER (gt vs final): 0.03571428571428571
+CER (gt vs final): 0.011441647597254004
+WER% (gt vs final): 3.571428571428571
+CER% (gt vs final): 1.1441647597254003
+
+
+WER (gt vs ocr): 0.14285714285714285
+CER (gt vs ocr): 0.020594965675057208
+WER (gt vs ocr): 14.285714285714285
+CER (gt vs ocr): 2.059496567505721

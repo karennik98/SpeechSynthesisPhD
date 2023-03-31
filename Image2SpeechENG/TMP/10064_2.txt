@@ -1,0 +1,34 @@
+Ground truth:
+Aya!
+If you are looking for special effects that are 10-20 years before its time, this is it.
+The glowing lightning bolts, fireballs, etc.
+look like they came from a cheesy 70's sci-fi flick.
+And yes, Hercules really grows; he's not being pushed on a cart closer to the camera!
+
+
+OCR:
+Aya!
+If you are looking for special effects that are 10-20 years before its time, this is it.
+The glowing lightning bolts, fireballs, etc.
+look like they came from a cheesy 70's sci-fi flick.
+And yes, Hercules really grows; he's not being pushed on a cart closer to the camera!
+
+
+Corrected:
+Aya!
+If you are looking for special effects that are 10-20 years before its time, this is it.
+The glowing lightning bolts, fireballs, etc.
+Look like they came from a cheesy 70's sci-fi flick.
+And yes, Hercules really grows; he's not being pushed on a cart closer to the camera!
+
+
+WER (gt vs final): 0.02
+CER (gt vs final): 0.0036101083032490976
+WER% (gt vs final): 2.0
+CER% (gt vs final): 0.36101083032490977
+
+
+WER (gt vs ocr): 0.16
+CER (gt vs ocr): 0.01444043321299639
+WER (gt vs ocr): 16.0
+CER (gt vs ocr): 1.444043321299639

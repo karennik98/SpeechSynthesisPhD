@@ -1,0 +1,31 @@
+Ground truth:
+What if someone made a horror movie that was completely devoid of plot?Well, I think it would probably end up a little bit like this one.
+I don't think I've ever seen a move was so steady it its slide from hackneyed (at the beginning) to complete crap (by the end).
+I only stuck with it, because I kept thinking it couldn't possibly get worse.
+One would think there'd at least be some humor value... but not here.
+
+
+OCR:
+What if someone made a horror movie that was completely devoid of plot?Well, | think it would probably end up a little bit like this one.
+| don't think I've ever seen a move was so steady it its slide from hackneyed (at the beginning) to complete crap (by the end).
+| only stuck with it, because | kept thinking it couldn't possibly get worse.
+One would think there'd at least be some humor value... but not here.
+
+
+Corrected:
+What if someone made a horror movie that was completely devoid of plot? Well, I think it would probably end up a little bit like this one.
+"I don't think I've ever seen a move was so steady in its slide from hackneyed (at the beginning) to complete crap (by the end)."
+only stuck with it, because kept thinking it couldn't possibly get worse.
+One would think there'd be at least some humor value... but not here.
+
+
+WER (gt vs final): 0.11538461538461539
+CER (gt vs final): 0.031476997578692496
+WER% (gt vs final): 11.538461538461538
+CER% (gt vs final): 3.14769975786925
+
+
+WER (gt vs ocr): 0.10256410256410256
+CER (gt vs ocr): 0.01694915254237288
+WER (gt vs ocr): 10.256410256410255
+CER (gt vs ocr): 1.694915254237288

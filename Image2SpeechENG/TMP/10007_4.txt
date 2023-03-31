@@ -13,18 +13,18 @@ as you read subtitles waiting for something to happen.
 
 
 Corrected:
-"Tokyo Eyes" tells of a 17-year-old Japanese girl who falls in like with a man being hunted by her big bro who is a cop.
+"Tokyo Eyes" tells of a 17 year old Japanese girl who falls in like with a man being hunted by her big bro who is a cop.
 This lame flick is about 50% filler and 50% talk, talk, and more talk.
 As you read subtitles, waiting for something to happen.
-The teacher said we could use our phones in class to text
+The class was very noisy that day
 
-The teacher said we could use our phones in class to text.
+The class was very noisy that day.
 
 
-WER (gt vs final): 0.5686274509803921
-CER (gt vs final): 0.4820717131474104
-WER% (gt vs final): 56.86274509803921
-CER% (gt vs final): 48.20717131474104
+WER (gt vs final): 0.3137254901960784
+CER (gt vs final): 0.28286852589641437
+WER% (gt vs final): 31.372549019607842
+CER% (gt vs final): 28.286852589641438
 
 
 WER (gt vs ocr): 0.11764705882352941

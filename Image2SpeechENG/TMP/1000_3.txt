@@ -11,15 +11,15 @@ So, | have to give it a lower rating than | would have liked to and say that it 
 
 
 Corrected:
-Felt like this film could have done a whole lot better than it did.
-Felt like it kept leading the viewer up to a big event that never materialized.
+I felt like this film could have done a whole lot better than it did.
+I felt like it kept leading the viewer up to a big event that never materialized.
 So, I have to give it a lower rating than I would have liked to and say that it fell short of my expectations.
 
 
-WER (gt vs final): 0.07272727272727272
-CER (gt vs final): 0.022900763358778626
-WER% (gt vs final): 7.2727272727272725
-CER% (gt vs final): 2.2900763358778624
+WER (gt vs final): 0.0
+CER (gt vs final): 0.0
+WER% (gt vs final): 0.0
+CER% (gt vs final): 0.0
 
 
 WER (gt vs ocr): 0.12727272727272726

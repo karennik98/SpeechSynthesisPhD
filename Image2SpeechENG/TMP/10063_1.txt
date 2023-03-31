@@ -1,0 +1,31 @@
+Ground truth:
+Producers Golan and Globus should have been ashamed to release this piece of trash publicly.
+I know this is gonna sound cliched, but compared to this, the first "Hercules" of 1983 looks like a mature and exciting epic!
+This "sequel" is moronic, cheap, unredeemable, childish, phony, inept and BADLY ACTED.
+A landmark in bad cinema, and one of the few, few movies I've seen that REALLY deserve the lowest possible rating: no stars!
+
+
+OCR:
+Producers Golan and Globus should have been ashamed to release this piece of trash publicly.
+| know this is gonna sound cliched, but compared to this, the first "Hercules" of 1983 looks like a mature and exciting epic!
+This "sequel" is moronic, cheap, unredeemable, childish, phony, inept and BADLY ACTED.
+A landmark in bad cinema, and one of the few, few movies I've seen that REALLY deserve the lowest possible rating: no stars!
+
+
+Corrected:
+Producers Golan and Globus should have been ashamed to release this piece of trash publicly.
+I know this is going to sound cliched, but compared to this, the first "Hercules" of 1983 looks like a mature and exciting epic!
+This "sequel" is moronic, cheap, unredeemable, childish, phony, inept, and BADLY ACTED.
+A landmark in bad cinema, and one of the few, few movies I've seen that REALLY deserve the lowest possible rating: no stars!
+
+
+WER (gt vs final): 0.0410958904109589
+CER (gt vs final): 0.013953488372093023
+WER% (gt vs final): 4.10958904109589
+CER% (gt vs final): 1.3953488372093024
+
+
+WER (gt vs ocr): 0.0821917808219178
+CER (gt vs ocr): 0.009302325581395349
+WER (gt vs ocr): 8.21917808219178
+CER (gt vs ocr): 0.9302325581395349

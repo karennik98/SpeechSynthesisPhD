@@ -1,0 +1,47 @@
+Ground truth:
+No other "famous" model thought of this, and it is very admirable for Tyra Banks to do so.
+But as the series goes on and on I've come to the conclusion that this is a sorry lot of folks trying to make a mountain out of a molehill.
+Heck, I'm trying to see what happened to the ones that DID win, actually.This is the dream of some girls, and good for them.
+That even made me think more of this as a sorry lot of folks.
+Hence the name of the show.
+Hence the sorry lot of judges, photographers, associations.
+Hence Tyra and her consistent "this was me" plugs every camera angle you can get.
+But then again, that IS the one thing I like about this show - the ex-model giving others who wouldn't have the chance -- a chance to enter the doors.
+But after that...everything else is status quo for that industry which is why there are no surprises or week to week interest in the program.
+
+
+OCR:
+No other "famous" model thought of this, and it is very admirable for Tyra Banks to do so.
+But as the series goes on and on I've come to the conclusion that this is a sorry lot of folks trying to make a mountain out of a molehill.
+Heck, I'm trying to see what happened to the ones that DID win, actually. This is the dream of some girls, and good for them.
+That even made me think more of this as a sorry lot of folks.
+Hence the name of the show.
+Hence the sorry lot of judges, photographers, associations.
+Hence Tyra and her consistent "this was me" plugs every camera angle you can get.
+But then again, that IS the one thing | like about this show - the ex-model giving others who wouldn't have the chance -- a chance to enter the doors.
+But after that...everything else is status quo for that industry which is why there are no surprises or week to week interest in the program.
+
+
+Corrected:
+No other "famous" model thought of this, and it is very admirable for Tyra Banks to do so.
+But as the series goes on and on I've come to the conclusion that this is a sorry lot of folks trying to make a mountain out of a molehill.
+Heck, I'm trying to see what happened to the ones that DID win, actually.
+This is the dream of some girls, and good for them.
+That even made me think more of this as a sorry lot of folks.
+Hence, the name of the show.
+Hence the sorry lot of judges, photographers, associations.
+Hence, Tyra and her consistent "this was me" plugs every camera angle you can get.
+But then again, that IS the one thing I like about this show - the ex-model giving others who wouldn't have the chance -- a chance to enter the doors.
+But after that...everything else is status quo for that industry, which is why there are no surprises or week-to-week interest in the program.
+
+
+WER (gt vs final): 0.047058823529411764
+CER (gt vs final): 0.006818181818181818
+WER% (gt vs final): 4.705882352941177
+CER% (gt vs final): 0.6818181818181818
+
+
+WER (gt vs ocr): 0.11176470588235295
+CER (gt vs ocr): 0.011363636363636364
+WER (gt vs ocr): 11.176470588235295
+CER (gt vs ocr): 1.1363636363636365

@@ -1,0 +1,37 @@
+Ground truth:
+JP3 lacks the Spielberg touch.
+It's an all-out assault on the senses featuring "in your face" dinosaurs.
+Watching this film was a bit like a roller coaster ride from hell.
+The script is lame; it simultaneously asks and then leaves too many questions unanswered.
+Also, we don't really get to appreciate the humans in the film for all they're worth.
+For example, William H. Macy is too great a talent to have to compete with dino-thugs for our attention.
+
+
+OCR:
+JP3 lacks the Spielberg touch.
+It's an all-out assault on the senses featuring “in your face" dinosaurs.
+Watching this film was a bit like a roller coaster ride from hell.
+The script is lame; it simultaneously asks and then leaves too many questions unanswered.
+Also, we don't really get to appreciate the humans in the film for all they're worth.
+For example, William H. Macy is too great a talent to have to cornpete with dino-thugs for our attention.
+
+
+Corrected:
+JP3 lacks the Spielberg touch.
+It's an all-out assault on the senses, featuring “in your face" dinosaurs.
+Watching this film was a bit like a roller coaster ride from hell.
+The script is lame; it simultaneously asks and then leaves too many questions unanswered.
+Also, we don't really get to appreciate the humans in the film for all they're worth.
+For example, William H. Macy is too great a talent to have to compete with dino-thugs for our attention.
+
+
+WER (gt vs final): 0.02531645569620253
+CER (gt vs final): 0.004424778761061947
+WER% (gt vs final): 2.5316455696202533
+CER% (gt vs final): 0.4424778761061947
+
+
+WER (gt vs ocr): 0.1518987341772152
+CER (gt vs ocr): 0.017699115044247787
+WER (gt vs ocr): 15.18987341772152
+CER (gt vs ocr): 1.7699115044247788

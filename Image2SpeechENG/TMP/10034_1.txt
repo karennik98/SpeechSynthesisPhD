@@ -62,9 +62,9 @@ We couldn't take the movie seriously because of the lacking elements it should h
 The experience of watching this was like The Blair Witch visits Green Acres.
 Then there were parts that were vulgar.
 They show this little boy using a bed pan and they actually show the contents of it.
-The witch throws the contents of it on the boy and the whole family laughs.
+The witch throws the contents of it on the boy, and the whole family laughs.
 I thought it was nasty and very strange.
-Really, I can't understand why someone would think that would be entertaining.
+I really can't understand why someone would think that would be entertaining.
 It shows another scene where Dr. Mize arrives and Betsy Bell is urinating in her dress on the steps of their house in front of her mother and brothers.
 Instead of the mother leading her off, it is the brother.
 How sick?
@@ -79,10 +79,10 @@ They chose a good subject and were unable to produce it in a correct manner.
 Capital F minus.
 
 
-WER (gt vs final): 0.038338658146964855
-CER (gt vs final): 0.01770956316410862
-WER% (gt vs final): 3.8338658146964857
-CER% (gt vs final): 1.770956316410862
+WER (gt vs final): 0.03514376996805112
+CER (gt vs final): 0.01475796930342385
+WER% (gt vs final): 3.5143769968051117
+CER% (gt vs final): 1.475796930342385
 
 
 WER (gt vs ocr): 0.1597444089456869

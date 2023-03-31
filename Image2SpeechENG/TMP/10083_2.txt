@@ -1,0 +1,46 @@
+Ground truth:
+I would like to comment on how the girls are chosen.
+why is that their are always more white women chosen then their are black women.
+every episode their is always more white women then black one's.
+as if to say white women are better looking then black women.
+I would like for once see more black women then white.
+and it not just your show it's like that in a lot of shows always more white's.
+but i would have thought since you as the head honcho of the show you would see this yourself and have more black women on your show.
+but you are just like the rest trying to act like you are so fair and nice.
+you are just a big fony hypocrite.
+
+
+OCR:
+| would like to comment on how the girls are chosen.
+why is that their are always more white women chosen then their are black women.
+every episode their is always more white women then black one's.
+as if to say white women are better looking then black women.
+| would like for once see more black women then white.
+and it not just your show it's like that in a lot of shows always more white's.
+but i would have thought since you as the head honcho of the show you would see this yourself and have more black women on your show.
+but you are just like the rest trying to act like you are so fair and nice.
+you are just a big fony hypocrite.
+
+
+Corrected:
+I would like to comment on how the girls are chosen.
+Why is that there are always more white women chosen then there are black women?
+Every episode, their is always more white women then black ones.
+As if to say, "White women are better looking than black women."
+I would like to see more black women than white for once.
+And it's not just your show; it's like that in a lot of shows. Always more whites.
+But I would have thought, since you're the head honcho of the show, you would see this yourself and have more black women on your show.
+But you are just like the rest, trying to act like you are so fair and nice.
+You are just a big, phony hypocrite.
+
+
+WER (gt vs final): 0.2734375
+CER (gt vs final): 0.08125
+WER% (gt vs final): 27.34375
+CER% (gt vs final): 8.125
+
+
+WER (gt vs ocr): 0.1328125
+CER (gt vs ocr): 0.015625
+WER (gt vs ocr): 13.28125
+CER (gt vs ocr): 1.5625

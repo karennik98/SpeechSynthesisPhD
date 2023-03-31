@@ -53,24 +53,24 @@ Why do we do this to ourselves, anyway?
 
 
 Corrected:
-Uhhh... so, did they even have writers for this?
+Uhhh...so, did they even have writers for this?
 Maybe I'm picky, but I like a little dialog with my movies.
 Scene after scene, we just get actors standing around, looking forlorn and awkward, abandoned by any sense of a script.
-And another rehashes an old campfire tale that doesn't even have anything to do with the plot (wait, what is the plot?)
+And another rehashes an old campfire tale that doesn't even have anything to do with the plot. (Wait, what is the plot?)
 At other times, The Prey actually has the gall to film its characters with the boom mic just far away enough so that we can't exactly hear what they're saying.
 So we get entire scenes wherein the actors are murmuring!
 Deliberately!
 Seriously!
-"I've seen more dialog in a silent film," she said.
-"Let's somehow pad an entire feature around it."
-And...well, they did.
+I've seen more dialog in a silent film.
+Let's somehow pad an entire feature around it.
+And... well, they did.
 To be fair, The Prey probably had some sort of writer on board.
 Mean, somebody had to jot down the scene sequence and label the dailies.
 However, I am fully convinced that this film did not have an editor of any kind whatsoever.
 There are glaring pauses, boring tableaux, and zero sense of pacing throughout.
 These critters are all filmed in straightforward, noontime daylight in a completely reserved fashion and with no attempt at atmospheric photography.
 If it feels like a science film, that's because it is.
-A minute-and-a-half!
+a minute and a half
 That's a lot of banjoing to commit to celluloid to begin with, let alone insert into the final cut of the film!
 Way to go, guys!
 Vaudeville great Jackie Coogan makes a fun appearance as a tubby, bumbly park ranger (this was his last role, if you can believe it).
@@ -80,10 +80,10 @@ Overall, this is a largely pallid and tedious affair, and, while it ain't all ba
 Why do we do this to ourselves, anyway?
 
 
-WER (gt vs final): 0.04491017964071856
-CER (gt vs final): 0.012023000522739153
-WER% (gt vs final): 4.491017964071856
-CER% (gt vs final): 1.2023000522739153
+WER (gt vs final): 0.05389221556886228
+CER (gt vs final): 0.009409304756926294
+WER% (gt vs final): 5.389221556886228
+CER% (gt vs final): 0.9409304756926294
 
 
 WER (gt vs ocr): 0.1467065868263473

@@ -23,7 +23,7 @@ This is for slasher completists only.
 
 
 Corrected:
-Supercraptastic slasher fare, which feels overly long at 80 minutes.
+Supercrap-tastic slasher fare, which feels overly long at 80 minutes.
 Years ago, a bunch of "gypsies" who lived in the caves of a mountain, were burned up in a forest fire.
 Years later, campers are going missing from the area of the fire.
 A bunch of horny kids are, of course, en route to this area for a debaucherous camping trip of their own.
@@ -34,10 +34,10 @@ This is a far cry from Charlie Chaplin, but it was still nice to see him.
 This is for slasher completists only.
 
 
-WER (gt vs final): 0.013793103448275862
-CER (gt vs final): 0.0038071065989847717
-WER% (gt vs final): 1.3793103448275863
-CER% (gt vs final): 0.3807106598984772
+WER (gt vs final): 0.020689655172413793
+CER (gt vs final): 0.005076142131979695
+WER% (gt vs final): 2.0689655172413794
+CER% (gt vs final): 0.5076142131979695
 
 
 WER (gt vs ocr): 0.1103448275862069

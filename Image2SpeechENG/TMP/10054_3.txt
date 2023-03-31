@@ -1,0 +1,34 @@
+Ground truth:
+The Bridge At Remagen contains some of the most preposterous war time screenplay I've ever seen.
+The constant suicidal behavior set off my "tilt switch" so often I found it impossible to enjoy the movie.
+Apparently the screen writers and director have never been through actual warfare and never bothered to bring in an expert who had.
+This movie is the very antithesis of the excellent detail in Saving Private Ryan.
+Unless you are under 7 years old, I recommend watching something else.GB
+
+
+OCR:
+The Bridge At Remagen contains some of the most preposterous war time screenplay |I've ever seen.
+The constant suicidal behavior set off my "tilt switch" so often | found it impossible to enjoy the movie.
+Apparently the screen writers and director have never been through actuai warfare and never bothered to bring in an expert who had.
+This movie is the very antithesis of the excellent detail in Saving Private Ryan.
+Unless you are under 7 years old, | recommend watching something else.GB
+
+
+Corrected:
+The Bridge at Remagen contains some of the most preposterous war-time screenplay I've ever seen.
+The constant suicidal behavior set off my "tilt switch" so often I found it impossible to enjoy the movie.
+Apparently the screen writers and director have never been through actual warfare and never bothered to bring in an expert who had.
+This movie is the very antithesis of the excellent detail in Saving Private Ryan.
+Unless you are under 7 years old, I recommend watching something else.
+
+
+WER (gt vs final): 0.04819277108433735
+CER (gt vs final): 0.00816326530612245
+WER% (gt vs final): 4.819277108433735
+CER% (gt vs final): 0.8163265306122449
+
+
+WER (gt vs ocr): 0.14457831325301204
+CER (gt vs ocr): 0.0163265306122449
+WER (gt vs ocr): 14.457831325301203
+CER (gt vs ocr): 1.6326530612244898

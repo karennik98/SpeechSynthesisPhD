@@ -1,0 +1,34 @@
+Ground truth:
+Wow!
+i think they made this movie to torture people.
+there are no words for how much i hated this film.
+I could have been cleaning my room instead.
+i love bad melodrama as much as the next person but....come on!
+
+
+OCR:
+Wow!
+i think they made this movie to torture people.
+there are no words for how much i hated this film.
+| could have been cleaning my room instead.
+ilove bad melodrama as much as the next person but....come on!
+
+
+Corrected:
+Wow!
+I think they made this movie to torture people.
+There are no words for how much I hated this film.
+I could have been cleaning my room instead.
+I love bad melodrama as much as the next person, but....come on!
+
+
+WER (gt vs final): 0.12195121951219512
+CER (gt vs final): 0.023696682464454975
+WER% (gt vs final): 12.195121951219512
+CER% (gt vs final): 2.3696682464454977
+
+
+WER (gt vs ocr): 0.21951219512195122
+CER (gt vs ocr): 0.02843601895734597
+WER (gt vs ocr): 21.951219512195124
+CER (gt vs ocr): 2.843601895734597

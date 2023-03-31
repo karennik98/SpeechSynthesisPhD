@@ -1,0 +1,29 @@
+Ground truth:
+Number 1 was really great summer popcorn fun.
+Once they realized they had no fresh ideas they should have just let sleeping dinos lie.That said.
+Movie is ok if you don't mind knowing you already have seen it before.
+
+
+OCR:
+Number 1 was really great summer popcorn fun.
+Once they realized they had no fresh ideas they should have just let sleeping dinos lie. That said.
+Movie is ok if you don't mind knowing you already have seen it before.
+
+
+Corrected:
+Number 1 was really great summer popcorn fun.
+Once they realized they had no fresh ideas, they should have just let sleeping dinos lie.
+That said,
+Movie is ok if you don't mind knowing you've already seen it before.
+
+
+WER (gt vs final): 0.15384615384615385
+CER (gt vs final): 0.05116279069767442
+WER% (gt vs final): 15.384615384615385
+CER% (gt vs final): 5.116279069767442
+
+
+WER (gt vs ocr): 0.1282051282051282
+CER (gt vs ocr): 0.013953488372093023
+WER (gt vs ocr): 12.82051282051282
+CER (gt vs ocr): 1.3953488372093024

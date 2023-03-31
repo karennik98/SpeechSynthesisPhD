@@ -23,15 +23,15 @@ This is the 21st century.
 Guess what: ghosts don't exist.
 Most people learn that from their mother when they're about 5 years old.
 You guys seriously need to grow up. The fact that a fraud was perpetrated nearly 2 centuries ago does not make it any less a fraud.
-The fact that a large number of inbred hillbillies from Tennessee believe it, doesn't do it either.
+The fact that a large number of inbred hillbillies from Tennessee believe it doesn't do it either.
 Go to college.
 Or, at least, finish high school.
 
 
-WER (gt vs final): 0.06756756756756757
-CER (gt vs final): 0.009828009828009828
-WER% (gt vs final): 6.756756756756757
-CER% (gt vs final): 0.9828009828009828
+WER (gt vs final): 0.05405405405405406
+CER (gt vs final): 0.007371007371007371
+WER% (gt vs final): 5.405405405405405
+CER% (gt vs final): 0.7371007371007371
 
 
 WER (gt vs ocr): 0.16216216216216217

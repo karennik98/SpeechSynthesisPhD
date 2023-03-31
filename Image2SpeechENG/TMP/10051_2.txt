@@ -1,0 +1,30 @@
+Ground truth:
+I had to see this on the British Airways plane.
+It was terribly bad acting and a dumb story.
+Not even a kid would enjoy this.
+Something to switch off if possible.
+
+
+OCR:
+| had to s ee this on. the ritish Airways | plane. a
+It was terribly bad acting anda dumb ae
+
+
+Corrected:
+I had to see this on.
+The British Airways plane.
+story
+
+It was terribly bad acting and a dumb ass story.
+
+
+WER (gt vs final): 0.53125
+CER (gt vs final): 0.48148148148148145
+WER% (gt vs final): 53.125
+CER% (gt vs final): 48.148148148148145
+
+
+WER (gt vs ocr): 0.71875
+CER (gt vs ocr): 0.5123456790123457
+WER (gt vs ocr): 71.875
+CER (gt vs ocr): 51.23456790123457

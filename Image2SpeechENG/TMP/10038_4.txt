@@ -32,15 +32,15 @@ But when I saw the actual film, I was disappointed.
 The acting is stilted, and the attempts at comedy are woefully out of place and forced.
 And I'm sorry, but a boy being chased by a turd in a bedpan is not funny or scary, it's just stupid.
 I grew up on the Beli Witch legend, so I know quite a bit about it.
-A lot of facts in the movie are right on target, but this film should have been better.
+A lot of facts in the movie are right on target, but this film should have been much better.
 The entire birthday party scene, for example, lasts about fifteen minutes, adds nothing to the plot or the story, and should have been left on the cutting room floor.
 "I'm just telling it like it is."
 
 
-WER (gt vs final): 0.041379310344827586
-CER (gt vs final): 0.015172413793103448
-WER% (gt vs final): 4.137931034482759
-CER% (gt vs final): 1.5172413793103448
+WER (gt vs final): 0.034482758620689655
+CER (gt vs final): 0.008275862068965517
+WER% (gt vs final): 3.4482758620689653
+CER% (gt vs final): 0.8275862068965517
 
 
 WER (gt vs ocr): 0.16551724137931034

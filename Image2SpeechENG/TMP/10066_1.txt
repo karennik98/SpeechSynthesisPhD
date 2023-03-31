@@ -1,0 +1,22 @@
+Ground truth:
+Looking for a REAL super bad movie?
+If you wanna have great fun, don't hesitate and check this one!Ferrigno is incredibly bad but is also the best of this mediocrity.
+
+
+OCR:
+
+
+
+Corrected:
+
+
+WER (gt vs final): 1.0
+CER (gt vs final): 1.0
+WER% (gt vs final): 100.0
+CER% (gt vs final): 100.0
+
+
+WER (gt vs ocr): 1.0
+CER (gt vs ocr): 1.0
+WER (gt vs ocr): 100.0
+CER (gt vs ocr): 100.0

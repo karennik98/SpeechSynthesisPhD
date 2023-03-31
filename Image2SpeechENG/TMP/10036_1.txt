@@ -18,14 +18,14 @@ Corrected:
 Are you kidding me?
 This is quite possibly the worst, amateur movie I've ever seen.
 When I heard about the Bell Witch, I wanted to believe.
-Read some literature on it and thought it sounded like a plausible story.
+I read some literature on it and thought it sounded like a plausible story.
 But this movie just destroyed that.
 
 
-WER (gt vs final): 0.12244897959183673
-CER (gt vs final): 0.07518796992481203
-WER% (gt vs final): 12.244897959183673
-CER% (gt vs final): 7.518796992481203
+WER (gt vs final): 0.08163265306122448
+CER (gt vs final): 0.06390977443609022
+WER% (gt vs final): 8.16326530612245
+CER% (gt vs final): 6.390977443609022
 
 
 WER (gt vs ocr): 0.22448979591836735

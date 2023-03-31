@@ -1,0 +1,28 @@
+Ground truth:
+This movie could very well have been a propaganda movie for the North americian falangist party - or some similar group...
+The strong man (Kersey) places himself above the law (but not outside the law) and liberates upstanding citizens by killing worthless trash.
+The only thing that made me think it wasn't made by the KKK was the fact that a jew starred as a good guy...
+
+
+OCR:
+This movie could very well have been a propaganda movie for the North americian falangist party - or some similar group...
+The strong man (Kersey) places himself above the law (but not outside the law) and liberates upstanding citizens by killing worthless trash.
+The only thing that made me think it wasn't made by the KKK was the fact that a jew starred as a good guy...
+
+
+Corrected:
+This movie could very well have been a propaganda movie for the North American Falangist party - or some similar group.
+The strong man (Kersey) places himself above the law (but not outside the law) and liberates upstanding citizens by killing worthless trash.
+The only thing that made me think it wasn't made by the KKK was the fact that a Jew starred as a good guy.
+
+
+WER (gt vs final): 0.07462686567164178
+CER (gt vs final): 0.021505376344086023
+WER% (gt vs final): 7.462686567164178
+CER% (gt vs final): 2.1505376344086025
+
+
+WER (gt vs ocr): 0.05970149253731343
+CER (gt vs ocr): 0.005376344086021506
+WER (gt vs ocr): 5.970149253731343
+CER (gt vs ocr): 0.5376344086021506

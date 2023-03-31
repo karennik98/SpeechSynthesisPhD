@@ -1,0 +1,28 @@
+Ground truth:
+Destiny begins to work hard and pretty soon war is declared and Dame Angela's two brothers enlist and in the next reel both are dead.
+But destiny is even crueller and Dame Angela meanwhile falls in love with a German!!
+
+
+OCR:
+Destiny begins to work hard and pretty soon war is declared and Dame Angela's two brothers enlist and in the next reel both are dead.
+But destiny is even crueller and Dame Angela meanwhile falls in love withA... a German!!
+
+
+Corrected:
+Destiny begins to work hard and pretty soon war is declared and Dame Angela's two brothers enlist and in the next reel both are dead.
+But destiny is even crueller and Dame Angela meanwhile falls in love with... a German!
+The quick, brown fox jumps over a lazy dog.
+
+The quick, brown fox jumps over a lazy dog.
+
+
+WER (gt vs final): 0.5
+CER (gt vs final): 0.41818181818181815
+WER% (gt vs final): 50.0
+CER% (gt vs final): 41.81818181818181
+
+
+WER (gt vs ocr): 0.075
+CER (gt vs ocr): 0.022727272727272728
+WER (gt vs ocr): 7.5
+CER (gt vs ocr): 2.272727272727273

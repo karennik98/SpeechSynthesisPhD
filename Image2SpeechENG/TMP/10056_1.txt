@@ -1,0 +1,36 @@
+Ground truth:
+Filmed in Arizona by a mostly-foreign crew, "Nightkill" is one of the clumsiest crime dramas I have ever seen.
+Robert Mitchum (in a cowboy hat) trails recently-widowed Jaclyn Smith around, hoping to figure out if she had a hand in her husband's death.
+Don't be drawn in by the video box art of Jaclyn screaming while taking a shower.
+She does indeed take a shower in this film, but it is not revealing (nor does it further the murky plot one iota).
+NO STARS from ****
+
+
+OCR:
+Filmed in Arizona by a mostly-foreign crew, "Nightkill" is one of the clumsiest crime dramas | have ever seen.
+Robert Mitchum (in a cowboy hat) trails recently-widowed Jaclyn Smith around, hoping to figure out if she had a hand in her husband's death.
+Don't be drawn in by the video box art of Jaclyn screaming while taking a shower.
+She does indeed take a shower in this film, but it is not revealing (nor does it further the murky plot one iota).
+NO STARS from ****
+
+
+Corrected:
+Filmed in Arizona by a mostly-foreign crew, "Nightkill" is one of the clumsiest crime dramas I have ever seen.
+Robert Mitchum (in a cowboy hat) trails recently-widowed Jaclyn Smith around, hoping to figure out if she had a hand in her husband's death.
+Don't be drawn in by the video box art of Jaclyn screaming while taking a shower.
+She does indeed take a shower in this film, but it is not revealing (nor does it further the murky plot one iota).
+*
+
+No stars from me.
+
+
+WER (gt vs final): 0.046511627906976744
+CER (gt vs final): 0.027837259100642397
+WER% (gt vs final): 4.651162790697675
+CER% (gt vs final): 2.7837259100642395
+
+
+WER (gt vs ocr): 0.10465116279069768
+CER (gt vs ocr): 0.010706638115631691
+WER (gt vs ocr): 10.465116279069768
+CER (gt vs ocr): 1.070663811563169

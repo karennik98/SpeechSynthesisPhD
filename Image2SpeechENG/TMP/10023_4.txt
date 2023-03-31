@@ -15,7 +15,7 @@ This can also sport a short lived plus in that an early John Carl Bucheler does 
 
 
 Corrected:
-Everything, everyone has said already, pretty much rings true when it comes to "The Prey."
+Everything everyone has said already pretty much rings true when it comes to ‘The Prey’.
 There's also a three minute banjo solo that shows off Bostwick's skill behind the instrument.
 Not too bad if I do say so myself.
 The last ten minutes of the film are its saving grace.
@@ -23,10 +23,10 @@ The ending still haunts me to this day.
 This can also sport a short-lived plus in that an early John Carl Bücheler does the special effects.
 
 
-WER (gt vs final): 0.13157894736842105
-CER (gt vs final): 0.024154589371980676
-WER% (gt vs final): 13.157894736842104
-CER% (gt vs final): 2.4154589371980677
+WER (gt vs final): 0.10526315789473684
+CER (gt vs final): 0.016908212560386472
+WER% (gt vs final): 10.526315789473683
+CER% (gt vs final): 1.6908212560386473
 
 
 WER (gt vs ocr): 0.18421052631578946

@@ -21,17 +21,17 @@ No bad movie night is compete without a true character building flick :P.
 Corrected:
 Unlike Evil Dead, it never gains any speed at all.
 The gore is horrible.
-The "climax" is such a total joke, it's hard to laugh at it is so bad.
+The "climax" is such a total joke; it's hard to laugh at it is so bad.
 The back of the box says "The ending will shock and haunt you."
 One person is killed with an axe in the whole movie and it is off screen. A true 1 out of 10.
 I love laughing at bad movies, but this one is so bad that it even lacks campy qualities.
-No bad movie night is complete without a true character building flick :P.
+No bad movie night is complete without a true character building flick.
 
 
-WER (gt vs final): 0.07368421052631578
-CER (gt vs final): 0.019522776572668113
-WER% (gt vs final): 7.368421052631578
-CER% (gt vs final): 1.9522776572668112
+WER (gt vs final): 0.09473684210526316
+CER (gt vs final): 0.026030368763557483
+WER% (gt vs final): 9.473684210526317
+CER% (gt vs final): 2.6030368763557483
 
 
 WER (gt vs ocr): 0.1368421052631579

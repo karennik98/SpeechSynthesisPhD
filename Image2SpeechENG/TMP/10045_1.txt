@@ -1,0 +1,34 @@
+Ground truth:
+I saw this movie yesterday and thought it was awful; it was pointless and just plain stupid.
+the supposed plot concerned a prospective bridegroom too caught up in the problems of the world to relate to his bride and the other people in his life.
+It was trying to be profound but it wasn't; it was stupid and offensive.
+If I wasn't on a bus I would have walked out on the movie.
+Anyone considering seeing the movie or renting or buying the video you have been forewarned.
+
+
+OCR:
+| saw this movie yesterday and thought it was awful; it was pointless and just plain stupid.
+the supposed plot concerned a prospective bridegroom too caught up in the problems of the world to relate to his bride and the other people in his life.
+It was trying to be profound but it wasn't; it was stupid and offensive.
+If | wasn't on a bus | would have walked out on the movie.
+Anyone considering seeing the movie or renting or buying the video you have been forewarned.
+
+
+Corrected:
+Saw this movie yesterday and thought it was awful; it was pointless and just plain stupid.
+The supposed plot concerned a prospective bridegroom too caught up in the problems of the world to relate to his bride and the other people in his life.
+It was trying to be profound but it wasn't; it was stupid and offensive.
+If I wasn't on a bus, I would have walked out on the movie.
+Anyone considering seeing the movie or renting or buying the video has been forewarned.
+
+
+WER (gt vs final): 0.06818181818181818
+CER (gt vs final): 0.023404255319148935
+WER% (gt vs final): 6.8181818181818175
+CER% (gt vs final): 2.3404255319148937
+
+
+WER (gt vs ocr): 0.125
+CER (gt vs ocr): 0.014893617021276596
+WER (gt vs ocr): 12.5
+CER (gt vs ocr): 1.4893617021276597

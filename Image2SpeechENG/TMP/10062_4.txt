@@ -1,0 +1,20 @@
+Ground truth:
+
+
+OCR:
+
+
+
+Corrected:
+
+
+WER (gt vs final): 1.0
+CER (gt vs final): 1.0
+WER% (gt vs final): 100.0
+CER% (gt vs final): 100.0
+
+
+WER (gt vs ocr): 1.0
+CER (gt vs ocr): 1.0
+WER (gt vs ocr): 100.0
+CER (gt vs ocr): 100.0

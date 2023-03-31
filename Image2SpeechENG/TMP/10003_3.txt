@@ -24,20 +24,20 @@ She really deserves it.
 
 Corrected:
 Brass pictures (movies is not a fitting word for them) really are somewhat brassy.
-Their alluring visual qualities are reminiscent of expensive high-class TV commercials.
+Their alluring visual qualities are reminiscent of expensive, high-class TV commercials.
 But unfortunately, Brass pictures are feature films with the pretense of wanting to entertain viewers for over two hours!
 The original tells a story of senseless love and lust in and around Venice during the Italian wars of independence.
 She is an attractive, versatile, well-trained Italian actress and clearly above the material.
-Her wide range of facial expressions (signaling boredom, loathing, delight, fear, hate ... and ecstasy) are the best reason to watch this picture and worth two stars.
-She endures this, basically trashy stuff, with an astonishing amount of dignity.
+Her wide range of facial expressions (signalling boredom, loathing, delight, fear, hate ... and ecstasy) are the best reason to watch this picture and worth two stars.
+She endures this basically trashy stuff with an astonishing amount of dignity.
 I wish some really good parts come along for her.
 She really deserves it.
 
 
-WER (gt vs final): 0.06060606060606061
-CER (gt vs final): 0.0072992700729927005
-WER% (gt vs final): 6.0606060606060606
-CER% (gt vs final): 0.7299270072992701
+WER (gt vs final): 0.045454545454545456
+CER (gt vs final): 0.004866180048661801
+WER% (gt vs final): 4.545454545454546
+CER% (gt vs final): 0.48661800486618007
 
 
 WER (gt vs ocr): 0.12121212121212122

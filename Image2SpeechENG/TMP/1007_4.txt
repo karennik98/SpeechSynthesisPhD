@@ -1,0 +1,31 @@
+Ground truth:
+I was disappointed with the third film in the "Death Wish" series and wouldn't recommend this unless you are really into Bronson.
+He is his usual self in this one, maybe a bit lighter hearted than in the others; the rest of the cast is good if your watching a movie of the week on T.V.
+The film takes a while to get going and then when it finally does, it gets out of control to the point of ridiculousness.
+Skip this and go on to the 4th installment which I highly recommend.
+
+
+OCR:
+| was disappointed with the third film in the "Death Wish" series and wouldn't recommend this unless you are really into Bronson.
+He is his usual self in this one, maybe a bit lighter hearted than in the others; the rest of the cast is good if your watching a movie of the week on T.V.
+The film takes a while to get going and then when it finally does, it gets out of control to the point of ridiculousness.
+Skip this and go on to the 4th installment which | highly recommend.
+
+
+Corrected:
+I was disappointed with the third film in the "Death Wish" series and wouldn't recommend this unless you are really into Bronson.
+He is his usual self in this one, maybe a bit lighter hearted than in the others; the rest of the cast is good if you're watching a movie of the week on T.V.
+The film takes a while to get going, and then when it finally does, it gets out of control to the point of ridiculousness.
+Skip this and go on to the 4th installment, which I highly recommend.
+
+
+WER (gt vs final): 0.03225806451612903
+CER (gt vs final): 0.008403361344537815
+WER% (gt vs final): 3.225806451612903
+CER% (gt vs final): 0.8403361344537815
+
+
+WER (gt vs ocr): 0.08602150537634409
+CER (gt vs ocr): 0.01050420168067227
+WER (gt vs ocr): 8.60215053763441
+CER (gt vs ocr): 1.050420168067227

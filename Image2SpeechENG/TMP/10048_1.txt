@@ -1,0 +1,29 @@
+Ground truth:
+The English translation of the title on the DVD version of this film is "Graveyard of Horrors," but I think that must be an error.
+It should have been called "Graveyard of Horribles."
+Horrible acting, horrible editing, horrible story, and horrible music all make this a horrible film best left in a horrible graveyard.Horrible.
+
+
+OCR:
+The English translation of the title on the DVD version of this film is "Graveyard of Horrors," but | think that must be an error.
+It should have been called "Graveyard of Horribles."
+Horrible acting, horrible editing, horrible story, and horrible music all make this a horrible film best left in a horrible graveyard. Horrible.
+
+
+Corrected:
+The English translation of the title on the DVD version of this film is "Graveyard of Horrors," but I think that must be an error.
+It should have been called "Graveyard of Horribles."
+Horrible acting, horrible editing, horrible story, and horrible music all make this a horrible film best left in a horrible graveyard.
+Horrible.
+
+
+WER (gt vs final): 0.037037037037037035
+CER (gt vs final): 0.0030581039755351682
+WER% (gt vs final): 3.7037037037037033
+CER% (gt vs final): 0.3058103975535168
+
+
+WER (gt vs ocr): 0.12962962962962962
+CER (gt vs ocr): 0.012232415902140673
+WER (gt vs ocr): 12.962962962962962
+CER (gt vs ocr): 1.2232415902140672

@@ -27,17 +27,17 @@ Of course, and you know this already, they begin getting killed one by one by a 
 The cast features Carel Struycken, of "The Witches of Eastwick" and the Addams family movies.
 Sadly, he doesn't pop up until the very end of the film, and is covered in burn makeup, rendering him unrecognizable.
 Steve Bond (anyone remember him?)
-is here in an early role as a victim. Brown's direction, and the script he cowrote, both smell like the presents brown bears leave in the woods.
+Brown's direction, and the script he cowrote, both smell like the presents brown bears leave in the woods.
 He pads the film with so much stock wilderness footage, I thought I accidentally rented a special episode of Mutual of Omaha's Wild Kingdom.
 Much of the cast sits around the campfire and eats, then walks, and sits and eats again.
-The forest ranger is involved in the strangest scene ever put in a slasher film: he tells a joke about a wide mouthed frog to a baby deer.
+The forest ranger is involved in the strangest scene ever putin a slasher film: he tells a joke about a wide mouthed frog to ababy deer.
 The killer, a forest fire survivor looking for a mate, watches the students from behind trees.
 
 
-WER (gt vs final): 0.21794871794871795
-CER (gt vs final): 0.022411953041622197
-WER% (gt vs final): 21.794871794871796
-CER% (gt vs final): 2.2411953041622197
+WER (gt vs final): 0.23717948717948717
+CER (gt vs final): 0.05869797225186766
+WER% (gt vs final): 23.717948717948715
+CER% (gt vs final): 5.869797225186766
 
 
 WER (gt vs ocr): 0.11538461538461539

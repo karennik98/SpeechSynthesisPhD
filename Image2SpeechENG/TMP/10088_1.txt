@@ -1,0 +1,46 @@
+Ground truth:
+It was awful plain and simple.
+What was their message?
+Where was the movie going with this?
+It has all the ingredients of a sub-B grade movie.
+From plotless storyline the bad acting to the cheesey slow-mo cinematography.
+I'd sooner watch a movie I've already seen like Goodfellas, A Bronx Tale, even Grease.
+There are NO likeable characters.
+In the end you just want everyone to die already.
+Save 2 hours of your life and skip this one.
+
+
+OCR:
+It was awful plain and simple.
+What was their message?
+Where was the movie going with this?
+It has ail the ingredients of a sub-B grade movie.
+From plotless storyline the bad acting to the cheesey slow-mo cinematography.
+I'd sooner watch a movie I've already seen like Goodfellas, A Bronx Tale, even Grease.
+There are NO likeable characters.
+In the end you just want everyone to die already.
+Save 2 hours of your life and skip this one.
+
+
+Corrected:
+It was awful, plain and simple.
+What was their message?
+Where was the movie going with this?
+It has all the ingredients of a sub-B grade movie.
+From plotless storyline to bad acting to cheesey slow-mo cinematography.
+I'd sooner watch a movie I've already seen, like Goodfellas, A Bronx Tale, even Grease.
+There are NO likeable characters.
+In the end, you just want everyone to die already.
+Save 2 hours of your life and skip this one.
+
+
+WER (gt vs final): 0.0641025641025641
+CER (gt vs final): 0.020642201834862386
+WER% (gt vs final): 6.41025641025641
+CER% (gt vs final): 2.064220183486239
+
+
+WER (gt vs ocr): 0.21794871794871795
+CER (gt vs ocr): 0.020642201834862386
+WER (gt vs ocr): 21.794871794871796
+CER (gt vs ocr): 2.064220183486239

@@ -15,19 +15,19 @@ Not to mention the "romantic" aspect (oh, how sweet!
 
 
 Corrected:
-On the other hand, the English version is at least very badly dubbed.
+On the other hand, the English version is very badly dubbed.
 So I found myself wishing there had been both more and less dialogue at the same time!
-Not to mention the "romantic" aspect (oh, how sweet!).
+Not to mention the "romantic" aspect (oh, how sweet!)
 Miss it.
-The project was very difficult, but I was very (1) proud of what I had accomplished.
+The storm was so fierce that it blew the (1) roofs off of many homes and (2)
 
-The project was very difficult, but I was very (1) proud of what I had accomplished.
+The storm was so fierce that it blew the (1) roofs off of many homes and (2) uprooted trees.
 
 
-WER (gt vs final): 0.8809523809523809
-CER (gt vs final): 0.7964601769911505
-WER% (gt vs final): 88.09523809523809
-CER% (gt vs final): 79.64601769911505
+WER (gt vs final): 0.9761904761904762
+CER (gt vs final): 0.8053097345132744
+WER% (gt vs final): 97.61904761904762
+CER% (gt vs final): 80.53097345132744
 
 
 WER (gt vs ocr): 0.21428571428571427

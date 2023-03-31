@@ -1,0 +1,36 @@
+Ground truth:
+When i went to see this i thought, i liked the first two and thought that they were very suspenseful so this one should be good also.
+WRONG!
+There was NO suspense and they don't explain about the new dinosaurs!
+This movie was going through "the motions."
+i thought that this movie had absolutely no plot and i thought that no one should waste their money to see it.
+
+
+OCR:
+When i went to see this i thought, i liked the first two and thought that they were very suspenseful so this one should be good also.
+WRONG!
+There was NO suspense and they don't explain about the new dinosaurs!
+This movie was going through "the motions."
+i thought that this movie had absolutely no plot and i thought that no one should waste their money to see it.
+
+
+Corrected:
+When I went to see this, I thought, "I liked the first two and thought that they were very suspenseful, so this one should be good, also."
+"I want to no go"
+
+"I want to know how to go"
+There was no suspense, and they don't explain about the new dinosaurs!
+This movie was going through the motions.
+I thought that this movie had absolutely no plot and I thought that no one should waste their money to see it.
+
+
+WER (gt vs final): 0.36231884057971014
+CER (gt vs final): 0.1643835616438356
+WER% (gt vs final): 36.231884057971016
+CER% (gt vs final): 16.43835616438356
+
+
+WER (gt vs ocr): 0.10144927536231885
+CER (gt vs ocr): 0.010958904109589041
+WER (gt vs ocr): 10.144927536231885
+CER (gt vs ocr): 1.095890410958904

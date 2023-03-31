@@ -1,0 +1,25 @@
+Ground truth:
+The editing was poor and none of the characters engendered any sort of sympathy or feeling.
+I hope that movie-goers don't fall for this trap again (although I did apparently)
+
+
+OCR:
+The editing was poor and none of the characters engendered any sort of sympathy or feeling.
+| hope that movie-goers don't fall for this trap again (although | did apparently)
+
+
+Corrected:
+The editing was poor and none of the characters engendered any sort of sympathy or feeling.
+I hope that movie-goers don't fall for this trap again (although they did apparently).
+
+
+WER (gt vs final): 0.06666666666666667
+CER (gt vs final): 0.028735632183908046
+WER% (gt vs final): 6.666666666666667
+CER% (gt vs final): 2.8735632183908044
+
+
+WER (gt vs ocr): 0.1
+CER (gt vs ocr): 0.017241379310344827
+WER (gt vs ocr): 10.0
+CER (gt vs ocr): 1.7241379310344827

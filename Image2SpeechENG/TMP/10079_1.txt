@@ -1,0 +1,31 @@
+Ground truth:
+God, this movie was unbelievably insipid, with some of the worst (or is it nonexistent) writing ever captured on film.
+There is no saving grace to this film; even the animatronics are kind of lame, and it's just a complete waste of time and money.Run.
+Fast.
+It's beyond horrible.
+
+
+OCR:
+God, this movie was unbelievably insipid, with some of the worst (or is it nonexistent) writing ever captured on film.
+There is no saving grace to this film; even the animatronics are kind of lame, and it's just a complete waste of time and money.Run.
+Fast.
+It's beyond horrible.
+
+
+Corrected:
+God, this movie was unbelievably insipid, with some of the worst (or is it nonexistent) writing ever captured on film.
+There is no saving grace to this film; even the animatronics are kind of lame, and it's just a complete waste of time and money. Run.
+Fast.
+It's beyond horrible.
+
+
+WER (gt vs final): 0.04081632653061224
+CER (gt vs final): 0.0035842293906810036
+WER% (gt vs final): 4.081632653061225
+CER% (gt vs final): 0.35842293906810035
+
+
+WER (gt vs ocr): 0.10204081632653061
+CER (gt vs ocr): 0.010752688172043012
+WER (gt vs ocr): 10.204081632653061
+CER (gt vs ocr): 1.0752688172043012

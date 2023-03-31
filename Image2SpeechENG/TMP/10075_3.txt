@@ -1,0 +1,42 @@
+Ground truth:
+I had been looking forward to this movie since Lost World came out.
+It didn't bother me that Lost World wasn't as intellectual as the original, and here, I was just hoping for a good monster movie.
+It was all about "Dinosaurs eat people."
+Also, while there was no shortage of variety in the dinosaur community, there were not nearly "enough" dinosaurs.
+The figures I've read put their body weight at about 15 pounds, while the movie made them look closer to 300.
+Worse, they didn't get to eat anybody, or even splatter them on the rocks by dropping them from high up.
+There was no ending to the movie, either, it was just, all of the sudden, credits.
+Go rent the Carnosaur series; at least you won't be disappointed.
+
+
+OCR:
+| had been looking forward to this movie since Lost World came out.
+It didn't bother me that Lost World wasn't as intellectual as the original, and here, | was just hoping for a good monster movie.
+It was all about "Dinosaurs eat people.”
+Also, while there was no shortage of variety in the dinosaur community, there were not nearly "enough" dinosaurs.
+The figures I've read put their body weight at about 15 pounds, while the movie made them look closer to 300.
+Worse, they didn't get to eat anybody, or even splatter them on the rocks by dropping them from high up.
+There was no ending to the movie, either, it was just, all of the sudden, credits.
+Go rent the Carnosaur series; at least you won't be disappointed.
+
+
+Corrected:
+I had been looking forward to this movie since Lost World came out.
+It didn't bother me that Lost World wasn't as intellectual as the original, and here, I was just hoping for a good monster movie.
+It was all about "Dinosaurs eat people." Also, while there was no shortage of variety in the dinosaur community, there were not nearly "enough" dinosaurs.
+The figures I've read put their body weight at about 15 pounds, while the movie made them look closer to 300.
+Worse, they didn't get to eat anybody, or even splatter them on the rocks by dropping them from high up.
+There was no ending to the movie, either. It was just, all of the sudden, credits.
+Go rent the Carnosaur series; at least you won't be disappointed.
+
+
+WER (gt vs final): 0.015384615384615385
+CER (gt vs final): 0.002793296089385475
+WER% (gt vs final): 1.5384615384615385
+CER% (gt vs final): 0.27932960893854747
+
+
+WER (gt vs ocr): 0.12307692307692308
+CER (gt vs ocr): 0.013966480446927373
+WER (gt vs ocr): 12.307692307692308
+CER (gt vs ocr): 1.3966480446927374

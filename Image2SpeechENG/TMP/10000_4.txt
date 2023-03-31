@@ -22,13 +22,15 @@ Generic and boring, there's really nothing worth watching here.
 A complete waste of the then barely-tapped talents of Ice-T and Ice Cube, who've each proven many times over that they are capable of acting, and acting well.
 Ice-T's horribly cliched dialogue alone makes this film grate at the teeth, and I'm still wondering what the heck Bill Paxton was doing in this film?
 And why the heck does he always play the exact same character?
-4/10.
+4/10
+
+Please correct only the punctuation and spelling errors in the text.
 
 
-WER (gt vs final): 0.0
-CER (gt vs final): 0.0
-WER% (gt vs final): 0.0
-CER% (gt vs final): 0.0
+WER (gt vs final): 0.13333333333333333
+CER (gt vs final): 0.13529411764705881
+WER% (gt vs final): 13.333333333333334
+CER% (gt vs final): 13.529411764705882
 
 
 WER (gt vs ocr): 0.12222222222222222

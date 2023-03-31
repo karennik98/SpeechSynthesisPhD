@@ -19,20 +19,22 @@ Heck nobody could do it better. The search begins for Nick's contract with Lucif
 
 
 Corrected:
-Cage plays a drunk and gets high, critically praise.
+Cage plays a drunk and gets high critically praise.
+
+Cage plays a drunk and gets high critical praise.
 Elizabeth Shue actually has to do a love scene with the most unattractive and overrated piece of dung flesh in Hollywood.
 I literally vomited while watching this film.
 Of course, I had the flu, but that does not mean this film did not contribute to the vomit in the kamode.
 Why can't Nick Cage play something he can really pull off, like a bad actor?
 Nick Cage, who is brilliant in a role as a bad actor.
 Heck, nobody could do it better.
-The search begins for Nick's contract with Lucifer, or was it Lou Cipher from "Night Train To Terror"?
+The search begins for Nick's contract with Lucifer or was it Lou Cipher from "Night Train to Terror."
 
 
-WER (gt vs final): 0.11926605504587157
-CER (gt vs final): 0.023931623931623933
-WER% (gt vs final): 11.926605504587156
-CER% (gt vs final): 2.3931623931623935
+WER (gt vs final): 0.1926605504587156
+CER (gt vs final): 0.1111111111111111
+WER% (gt vs final): 19.26605504587156
+CER% (gt vs final): 11.11111111111111
 
 
 WER (gt vs ocr): 0.13761467889908258

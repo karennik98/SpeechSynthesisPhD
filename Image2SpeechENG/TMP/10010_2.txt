@@ -10,13 +10,13 @@ And what kind of an alcoholic tends to drink with the bottle held about 8 inches
 
 Corrected:
 So tell me - what serious boozer drinks Budweiser?
-And what kind of an alcoholic tends to drink with the bottle held about 8 inches from his hungry mouth, so that the contents generally spill all over his face?
+And what kind of an alcoholic tends to drink with the bottle held about 8 inches from his hungry mouth so that the contents generally spill all over his face?
 
 
-WER (gt vs final): 0.02564102564102564
-CER (gt vs final): 0.004784688995215311
-WER% (gt vs final): 2.564102564102564
-CER% (gt vs final): 0.4784688995215311
+WER (gt vs final): 0.0
+CER (gt vs final): 0.0
+WER% (gt vs final): 0.0
+CER% (gt vs final): 0.0
 
 
 WER (gt vs ocr): 0.05128205128205128

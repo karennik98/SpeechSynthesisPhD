@@ -1,0 +1,34 @@
+Ground truth:
+The end result was straight out of Monty Python's "Ministry of Silly Walks" sketch.
+I couldn't laugh hard enough.And then there's the ubiquitous Ms. Banks (as in laughing all the way to the...).
+She has to be the most annoying self-important woman on TV since Rosie O'Donnell left "The View".
+As if modeling was doing great things for mankind.
+Please.
+
+
+OCR:
+The end result was straight out of Monty Python's "Ministry of Silly Walks" sketch.
+| couldn't laugh hard enough.And then there's the ubiquitous Ms. Banks (as in laughing all the way to the...).
+She has to be the most annoying self-important woman on TV since Rosie O'Donneli left "The View".
+As if modeling was doing great things for mankind.
+Piease.
+
+
+Corrected:
+The end result was straight out of Monty Python's "Ministry of Silly Walks" sketch.
+Couldn't laugh hard enough. And then there's the ubiquitous Ms. Banks (as in laughing all the way to the...).
+She has to be the most annoying self-important woman on TV since Rosie O'Donnell left "The View".
+As if modeling was doing great things for mankind.
+Please.
+
+
+WER (gt vs final): 0.06666666666666667
+CER (gt vs final): 0.011396011396011397
+WER% (gt vs final): 6.666666666666667
+CER% (gt vs final): 1.1396011396011396
+
+
+WER (gt vs ocr): 0.15
+CER (gt vs ocr): 0.019943019943019943
+WER (gt vs ocr): 15.0
+CER (gt vs ocr): 1.9943019943019942

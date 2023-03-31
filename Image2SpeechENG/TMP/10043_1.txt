@@ -1,0 +1,34 @@
+Ground truth:
+While the premise of the film sounded unique and intriguing after watching the first 5 minutes of the film I could have stopped there and gone on with my life.
+If a guy said a filthy comment, grabbed her, or made some disgusting gesture to her, I would say go for it, bring him down, he's a pig.
+I have much respect for women.
+I was raised by one.
+I also come from a Spanish family and we are very matriarchal.
+
+
+OCR:
+While the premise of the film sounded unique and intriguing after watching the first 5 minutes of the film | could have stopped there and gone on with my life.
+If a guy said a filthy comment, grabbed her, or made some disgusting gesture to her, | would say go for it, bring him down, he's a pig.
+| have much respect for women.
+| was raised by one.
+| also come from a Spanish family and we are very matriarchal.
+
+
+Corrected:
+While the premise of the film sounded unique and intriguing, after watching the first 5 minutes of the film I could have stopped there and gone on with my life.
+If a guy said a filthy comment, grabbed her, or made some disgusting gesture to her, I would say go for it, bring him down, he's a pig.
+I have much respect for women.
+I was raised by one.
+Also come from a Spanish family and we are very matriarchal.
+
+
+WER (gt vs final): 0.037037037037037035
+CER (gt vs final): 0.00975609756097561
+WER% (gt vs final): 3.7037037037037033
+CER% (gt vs final): 0.975609756097561
+
+
+WER (gt vs ocr): 0.12345679012345678
+CER (gt vs ocr): 0.02195121951219512
+WER (gt vs ocr): 12.345679012345679
+CER (gt vs ocr): 2.195121951219512

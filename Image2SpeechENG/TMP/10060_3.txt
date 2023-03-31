@@ -1,0 +1,40 @@
+Ground truth:
+This film is on my list of worst movies ever made.
+The story is disconnected and it is difficult to understand what is going on or the reason for the characters' actions.
+All films need to have an inner logic, and this film just doesn't have it - the story doesn't make any sense.
+To see Faye Dunaway, Christopher Plummer and Diana Quick wasting their talents in this movie is a crime.
+Faye Dunaway is the lucky one, because she plays the victim and gets killed early in the film.
+If Dame Agatha Christie were alive she would die laughing!
+The movie is that bad!
+
+
+OCR:
+This film is on my list of worst movies ever made.
+The story is disconnected and it is difficult to understand what is going on or the reason for the characters’ actions.
+All films need to have an inner logic, and this film just doesn’t have it - the story doesn't make any sense.
+To see Faye Dunaway, Christopher Plummer and Diana Quick wasting their talents in this movie is a crime.
+Faye Dunaway is the lucky one, because she plays the victim and gets killed early in the film.
+If Dame Agatha Christie were alive she would die laughing!
+The movie is that bad!
+
+
+Corrected:
+This film is on my list of worst movies ever made.
+The story is disconnected, and it is difficult to understand what is going on or the reason for the characters’ actions.
+All films need to have an inner logic, and this film just doesn't have it - the story doesn't make any sense.
+To see Faye Dunaway, Christopher Plummer, and Diana Quick wasting their talents in this movie is a crime.
+Faye Dunaway is the lucky one, because she plays the victim and gets killed early in the film.
+If Dame Agatha Christie were alive, she would die laughing!
+The movie is that bad!
+
+
+WER (gt vs final): 0.0380952380952381
+CER (gt vs final): 0.0071174377224199285
+WER% (gt vs final): 3.8095238095238098
+CER% (gt vs final): 0.7117437722419928
+
+
+WER (gt vs ocr): 0.13333333333333333
+CER (gt vs ocr): 0.014234875444839857
+WER (gt vs ocr): 13.333333333333334
+CER (gt vs ocr): 1.4234875444839856

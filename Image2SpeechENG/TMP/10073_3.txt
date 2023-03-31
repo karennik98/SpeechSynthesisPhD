@@ -1,0 +1,25 @@
+Ground truth:
+How sad it is when a film as wonderful as "Jurassic Park" slowly nosedives into hackneyed and mediocre territory throughout its franchise.
+The introduction of a pterodactyl does not a great movie make.Go see "Shrek" again.
+
+
+OCR:
+How sad it is when a film as wonderful as “Jurassic Park" slowly nosedives into hackneyed and mediocre territory throughout its franchise.
+The introduction of a pterodactyl does not a great movie make.Go see "Shrek" again.
+
+
+Corrected:
+How sad it is when a film as wonderful as "Jurassic Park" slowly nosedives into hackneyed and mediocre territory throughout its franchise.
+The introduction of a pterodactyl does not a great movie make; go see "Shrek" again.
+
+
+WER (gt vs final): 0.05555555555555555
+CER (gt vs final): 0.013513513513513514
+WER% (gt vs final): 5.555555555555555
+CER% (gt vs final): 1.3513513513513513
+
+
+WER (gt vs ocr): 0.08333333333333333
+CER (gt vs ocr): 0.009009009009009009
+WER (gt vs ocr): 8.333333333333332
+CER (gt vs ocr): 0.9009009009009009

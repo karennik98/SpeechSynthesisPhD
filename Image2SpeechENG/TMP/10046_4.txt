@@ -1,0 +1,68 @@
+Ground truth:
+This is one of those strange, self-important, self-indulgent movies which tries too hard to be profound.
+It isn't.
+Instead, it spouts cliches that try to pass for Profundity.
+So deep.
+We are treated to a variety of characters who offer their perspective of life, the universe, etc.
+during Adam's travels through the Mojave Desert on foot.
+(He abruptly leaves L.A. the day of his wedding and his family, friends, and fiance assume he's dead when his car was found in a military test range smashed by a rocket.)
+Some characters are more entertaining than others.
+The best by far is an escapee from a mental hospital who only speaks through the voices of others.
+The actor, James Kevin Ward, does some great impressions, including Nicholson, Popeye, and several characters from the original Star Trek.
+But once the interesting characters leave the screen, we're stuck with Adam again and his pursuit of the profound.
+It's a long trip, which drags in many places.
+In fact, it's the longest hour and a half movie I've ever seen.
+And the finale hardly makes it seem worth while, at all.I discovered this movie playing on HBO one day by waking up too early and clicking on the TV.
+That'll learn me.
+Next time I'll try harder to sleep in.
+
+
+OCR:
+This is one of those strange, self-important, self-indulgent movies which tries too hard to be profound.
+It isn't.
+Instead, it spouts cliches that try to pass for Profundity.
+So deep.
+We are treated to a variety of characters who offer their perspective of life, the universe, etc.
+during Adam's travels through the Mojave Desert on foot.
+(He abruptly leaves L.A. the day of his wedding and his family, friends, and fiance assume he's dead when his car was found in a military test range smashed by a rocket.)
+Some characters are more entertaining than others.
+The best by far is an escapee from a mental hospital who only speaks through the voices of others.
+The actor, James Kevin Ward, does some great impressions, including Nicholson, Popeye, and several characters from the original Star Trek.
+But once the interesting characters leave the screen, we're stuck with Adam again and his pursuit of the profound.
+It's a long trip, which drags in many places.
+In fact, it's the longest hour and a half movie I've ever seen.
+And the finale hardly makes it seem worth while, at all. discovered this movie playing on HBO one day by waking up too early and clicking on the TV.
+That'll learn me.
+Next time I'll try harder to sleep in.
+
+
+Corrected:
+This is one of those strange, self-important, self-indulgent movies which tries too hard to be profound.
+It isn't.
+Instead, it spouts cliches that try to pass for profundity.
+So deep.
+We are treated to a variety of characters who offer their perspective of life, the universe, etc.
+During Adam's travels through the Mojave Desert on foot, he ran into some trouble.
+He abruptly leaves L.A. the day of his wedding and his family, friends, and fiance assume he's dead when his car is found in a military test range smashed by a rocket.
+Some characters are more entertaining than others.
+The best by far is an escapee from a mental hospital who only speaks through the voices of others.
+The actor, James Kevin Ward, does some great impressions, including Nicholson, Popeye, and several characters from the original Star Trek.
+But once the interesting characters leave the screen, we're stuck with Adam again and his pursuit of the profound.
+It's a long trip, which drags in many places.
+In fact, it's the longest hour and a half movie I've ever seen.
+And the finale hardly makes it seem worth while at all.
+I discovered this movie playing on HBO one day by waking up too early and clicking on the TV.
+That'll learn me.
+Next time I'll try harder to sleep in.
+
+
+WER (gt vs final): 0.06511627906976744
+CER (gt vs final): 0.027642276422764227
+WER% (gt vs final): 6.511627906976744
+CER% (gt vs final): 2.7642276422764227
+
+
+WER (gt vs ocr): 0.14418604651162792
+CER (gt vs ocr): 0.013008130081300813
+WER (gt vs ocr): 14.418604651162791
+CER (gt vs ocr): 1.3008130081300813

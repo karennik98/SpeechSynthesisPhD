@@ -1,0 +1,49 @@
+Ground truth:
+I have never seen so much talent and money used to produce anything so bad in my entire life!
+I keep thinking of how it could be with the same cast, done the right way.
+The film has even less intimacy than the Christopher Reeves 'Superman' movies.
+The large cast makes the slick production even less effective than in those films, because there is not enough time to get to know anyone.
+Dave Brubeck's progressive jazz soundtrack had me wondering if the wrong video was in the the case from the rental store.
+The music became more and more offensive as the plot progressed.
+It's hard to say whether the soundtrack or the annoying technique of repeating information from earlier scenes, was more offensive.
+From someone who has seen most Christie films (that's what attracted me to this, it was one of the few I hadn't seen) miss this one.
+It is not an Agatha Christie movie.
+Golan-Globus are better suited to producing flicks about big time wrestling, rather than the snug atmosphere of English mystery.
+
+
+OCR:
+| have never seen so much talent and money used to produce anything so bad in my entire life!
+| keep thinking of how it could be with the same cast, done the right way.
+The film has even less intimacy than the Christopher Reeves ‘Superman’ movies.
+The large cast makes the slick production even less effective than in those films, because there is not enough time to get to know anyone.
+Dave Brubeck's progressive jazz soundtrack had me wondering if the wrong video was in the the case from the rental store.
+The music became more and more offensive as the plot progressed.
+It's hard to say whether the soundtrack or the annoying technique of repeating information from earlier scenes, was more offensive.
+From someone who has seen most Christie films (that's what attracted me to this, it was one of the few | hadn't seen) miss this one.
+It is not an Agatha Christie movie.
+Golan-Globus are better suited to producing flicks about big time wrestling, rather than the snug atmosphere of English mystery.
+
+
+Corrected:
+I have never seen so much talent and money used to produce anything so bad in my entire life!
+Keep thinking of how it could be with the same cast, done the right way.
+The film has even less intimacy than the Christopher Reeves' Superman movies.
+The large cast makes the slick production even less effective than in those films, because there is not enough time to get to know anyone.
+Dave Brubeck's progressive jazz soundtrack had me wondering if the wrong video was in the case from the rental store.
+The music became more and more offensive as the plot progressed.
+It's hard to say whether the soundtrack or the annoying technique of repeating information from earlier scenes was more offensive.
+From someone who has seen most Christie films, (that's what attracted me to this, it was one of the few I hadn't seen) miss this one.
+It is not an Agatha Christie movie.
+Golan-Globus are better suited to producing flicks about big time wrestling, rather than the snug atmosphere of English mystery.
+
+
+WER (gt vs final): 0.03977272727272727
+CER (gt vs final): 0.011964107676969093
+WER% (gt vs final): 3.977272727272727
+CER% (gt vs final): 1.1964107676969093
+
+
+WER (gt vs ocr): 0.11931818181818182
+CER (gt vs ocr): 0.013958125623130608
+WER (gt vs ocr): 11.931818181818182
+CER (gt vs ocr): 1.3958125623130608

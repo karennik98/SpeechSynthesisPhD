@@ -1,0 +1,42 @@
+Ground truth:
+I love ghost stories and I will sit through a movie til it's end, even if I'm not really enjoying it.
+I rarely feel like I wasted my time...
+BUT, this adaptation of the Bell Witch story was horrible!
+It wasn't scary in the least bit.
+What is with the comic relief moments?
+The dialog was tedious.
+Acting inconsistent The movie was WAY too long and some scenes were unnecessarily drawn out in my open.
+
+
+OCR:
+| love ghost stories and | will sit through a movie til it's end, even if I'm not really enjoying it.
+| rarely feel like | wasted my time...
+BUT, this adaptation of the Bell Witch story was horrible!
+It wasn't scary in the least bit.
+What is with the comic relief moments?
+The dialog was tedious.
+Acting inconsistent The movie was WAY too long and some scenes were unnecessarily drawn out in my open.
+
+
+Corrected:
+I love ghost stories and will sit through a movie til it's end, even if I'm not really enjoying it.
+I rarely feel like I wasted my time.
+But, this adaptation of the Bell Witch story was horrible!
+It wasn't scary in the least bit.
+What is with the comic relief moments?
+The dialog was tedious.
+Acting inconsistent
+
+The movie was WAY too long and some scenes were unnecessarily drawn out in my opinion.
+
+
+WER (gt vs final): 0.05333333333333334
+CER (gt vs final): 0.03
+WER% (gt vs final): 5.333333333333334
+CER% (gt vs final): 3.0
+
+
+WER (gt vs ocr): 0.2
+CER (gt vs ocr): 0.025
+WER (gt vs ocr): 20.0
+CER (gt vs ocr): 2.5

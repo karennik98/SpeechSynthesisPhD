@@ -27,7 +27,7 @@ Animals in their own natural biotope are undeniably nice to look at, but not in 
 
 
 Corrected:
-"Oh, yeah. This one is definitely a strong contender to win the questionable award of 'worst 80's slasher ever made.'
+Oh yeah, this one is definitely a strong contender to win the questionable award of "worst 80's slasher ever made".
 And two occasions where characters tell dilly-dally jokes that aren't even remotely funny!
 The set-up is as rudimentary as it gets, with the intro showing images of a devastating forest fire with OTT voice-over human screams.
 Fast forward nearly forty years later, when an elderly couple out camping in that same area get axe-whacked by something that breathes heavily off-screen.
@@ -40,10 +40,10 @@ The only thing missing, in fact, is the typical National Geographic narration pr
 Animals in their own natural biotope are undeniably nice to look at, but not in a supposedly vile and cheesy 80's slasher movie, for crying out loud!
 
 
-WER (gt vs final): 0.04132231404958678
-CER (gt vs final): 0.012622720897615708
-WER% (gt vs final): 4.132231404958678
-CER% (gt vs final): 1.262272089761571
+WER (gt vs final): 0.02066115702479339
+CER (gt vs final): 0.007713884992987377
+WER% (gt vs final): 2.066115702479339
+CER% (gt vs final): 0.7713884992987377
 
 
 WER (gt vs ocr): 0.09090909090909091

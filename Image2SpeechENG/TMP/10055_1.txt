@@ -1,0 +1,25 @@
+Ground truth:
+Veteran TV director Ted Post treats us to a plodding, confused and ultimately pointless story lifted from Column B of the Harold Robbins Big Book Of Plots.
+Somewhere.
+
+
+OCR:
+Veteran TV director Ted Post treats us to a plodding, confused and ultimately pointless story lifted from Column B of the Harold Robbins Big Book Of Plots.
+Somewhere.
+
+
+Corrected:
+Veteran TV director Ted Post treats us to a plodding, confused and ultimately pointless story lifted from Column B of the Harold Robbins Big Book Of Plots.
+Somewhere.
+
+
+WER (gt vs final): 0.0
+CER (gt vs final): 0.0
+WER% (gt vs final): 0.0
+CER% (gt vs final): 0.0
+
+
+WER (gt vs ocr): 0.07142857142857142
+CER (gt vs ocr): 0.006024096385542169
+WER (gt vs ocr): 7.142857142857142
+CER (gt vs ocr): 0.6024096385542169
