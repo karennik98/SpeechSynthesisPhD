@@ -10,9 +10,9 @@ def zero_runs(a):
 
 def split_in_parts(audio_path, out_dir):
     # Some constants
-    min_length_for_silence = 0.01 # seconds
-    percentage_for_silence = 0.01 # eps value for silence
-    required_length_of_chunk_in_seconds = 15 # Chunk will be around this value not exact
+    min_length_for_silence = 0.5 # seconds
+    percentage_for_silence = 0.98 # eps value for silence
+    required_length_of_chunk_in_seconds = 1 # Chunk will be around this value not exact
     sample_rate = 16000 # Set to None to use default
 
     # Load audio
