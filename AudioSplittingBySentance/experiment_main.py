@@ -1,82 +1,81 @@
-# import librosa
-#
-# # Load the audio file
-audio_file = 'C:\\Users\\karen\\PhD\\SpeechSynthesisPhD\\AudioSplittingBySentance\\tmp\\temp.wav'
-# audio, sr = librosa.load(audio_file, sr=None)
-#
-# # Set a threshold for silence detection (adjust as needed)
-# threshold = 0.01
-#
-# # Find silent intervals
-# silent_intervals = librosa.effects.split(audio, top_db=threshold)
-#
-# # Compute silence lengths
-# silence_lengths = [librosa.get_duration(y=audio[interval[0]:interval[1]], sr=sr) for interval in silent_intervals]
-#
-# # Find the maximum silence length
-# max_silence_length = max(silence_lengths)
-#
-# # Print the maximum silence length in seconds
-# print("Max silence length:", max_silence_length, "seconds")
+import pydub
+from pydub.silence import detect_nonsilent
+from difflib import SequenceMatcher
+from docx import Document
+
+import Config
 
 
-# # Import the modules
-# import scipy.io.wavfile as wav
-# import numpy as np
-# from pydub import AudioSegment
-#
-# # Read the audio file
-# rate, data = wav.read(audio_file)
-#
-# # Convert to mono if stereo
-# if len(data.shape) > 1:
-#     data = data[:,0]
-#
-# # Find the indices where data is non-zero
-# non_silence_indices = np.argwhere(data != 0)
-#
-# # Find the start and end indices of silent segments
-# start_indices = np.argwhere(np.diff(non_silence_indices, axis=0) > 1)
-# end_indices = start_indices + 1
-#
-# # Find the durations of silent segments in seconds
-# durations = (non_silence_indices[end_indices] - non_silence_indices[start_indices]) / rate
-#
-# # Find the maximum duration and its index
-# max_duration = np.max(durations)
-# max_index = np.argmax(durations)
-#
-# # Find the start and end time of the longest silent segment in seconds
-# #start_time = non_silence_indices[start_indices[max_index]] / rate
-# #end_time = non_silence_indices[end_indices[max_index]] / rate
-#
-# # Print the results
-# print(f"The maximum length of silence is {max_duration} seconds")
-# #print(f"It occurs from {start_time[0][0]:.2f} to {end_time[0][0]:.2f} seconds")
-#
-# # Load the audio file using pydub
-# sound = AudioSegment.from_wav(audio_file)
-#
-# # Get the loudness in dBFS
-# loudness = sound.dBFS
-#
-# # Print the result
-# print(f"The minimum silence threshold is {loudness:.2f} dBFS")
+def detect_pause(audio_file, min_silence_duration=500, silence_threshold=-50):
+    audio = pydub.AudioSegment.from_file(audio_file)
+    non_silent_regions = detect_nonsilent(audio, min_silence_duration, silence_threshold)
 
+    pauses = []
+    prev_end = 0
+    for (start, end) in non_silent_regions:
+        if start > prev_end:
+            pauses.append((prev_end, start))
+        prev_end = end
 
-#Importing library and thir function
-from pydub import AudioSegment
-from pydub.silence import split_on_silence
+    return pauses
 
-#reading from audio mp3 file
-sound = AudioSegment.from_wav(audio_file)
+def calculate_speaker_speed(audio_file, transcription):
+    audio = pydub.AudioSegment.from_file(audio_file)
+    audio_duration = len(audio) / 1000  # duration in seconds
 
-# spliting audio files
-audio_chunks = split_on_silence(sound, min_silence_len=500, silence_thresh=-40 )
+    document = Document(transcription)
+    text = ' '.join([paragraph.text for paragraph in document.paragraphs])
+    text_duration = len(text.split()) / 3  # assuming an average reading speed of 3 words per second
 
-#loop is used to iterate over the output list
-output_dir = 'C:\\Users\\karen\\PhD\\SpeechSynthesisPhD\\AudioSplittingBySentance\\output_4\\'
-for i, chunk in enumerate(audio_chunks):
-   out_file = output_dir + "segment_{}.wav".format(i)
-   print("Exporting file", out_file)
-   chunk.export(out_file, format="wav")
+    speaker_speed = text_duration / audio_duration
+    return speaker_speed
+
+def match_sentences(audio_file, transcription):
+    pauses = detect_pause(audio_file)
+    speaker_speed = calculate_speaker_speed(audio_file, transcription)
+
+    document = Document(transcription)
+    text = ' '.join([paragraph.text for paragraph in document.paragraphs])
+    text_sentences = text.splitlines()
+    audio = pydub.AudioSegment.from_file(audio_file)
+
+    audio_sentences = []
+    matched_text_sentences = []
+
+    prev_end = 0
+    for pause_start, pause_end in pauses:
+        audio_sentence = audio[prev_end:pause_end]
+        audio_sentences.append(audio_sentence)
+
+        text_sentence = None
+        best_ratio = 0
+
+        for sentence in text_sentences:
+            ratio = SequenceMatcher(None, str(audio_sentence), sentence).ratio()
+            if ratio > best_ratio:
+                text_sentence = sentence
+                best_ratio = ratio
+
+        if text_sentence:
+            text_sentences.remove(text_sentence)
+        else:
+            # If no matching sentence found based on text, estimate position using speaker speed
+            estimated_duration = len(audio_sentence) / (1000 * speaker_speed)
+            estimated_sentence_index = round(estimated_duration * len(text) / audio.duration_seconds)
+            text_sentence = text_sentences[estimated_sentence_index]
+
+        matched_text_sentences.append(text_sentence)
+        prev_end = pause_end
+
+    return audio_sentences, matched_text_sentences
+
+# Usage example
+audio_file = 'audio.wav'
+transcription = 'transcription.docx'
+
+audio_sentences, text_sentences = match_sentences(Config.audio_file_path, Config.docx_file_path)
+
+for audio_sentence, text_sentence in zip(audio_sentences, text_sentences):
+    print(f"Audio Sentence: {audio_sentence}")
+    print(f"Text Sentence: {text_sentence}")
+    print("-" * 50)
