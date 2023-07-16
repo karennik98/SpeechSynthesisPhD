@@ -1,4 +1,4 @@
-from pydub import AudioSegment
+from pydub import AudioSegment, silence
 from pydub.silence import split_on_silence
 from docx import Document
 import pydub
@@ -9,16 +9,30 @@ from dtw import dtw
 import wave
 import librosa
 
-
 import scipy.spatial.distance
 from sklearn.feature_extraction.text import TfidfVectorizer
+
+import Config
+
+
+def get_pauses(audio_file_path):
+    myaudio = AudioSegment.from_wav(audio_file_path)
+    # get the average loudness of the audio
+    dBFS = myaudio.dBFS
+    silence = pydub.silence.detect_silence(myaudio, min_silence_len=500, silence_thresh=dBFS - 16)
+    return [(stop - start) for start, stop in silence]
+
+
+def get_average_loudness(audio_file_path):
+    audio = AudioSegment.from_wav(audio_file_path)
+    return audio.dBFS - 16
 
 def split_sentences(text):
     sentences = text.split('. ')
     sentences_with_colon = []
     for sentence in sentences:
-        if '։' in sentence:
-            sentences_with_colon.extend([s.strip() + '։' for s in sentence.split('։')])
+        if Config.split_character in sentence:
+            sentences_with_colon.extend([s.strip() + Config.split_character for s in sentence.split(Config.split_character)])
         else:
             sentences_with_colon.append(sentence.strip())
     return sentences_with_colon
@@ -51,11 +65,11 @@ def get_text_speed(text, wpm=150):
     return text_speed
 
 
-def get_audio_chunks(audio_path):
+def get_audio_chunks(audio_path, silence_len, thresh):
     # reading from audio mp3 file
     sound = AudioSegment.from_mp3(audio_path)
     # splitting audio files
-    audio_chunks = split_on_silence(sound, min_silence_len=1500, silence_thresh=-40)
+    audio_chunks = split_on_silence(sound, min_silence_len=silence_len, silence_thresh=thresh)
     return audio_chunks
 
 
@@ -69,7 +83,7 @@ def save_audio_files(audio_chunks, output_dir):
     saved_audio_file_paths = []
     for i, chunk in enumerate(audio_chunks):
         out_file = output_dir + "segment_{}.wav".format(i)
-        print("Exporting file", out_file)
+        # print("Exporting file", out_file)
         chunk.export(out_file, format="wav")
         saved_audio_file_paths.append(out_file)
     return saved_audio_file_paths
