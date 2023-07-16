@@ -1,4 +1,6 @@
 import Utilites
+import TextUtilities
+import AudioUtilities
 import Config
 import csv
 import os
@@ -7,36 +9,37 @@ if __name__ == "__main__":
     speed_margin = 10
     matched_pairs = []
 
-    Utilites.convert_to_wav(Config.adamamutin_file_path_mp3, Config.adamamutin_file_path_wav)
-    words_per_second = round(Utilites.get_WPS(Config.adamamutin_file_path_wav, Config.adamamutin_docx_file_path))
+    AudioUtilities.convert_to_wav(Config.adamamutin_file_path_mp3, Config.adamamutin_file_path_wav)
+    words_per_second = round(AudioUtilities.get_WPS(Config.adamamutin_file_path_wav, Config.adamamutin_docx_file_path))
     print(f"WPS: {words_per_second}")
 
-    text = Utilites.read_docx_file(Config.adamamutin_docx_file_path)
-    sentences = Utilites.split_sentences(text)
+    text = TextUtilities.read_docx_file(Config.adamamutin_docx_file_path)
+    sentences = TextUtilities.split_sentences(text)
 
-    pauses = Utilites.get_pauses(Config.adamamutin_file_path_wav)
+    pauses = AudioUtilities.get_pauses(Config.adamamutin_file_path_wav)
     average_silence_len = round(sum(pauses)/len(pauses))
-    average_silence_thresh = round(Utilites.get_average_loudness(Config.adamamutin_file_path_wav))
+    average_silence_thresh = round(AudioUtilities.get_average_loudness(Config.adamamutin_file_path_wav))
     print(f"Average_silence_len: {average_silence_len}")
     print(f"Average_silence_thresh: {average_silence_thresh}")
-    audio_chunks = Utilites.get_audio_chunks(Config.adamamutin_file_path_mp3, average_silence_len + 200, average_silence_thresh)
-    saved_audio_files_path = Utilites.save_audio_files(audio_chunks, Config.adamamutin_output_dir_path)
+    audio_chunks = AudioUtilities.get_audio_chunks(Config.adamamutin_file_path_mp3, average_silence_len, average_silence_thresh)
+    saved_audio_files_path = AudioUtilities.save_audio_files(audio_chunks, Config.adamamutin_output_dir_path)
 
     # Open a CSV file for writing
     with open(Config.adamamutin_output_csv_dir_path, "w", newline="", encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile, delimiter="|")
         for sentence, audio_file in zip(sentences, saved_audio_files_path):
             is_match = Utilites.compare_text_audio(sentence, audio_file, words_per_second)
+            writer.writerow([os.path.basename(audio_file), sentence])
             if is_match:
                 print("Text matches with audio.")
-                writer.writerow([os.path.basename(audio_file), sentence])
+                # writer.writerow([os.path.basename(audio_file), sentence])
             else:
                 print("Text does not match with audio. Remove audio from disk")
-                if os.path.isfile(audio_file):
-                    os.remove(audio_file)
-                    print("File deleted successfully")
-                else:
-                    print("File not found")
+                # if os.path.isfile(audio_file):
+                #     os.remove(audio_file)
+                #     print("File deleted successfully")
+                # else:
+                #     print("File not found")
             print("\n")
 
     # similarity = Utilites.feature_based_matching(saved_audio_files_path[0], sentences[0])

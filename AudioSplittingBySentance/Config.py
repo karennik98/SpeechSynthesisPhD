@@ -27,3 +27,5 @@ adamamutin_output_csv_dir_path = 'C:\\Users\\karen\\PhD\\SpeechSynthesisPhD\\Aud
 
 min_diff_threshold = 0.7
 split_character=':'
+
+pauses_symbols=['—',',',':','.','...']
