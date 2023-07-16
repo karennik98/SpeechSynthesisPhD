@@ -12,6 +12,13 @@ if not os.path.exists(output_dir_path):
 else:
     print(output_dir_path, "folder already exists.")
 
+experiments_output_dir_path = 'C:\\Users\\karen\\PhD\\SpeechSynthesisPhD\\AudioSplittingBySentance\\output\\experiments\\'
+if not os.path.exists(experiments_output_dir_path):
+    os.makedirs(experiments_output_dir_path)
+    print("Created folder:", experiments_output_dir_path)
+else:
+    print(experiments_output_dir_path, "folder already exists.")
+
 adamamutin_file_path_mp3 = "C:\\Users\\karen\\PhD\\SpeechSynthesisPhD\\AudioSplittingBySentance\\input\\adamamutin_anahit_kirakosyan\\001_cut.mp3"
 adamamutin_file_path_wav = "C:\\Users\\karen\\PhD\\SpeechSynthesisPhD\\AudioSplittingBySentance\\input\\adamamutin_anahit_kirakosyan\\001_cut.wav"
 adamamutin_docx_file_path = "C:\\Users\\karen\\PhD\\SpeechSynthesisPhD\\AudioSplittingBySentance\\input\\adamamutin_anahit_kirakosyan\\adamamutin.docx"

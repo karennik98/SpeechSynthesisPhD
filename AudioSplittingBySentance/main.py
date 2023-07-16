@@ -10,7 +10,7 @@ if __name__ == "__main__":
     matched_pairs = []
 
     AudioUtilities.convert_to_wav(Config.adamamutin_file_path_mp3, Config.adamamutin_file_path_wav)
-    words_per_second = round(AudioUtilities.get_WPS(Config.adamamutin_file_path_wav, Config.adamamutin_docx_file_path))
+    words_per_second = AudioUtilities.get_WPS(Config.adamamutin_file_path_wav, Config.adamamutin_docx_file_path)
     print(f"WPS: {words_per_second}")
 
     text = TextUtilities.read_docx_file(Config.adamamutin_docx_file_path)
