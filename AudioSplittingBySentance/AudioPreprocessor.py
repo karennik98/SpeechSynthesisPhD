@@ -7,7 +7,7 @@ import os
 import logging
 
 
-class AudioPrprocessor:
+class AudioPreprocessor:
 
     def __init__(self, mp3_file_path, wav_file_path, docx_file_path, metadata_file_path, out_waves_dir):
         self.logger = logging.getLogger("error_logger AudioPrprocessor")
@@ -25,7 +25,10 @@ class AudioPrprocessor:
             return
         if not os.path.exists(out_waves_dir):
             self.logger.error(f"{out_waves_dir} Directory not exist:")
-            return
+            os.makedirs(out_waves_dir)
+            print("Created folder:", out_waves_dir)
+        else:
+            print(out_waves_dir, "folder already exists.")
 
         self.mp3_file_path = mp3_file_path
         self.wav_file_path = wav_file_path
@@ -62,10 +65,10 @@ class AudioPrprocessor:
                 print("\n")
 
 
-preproc = AudioPrprocessor(mp3_file_path=Config.adamamutin_file_path_mp3,
-                           wav_file_path=Config.adamamutin_file_path_wav,
-                           docx_file_path=Config.docx_file_path,
-                           metadata_file_path=Config.adamamutin_output_csv_dir_path,
-                           out_waves_dir=Config.adamamutin_output_dir_path)
-
-preproc.start()
+# preproc = AudioPerprocessor(mp3_file_path=Config.adamamutin_file_path_mp3,
+#                            wav_file_path=Config.adamamutin_file_path_wav,
+#                            docx_file_path=Config.docx_file_path,
+#                            metadata_file_path=Config.adamamutin_output_csv_dir_path,
+#                            out_waves_dir=Config.adamamutin_output_dir_path)
+#
+# preproc.start()
