@@ -1,6 +1,7 @@
 from docx import Document
 import wave
 import Config
+import logging
 
 def split_sentences(text):
     sentences = text.split('. ')
@@ -54,3 +55,23 @@ def calculate_expected_duration(text, words_per_second):
     expected_duration = word_count / words_per_second
 
     return expected_duration
+
+def pauses_expectant(text):
+     comma_count = text.count(',')
+     but_count = text.count('՝')
+     ev_count = text.count(" և ")
+     u_count = text.count(" ու ")
+     gic_count = text.count("—")
+
+     pauses = comma_count+but_count+ev_count+u_count+gic_count
+     logging.warning("-------------------------------")
+     logging.warning(f"text: {text}")
+     logging.warning(f"comma_count: {comma_count}")
+     logging.warning(f"but_count: {but_count}")
+     logging.warning(f"ev_count: {ev_count}")
+     logging.warning(f"u_count: {u_count}")
+     logging.warning(f"gic_count: {gic_count}")
+     logging.warning(f"expected pauses count: {pauses}")
+     logging.warning("-------------------------------")
+
+     return comma_count + but_count + ev_count + u_count + gic_count

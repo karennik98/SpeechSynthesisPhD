@@ -3,6 +3,9 @@ from pydub.silence import split_on_silence
 from docx import Document
 import pydub
 import wave
+import librosa
+import TextUtilities
+import Utilites
 
 
 def get_pauses(audio_file_path):
@@ -78,3 +81,17 @@ def calculate_audio_duration(audio_file):
         audio_duration = n_frames / frame_rate
 
     return audio_duration
+
+
+def get_expected_speaking_time(text, WPS):
+    return WPS * len(text.split())
+
+def split_text_by_smth(text, audio_file, WPS):
+    splits = text.split(',')
+    removed_item = ""
+    for item in splits:
+        match = Utilites.compare_text_audio(item, audio_file, WPS, tolerance=2.0)
+        if match:
+            removed_item = item
+            break
+    return text.replace(removed_item, "")

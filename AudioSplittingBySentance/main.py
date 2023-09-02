@@ -27,19 +27,27 @@ if __name__ == "__main__":
     # Open a CSV file for writing
     with open(Config.adamamutin_output_csv_dir_path, "w", newline="", encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile, delimiter="|")
+        change_index = 0
         for sentence, audio_file in zip(sentences, saved_audio_files_path):
-            is_match = Utilites.compare_text_audio(sentence, audio_file, words_per_second)
+            is_match = Utilites.compare_text_audio(sentence, audio_file, words_per_second, tolerance=3.40)
             writer.writerow([os.path.basename(audio_file), sentence])
+            temp_sentence=""
             if is_match:
                 print("Text matches with audio.")
-                # writer.writerow([os.path.basename(audio_file), sentence])
+                # writer.writerow([Utilites.increment_string(os.path.basename(audio_file), change_index), sentence])
             else:
-                print("Text does not match with audio. Remove audio from disk")
+                print("Text does not match with audio.")
+                #temp_sentence = AudioUtilities.split_text_by_smth(sentence, audio_file, words_per_second)
+                #print(f"temp_sentence: {temp_sentence}")
+               # writer.writerow([Utilites.increment_string(os.path.basename(audio_file), change_index), sentence.replace(temp_sentence, "")])
+                #change_index += 1
                 # if os.path.isfile(audio_file):
                 #     os.remove(audio_file)
                 #     print("File deleted successfully")
                 # else:
                 #     print("File not found")
+            #if len(temp_sentence) != 0:
+            #    writer.writerow([Utilites.increment_string(os.path.basename(audio_file), change_index), temp_sentence])
             print("\n")
 
     # similarity = Utilites.feature_based_matching(saved_audio_files_path[0], sentences[0])
