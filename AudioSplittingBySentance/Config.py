@@ -23,7 +23,30 @@ else:
     print(adamamutin_output_dir_path, "folder already exists.")
 
 adamamutin_output_csv_dir_path = 'output\\adamamutin_anahit_kirakosyan\\metadata.csv'
+adamamutin_player_output_csv_file_path = 'output\\adamamutin_anahit_kirakosyan\\adamamutin_metadata.csv'
 
 
 min_diff_threshold = 0.7
 split_character=':'
+
+# # Create a menu bar
+# self.menubar = ttk.Menu(self.root)
+#
+# # Create a File menu and add it to the menu bar
+# filemenu = ttk.Menu(self.menubar, tearoff=0)
+# filemenu.add_command(label="New", command=lambda: self.show_message("New file"))
+# filemenu.add_command(label="Open", command=lambda: self.show_message("Open file"))
+# filemenu.add_command(label="Save", command=lambda: self.show_message("Save file"))
+# filemenu.add_separator()
+# filemenu.add_command(label="Exit", command=self.root.quit)
+# self.menubar.add_cascade(label="File", menu=filemenu)
+#
+# # Create an Edit menu and add it to the menu bar
+# editmenu = ttk.Menu(self.menubar, tearoff=0)
+# editmenu.add_command(label="Cut", command=lambda: self.show_message("Cut text"))
+# editmenu.add_command(label="Copy", command=lambda: self.show_message("Copy text"))
+# editmenu.add_command(label="Paste", command=lambda: self.show_message("Paste text"))
+# self.menubar.add_cascade(label="Edit", menu=editmenu)
+#
+# # Configure the root window to display the menu bar
+# self.root.config(menu=self.menubar)
