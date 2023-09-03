@@ -17,44 +17,6 @@ pygame.init()
 
 
 class AudioPlayer:
-
-    # def show_message(self, message):
-    #     print(message)
-
-    def open_config_file(self):
-        config = filedialog.askopenfilename(initialdir="/", title="Select config file",
-                                            filetypes=(("json file", "*.json"), ("json file", "*.json")))
-
-        print(config)
-        with open(config, "r") as file:
-            data = json.load(file)
-        print(data["AudioPlayer"])
-        self.in_text_file_path = data["AudioPlayer"]["docx_file"]
-        self.out_metadata_file_path = data["AudioPlayer"]["metadata_file"]
-        self.waves_dir_path = data["AudioPlayer"]["input_wav_dir"]
-
-        if not os.path.exists(self.in_text_file_path):
-            self.logger.error(f"{self.in_text_file_path} File not exist:")
-            return
-        text = TextUtilities.read_docx_file(self.in_text_file_path)
-        self.text_widget.insert(END, text)
-
-        # if not os.path.exists(out_metadata_file_path):
-        #     self.logger.error(f"{out_metadata_file_path} File not exist:")
-        #     return
-        if not os.path.exists(self.waves_dir_path):
-            self.logger.error(f"{self.waves_dir_path} Directory not exist:")
-            print(f"{self.waves_dir_path} Directory not exist:")
-            print(f"{self.waves_dir_path} Starting AudioPreprocessing")
-            preproc = AudioPreprocessor.AudioPreprocessor(
-                mp3_file_path=data["AudioPreproc"]["mp3_audio"],
-                wav_file_path=data["AudioPreproc"]["wav_audio"],
-                docx_file_path=data["AudioPreproc"]["docx_file"],
-                metadata_file_path=data["AudioPreproc"]["metadata_file"],
-                out_waves_dir=self.waves_dir_path)
-            preproc.start()
-            self.scan_directory()
-
     def __init__(self):
         self.waves_dir_path = None
         self.out_metadata_file_path = None
@@ -136,8 +98,38 @@ class AudioPlayer:
 
         #self.scan_directory()
 
-    def start(self):
-        print("starting.....")
+    def open_config_file(self):
+        config = filedialog.askopenfilename(initialdir="/", title="Select config file",
+                                            filetypes=(("json file", "*.json"), ("json file", "*.json")))
+        print(config)
+        with open(config, "r") as file:
+            data = json.load(file)
+        print(data["AudioPlayer"])
+        self.in_text_file_path = data["AudioPlayer"]["docx_file"]
+        self.out_metadata_file_path = data["AudioPlayer"]["metadata_file"]
+        self.waves_dir_path = data["AudioPlayer"]["input_wav_dir"]
+
+        if not os.path.exists(self.in_text_file_path):
+            self.logger.error(f"{self.in_text_file_path} File not exist:")
+            return
+        text = TextUtilities.read_docx_file(self.in_text_file_path)
+        self.text_widget.insert(END, text)
+
+        # if not os.path.exists(out_metadata_file_path):
+        #     self.logger.error(f"{out_metadata_file_path} File not exist:")
+        #     return
+        if not os.path.exists(self.waves_dir_path):
+            self.logger.error(f"{self.waves_dir_path} Directory not exist:")
+            print(f"{self.waves_dir_path} Directory not exist:")
+            print(f"{self.waves_dir_path} Starting AudioPreprocessing")
+            preproc = AudioPreprocessor.AudioPreprocessor(
+                mp3_file_path=data["AudioPreproc"]["mp3_audio"],
+                wav_file_path=data["AudioPreproc"]["wav_audio"],
+                docx_file_path=data["AudioPreproc"]["docx_file"],
+                metadata_file_path=data["AudioPreproc"]["metadata_file"],
+                out_waves_dir=self.waves_dir_path)
+            preproc.start()
+        self.scan_directory()
 
     def scan_directory(self):
         files = os.listdir(self.waves_dir_path)
