@@ -24,6 +24,7 @@ class AudioPlayer:
         self.sound = None
         self.played_song_index = None
         self.audio_dict = {}
+        self.already_processed = {}
 
         self.logger = logging.getLogger("error_logger")
         self.logger.setLevel(logging.ERROR)
@@ -96,7 +97,7 @@ class AudioPlayer:
 
         self.listbox.bind("<Double-Button-1>", self.play_audio)
 
-        #self.scan_directory()
+        # self.scan_directory()
 
     def open_config_file(self):
         config = filedialog.askopenfilename(initialdir="/", title="Select config file",
@@ -108,12 +109,6 @@ class AudioPlayer:
         self.in_text_file_path = data["AudioPlayer"]["docx_file"]
         self.out_metadata_file_path = data["AudioPlayer"]["metadata_file"]
         self.waves_dir_path = data["AudioPlayer"]["input_wav_dir"]
-
-        if not os.path.exists(self.in_text_file_path):
-            self.logger.error(f"{self.in_text_file_path} File not exist:")
-            return
-        text = TextUtilities.read_docx_file(self.in_text_file_path)
-        self.text_widget.insert(END, text)
 
         # if not os.path.exists(out_metadata_file_path):
         #     self.logger.error(f"{out_metadata_file_path} File not exist:")
@@ -129,16 +124,44 @@ class AudioPlayer:
                 metadata_file_path=data["AudioPreproc"]["metadata_file"],
                 out_waves_dir=self.waves_dir_path)
             preproc.start()
+
+        if os.path.exists(self.waves_dir_path) and os.path.exists(self.out_metadata_file_path):
+            with open(self.out_metadata_file_path, "r", newline="", encoding="utf-8") as csvfile:
+                reader = csv.reader(csvfile, delimiter="|")
+                for audio, text in reader:
+                    self.already_processed[audio] = text
         self.scan_directory()
+
+        if not os.path.exists(self.in_text_file_path):
+            self.logger.error(f"{self.in_text_file_path} File not exist:")
+            return
+        docx_text = TextUtilities.read_docx_file(self.in_text_file_path)
+        self.text_widget.insert(END, docx_text)
+
+        for audio, text in self.already_processed.items():
+            start = "1.0"
+            end = END
+            while True:
+                index = self.text_widget.search(text, start, end)
+                if not index:
+                    break
+                end_index = f"{index}+{len(text)}c"
+                self.text_widget.tag_config("green", foreground="green")
+                self.text_widget.tag_add("green", index, end_index)
+                start = end_index
 
     def scan_directory(self):
         files = os.listdir(self.waves_dir_path)
         files = sorted(files, key=lambda x: os.stat(os.path.join(self.waves_dir_path, x)).st_ctime)
+        index = 0
         for file in files:
             if file.endswith(".mp3") or file.endswith(".wav"):
                 filename = os.path.join(self.waves_dir_path, file)
                 self.listbox.insert(END, file)
                 self.audio_dict[file] = filename
+                if file in self.already_processed.keys():
+                    self.listbox.itemconfig(index, bg="green")
+                index += 1
 
     def import_files(self):
         filenames = filedialog.askopenfilenames(initialdir="/", title="Select audio files",
@@ -178,9 +201,6 @@ class AudioPlayer:
             self.played_song_index = None
             print(f"index: {index}")
             song = self.listbox.get(index)
-            print(f"song: {song}")
-            print(f"SEL_FIRST: {SEL_FIRST}")
-            print(f"SEL_LAST: {SEL_LAST}")
             text = self.text_widget.get(SEL_FIRST, SEL_LAST)
             self.text_widget.tag_config("green", foreground="green")
             self.text_widget.tag_add("green", SEL_FIRST, SEL_LAST)
