@@ -14,7 +14,7 @@ import json
 import AudioPreprocessor
 
 pygame.init()
-
+pygame.mixer.init(frequency=88200)
 
 class AudioPlayer:
     def __init__(self):
