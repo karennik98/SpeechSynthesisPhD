@@ -24,7 +24,7 @@ class AudioPlayer:
 
         self.logger = logging.getLogger("error_logger")
         self.logger.setLevel(logging.ERROR)
-        file_handler = logging.FileHandler("Error.log")
+        file_handler = logging.FileHandler("Log/Error.log")
         formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
         file_handler.setFormatter(formatter)
         self.logger.addHandler(file_handler)

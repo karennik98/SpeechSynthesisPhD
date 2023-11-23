@@ -1,4 +1,4 @@
-import Utilites
+import SimilarityUtilites
 import TextUtilities
 import AudioUtilities
 import csv
@@ -11,7 +11,7 @@ class AudioPreprocessor:
     def __init__(self, mp3_file_path, wav_file_path, docx_file_path, metadata_file_path, out_waves_dir, audio_start_index, auto_generate_metadata=False):
         self.logger = logging.getLogger("error_logger AudioPrprocessor")
         self.logger.setLevel(logging.ERROR)
-        file_handler = logging.FileHandler("Error.log")
+        file_handler = logging.FileHandler("Log/Error.log")
         formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
         file_handler.setFormatter(formatter)
         self.logger.addHandler(file_handler)
@@ -68,7 +68,7 @@ class AudioPreprocessor:
                 writer = csv.writer(csvfile, delimiter="|")
                 for sent, audio_file_name in zip(sentences, saved_audio_files_path):
                     writer.writerow([os.path.basename(audio_file_name), sent])
-                    is_match = Utilites.compare_text_audio(sent, audio_file_name, words_per_second, tolerance=3.40)
+                    is_match = SimilarityUtilites.compare_text_audio(sent, audio_file_name, words_per_second, tolerance=3.40)
                     if is_match:
                         print("Text matches with audio.")
                     else:

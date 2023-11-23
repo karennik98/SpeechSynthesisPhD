@@ -5,7 +5,7 @@ import pydub
 import wave
 import librosa
 import TextUtilities
-import Utilites
+import SimilarityUtilites
 
 
 def get_pauses(audio_file_path):
