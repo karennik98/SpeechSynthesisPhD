@@ -14,6 +14,14 @@ pygame.mixer.init(frequency=88200)
 
 class AudioPlayer:
     def __init__(self):
+        self.listbox = None
+        self.text_widget = None
+        self.font = None
+        self.height = None
+        self.width = None
+        self.menubar = None
+        self.root = None
+        self.out_csv_file_path = None
         self.waves_dir_path = None
         self.out_metadata_file_path = None
         self.in_text_file_path = None
