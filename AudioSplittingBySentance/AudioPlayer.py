@@ -1,14 +1,10 @@
-# Import Tkinter, Pygame, filedialog, os, and csv
 from tkinter import *
-import tkinter as tk
-from tkinter import ttk
 import tkinter.font as tkFont
 import pygame
 from tkinter import filedialog
 import os
 import csv
 import TextUtilities
-import Config
 import logging
 import json
 import AudioPreprocessor
@@ -59,36 +55,8 @@ class AudioPlayer:
         self.text_widget = Text(self.root, font=self.font, selectforeground='black')
         self.text_widget.pack(padx=10, pady=10, fill=BOTH, expand=True)
 
-        # scrolltext_widget = ttk.Scrollbar(root, orient=tk.VERTICAL)
-        #
-        # scrolltext_widget.pack(side=tk.RIGHT, fill=tk.Y)
-        # scrolltext_widget.config(command=text_widget.yview)
-        # text_widget.config(xscrollcommand=scrolltext_widget.set)
-
-        # frame = Frame(root, height=height, width=width/2)
-        # frame.pack(fill=BOTH, expand=True)
-
         self.listbox = Listbox(self.root, font=self.font)
         self.listbox.pack(padx=10, pady=10, side=LEFT, fill=BOTH, expand=True)
-
-        # scrolllistbox = ttk.Scrollbar(root, orient=tk.VERTICAL)
-        # scrolllistbox.pack(side=tk.RIGHT, fill=tk.X)
-        # scrolllistbox.config(command=listbox.yview)
-        # listbox.config(xscrollcommand=scrolllistbox.set)
-
-        # import_button = Button(frame, text="Import", command=import_files)
-        # import_button.pack(side=TOP)
-        #
-        # play_button = Button(frame, text="Play")
-        # play_button.pack(side=TOP)
-        # # Bind button to play_audio function with mouse click event
-        # play_button.bind("<Button-1>", play_audio)
-        #
-        # stop_button = Button(frame, text="Stop", command=stop_audio)
-        # stop_button.pack(side=TOP)
-        #
-        # remove_button = Button(frame, text="Remove", command=remove_functionality)
-        # remove_button.pack(side=TOP)
 
         self.text_widget.bind("<B1-Motion>", lambda event: self.text_widget.tag_add(SEL, "sel.first", "sel.last"))
         self.text_widget.bind("<B1-Motion>", lambda event: self.text_widget.tag_config(SEL, background="yellow"))
@@ -96,8 +64,6 @@ class AudioPlayer:
         self.text_widget.bind("<ButtonRelease-1>", lambda event: self.save_pair())
 
         self.listbox.bind("<Double-Button-1>", self.play_audio)
-
-        # self.scan_directory()
 
     def open_config_file(self):
         config = filedialog.askopenfilename(initialdir="/", title="Select config file",
@@ -110,9 +76,6 @@ class AudioPlayer:
         self.out_metadata_file_path = data["AudioPlayer"]["metadata_file"]
         self.waves_dir_path = data["AudioPlayer"]["input_wav_dir"]
 
-        # if not os.path.exists(out_metadata_file_path):
-        #     self.logger.error(f"{out_metadata_file_path} File not exist:")
-        #     return
         if not os.path.exists(self.waves_dir_path):
             self.logger.error(f"{self.waves_dir_path} Directory not exist:")
             print(f"{self.waves_dir_path} Directory not exist:")
@@ -122,9 +85,11 @@ class AudioPlayer:
                 wav_file_path=data["AudioPreproc"]["wav_audio"],
                 docx_file_path=data["AudioPreproc"]["docx_file"],
                 metadata_file_path=data["AudioPreproc"]["metadata_file"],
-                out_waves_dir=self.waves_dir_path)
+                out_waves_dir=self.waves_dir_path,
+                audio_start_index=data["AudioPreproc"]["audio_start_index"])
             preproc.start()
 
+        # Handle already processed files
         if os.path.exists(self.waves_dir_path) and os.path.exists(self.out_metadata_file_path):
             with open(self.out_metadata_file_path, "r", newline="", encoding="utf-8") as csvfile:
                 reader = csv.reader(csvfile, delimiter="|")
@@ -180,6 +145,7 @@ class AudioPlayer:
         filename = self.audio_dict[name]
         self.sound = pygame.mixer.Sound(filename)
         self.sound.play()
+        # if
         self.listbox.itemconfig(index, bg="green")
 
     def stop_audio(self):

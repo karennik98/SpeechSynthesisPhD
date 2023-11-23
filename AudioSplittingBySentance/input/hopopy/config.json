@@ -1,0 +1,15 @@
+{
+  "AudioPlayer": {
+    "docx_file": "input\\hopopy\\hopop.docx",
+    "input_wav_dir": "output\\hopopy\\wavs\\",
+    "metadata_file": "output\\hopopy\\metadata.csv"
+  },
+
+  "AudioPreproc": {
+    "docx_file": "input\\hopopy\\hopop.docx",
+    "mp3_audio": "input\\hopopy\\001.mp3",
+    "wav_audio": "input\\hopopy\\001.wav",
+    "metadata_file": "output\\hopopy\\temp_metadata.csv",
+    "audio_start_index": 169
+  }
+}

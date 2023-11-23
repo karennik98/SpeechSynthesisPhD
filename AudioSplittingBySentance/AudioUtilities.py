@@ -40,11 +40,13 @@ def get_audio_sample_rate(audio_path):
     return sound.frame_rate
 
 
-def save_audio_files(audio_chunks, output_dir):
+def save_audio_files(audio_chunks, output_dir, audio_start_index):
     saved_audio_file_paths = []
     for i, chunk in enumerate(audio_chunks):
-        out_file = output_dir + "segment_{}.wav".format(i)
-        # print("Exporting file", out_file)
+        if i < 3:
+            continue
+        out_file = output_dir + "segment_{}.wav".format(audio_start_index)
+        audio_start_index += 1
         chunk.export(out_file, format="wav")
         saved_audio_file_paths.append(out_file)
     return saved_audio_file_paths

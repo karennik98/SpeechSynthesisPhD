@@ -10,6 +10,7 @@ SAMPLE_RATE = 22050  # target sampling rate in Hz
 SAMPLE_WIDTH = 2  # target bit depth in bytes
 FRAME_DURATION = 30  # frame duration in ms
 VAD_MODE = 3  # VAD aggressiveness mode (0-3)
+NCHANNELS = 1
 
 
 # define a function to resample the audio data to match the new sampling rate and bit depth
@@ -56,9 +57,12 @@ def segment_speech(data_in):
     # return the segmented audio data
     return data_out
 
+import AudioUtilities
+
+AudioUtilities.convert_to_wav("C:\\Users\\karenn\\Downloads\\001.mp3", "C:\\Users\\karenn\\Downloads\\001.wav")
 
 # open the original audio file in read mode
-wav_in = wave.open("output/adamamutin_anahit_kirakosyan/wavs/segment_0.wav", "r")
+wav_in = wave.open("C:\\Users\\karenn\\Downloads\\001.wav", "r")
 
 # get the original parameters
 nchannels, sampwidth, framerate, nframes, comptype, compname = wav_in.getparams()
@@ -70,22 +74,22 @@ data_in = wav_in.readframes(nframes)
 wav_in.close()
 
 # create a new wave file in write mode
-wav_out = wave.open("output/adamamutin_anahit_kirakosyan/wavs/segment_0_0.wav", "w")
+wav_out = wave.open("C:\\Users\\karenn\\Downloads\\001_out.wav", "w")
 
 # set the new parameters
-wav_out.setnchannels(nchannels)
+wav_out.setnchannels(NCHANNELS)
 wav_out.setsampwidth(SAMPLE_WIDTH)
 wav_out.setframerate(SAMPLE_RATE)
 wav_out.setcomptype(comptype, compname)
 
 # resample the original audio data to match the new sampling rate and bit depth
-data_out = resample_audio(data_in, sampwidth, nchannels, framerate, SAMPLE_WIDTH, SAMPLE_RATE)
+data_out = resample_audio(data_in, sampwidth, NCHANNELS, framerate, SAMPLE_WIDTH, SAMPLE_RATE)
 
 # normalize the volume level of the resampled audio data to match the target dBFS
 data_out = normalize_volume(data_out, SAMPLE_WIDTH)
 
 # segment the normalized audio data using WebRTC VAD
-data_out = segment_speech(data_out)
+#data_out = segment_speech(data_out)
 
 # write the modified audio data to the new wave file
 wav_out.writeframes(data_out)
@@ -93,15 +97,20 @@ wav_out.writeframes(data_out)
 # close the new wave file
 wav_out.close()
 
+wav_test = wave.open("C:\\Users\\karenn\\Downloads\\001_out.wav", "r")
+
+nchannels1, sampwidth1, framerate1, nframes1, comptype1, compname1 = wav_test.getparams()
+
+print("END")
 # create an audio segment from the original audio file
-audio_in = pydub.AudioSegment.from_file("output/adamamutin_anahit_kirakosyan/wavs/segment_0.wav")
-
-# split the audio segment into two mono audio segments if it is stereo
-if audio_in.channels == 2:
-    audio_in = audio_in.split_to_mono()[0]
-
-# create an audio segment from the new wave file
-audio_out = pydub.AudioSegment.from_file("output/adamamutin_anahit_kirakosyan/wavs/segment_0_1.wav")
+# audio_in = pydub.AudioSegment.from_file("output/adamamutin_anahit_kirakosyan/wavs/segment_0.wav")
+#
+# # split the audio segment into two mono audio segments if it is stereo
+# if audio_in.channels == 2:
+#     audio_in = audio_in.split_to_mono()[0]
+#
+# # create an audio segment from the new wave file
+# audio_out = pydub.AudioSegment.from_file("output/adamamutin_anahit_kirakosyan/wavs/segment_0_1.wav")
 
 # get the original and modified transcriptions from the corresponding files
 # with open("original.txt", "r") as f_in:
