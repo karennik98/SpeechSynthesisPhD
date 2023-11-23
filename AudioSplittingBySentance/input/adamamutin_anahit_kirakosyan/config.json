@@ -7,8 +7,8 @@
 
   "AudioPreproc": {
     "docx_file": "input\\adamamutin_anahit_kirakosyan\\adamamutin.docx",
-    "mp3_audio": "input\\adamamutin_anahit_kirakosyan\\001_cut.mp3",
-    "wav_audio": "input\\adamamutin_anahit_kirakosyan\\001_cut.wav",
+    "mp3_audio": "input\\adamamutin_anahit_kirakosyan\\001.mp3",
+    "wav_audio": "input\\adamamutin_anahit_kirakosyan\\001.wav",
     "metadata_file": "output\\adamamutin_anahit_kirakosyan\\temp_metadata.csv",
     "audio_start_index": 0
   }
