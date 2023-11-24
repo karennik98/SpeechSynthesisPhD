@@ -1,1 +1,2 @@
-split_character=':'
+split_character = ':'
+characters2remove = ['—', '...']
