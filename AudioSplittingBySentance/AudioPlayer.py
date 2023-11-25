@@ -5,6 +5,7 @@ from tkinter import filedialog
 import os
 import csv
 import TextUtilities
+import TextPreprocessing
 import logging
 import json
 import AudioPreprocessor
@@ -108,7 +109,7 @@ class AudioPlayer:
         if not os.path.exists(self.in_text_file_path):
             self.logger.error(f"{self.in_text_file_path} File not exist:")
             return
-        docx_text = TextUtilities.read_docx_file(self.in_text_file_path)
+        docx_text = TextPreprocessing.preprocess(TextUtilities.read_docx_file(self.in_text_file_path))
         self.text_widget.insert(END, docx_text)
 
         for audio, text in self.already_processed.items():
