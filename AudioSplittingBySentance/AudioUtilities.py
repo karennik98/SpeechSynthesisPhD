@@ -3,8 +3,9 @@ from pydub.silence import split_on_silence
 from docx import Document
 import pydub
 import wave
-import librosa
-import TextUtilities
+from pydub import AudioSegment
+from tinytag import TinyTag
+from pydub.utils import mediainfo
 import SimilarityUtilites
 
 
@@ -28,6 +29,7 @@ def get_audio_speaker_speed(audio_sentence, sample_rate):
     # Calculate the speed of the speaker in words per minute
     audio_speed = audio_words / audio_duration * 60
     return audio_speed
+
 
 def get_audio_chunks(audio_path, silence_len, thresh):
     sound = AudioSegment.from_mp3(audio_path)
@@ -88,12 +90,18 @@ def calculate_audio_duration(audio_file):
 def get_expected_speaking_time(text, WPS):
     return WPS * len(text.split())
 
+
 def split_text_by_smth(text, audio_file, WPS):
     splits = text.split(',')
     removed_item = ""
     for item in splits:
-        match = Utilites.compare_text_audio(item, audio_file, WPS, tolerance=2.0)
+        match = SimilarityUtilites.compare_text_audio(item, audio_file, WPS, tolerance=2.0)
         if match:
             removed_item = item
             break
     return text.replace(removed_item, "")
+
+
+def get_audio_info(file_path):
+    return mediainfo(file_path)
+

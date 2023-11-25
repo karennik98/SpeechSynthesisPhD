@@ -2,7 +2,8 @@
   "AudioPlayer": {
     "docx_file": "input\\adamamutin_anahit_kirakosyan\\adamamutin.docx",
     "input_wav_dir": "output\\adamamutin_anahit_kirakosyan\\wavs\\",
-    "metadata_file": "output\\adamamutin_anahit_kirakosyan\\metadata.csv"
+    "metadata_file": "output\\adamamutin_anahit_kirakosyan\\metadata.csv",
+    "audio_info": "input\\adamamutin_anahit_kirakosyan\\audio_info.json"
   },
 
   "AudioPreproc": {

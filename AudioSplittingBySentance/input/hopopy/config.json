@@ -2,7 +2,8 @@
   "AudioPlayer": {
     "docx_file": "input\\hopopy\\hopop.docx",
     "input_wav_dir": "output\\hopopy\\wavs\\",
-    "metadata_file": "output\\hopopy\\metadata.csv"
+    "metadata_file": "output\\hopopy\\metadata.csv",
+    "audio_info": "input\\hopopy\\audio_info.json"
   },
 
   "AudioPreproc": {

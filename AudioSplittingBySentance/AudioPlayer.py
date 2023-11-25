@@ -4,11 +4,14 @@ import pygame
 from tkinter import filedialog
 import os
 import csv
+
+import AudioUtilities
 import TextUtilities
 import TextPreprocessing
 import logging
 import json
 import AudioPreprocessor
+import GeneralUtilities
 
 pygame.init()
 pygame.mixer.init(frequency=88200)
@@ -84,11 +87,14 @@ class AudioPlayer:
         self.in_text_file_path = data["AudioPlayer"]["docx_file"]
         self.out_metadata_file_path = data["AudioPlayer"]["metadata_file"]
         self.waves_dir_path = data["AudioPlayer"]["input_wav_dir"]
-
+        GeneralUtilities.save_json_data(AudioUtilities.get_audio_info(data["AudioPreproc"]["mp3_audio"]),
+                                        data["AudioPlayer"]["audio_info"])
         if not os.path.exists(self.waves_dir_path):
             self.logger.error(f"{self.waves_dir_path} Directory not exist:")
             print(f"{self.waves_dir_path} Directory not exist:")
             print(f"{self.waves_dir_path} Starting AudioPreprocessing")
+            GeneralUtilities.save_json_data(AudioUtilities.get_audio_info(data["AudioPreproc"]["mp3_audio"]),
+                                            data["AudioPlayer"]["audio_info"])
             preproc = AudioPreprocessor.AudioPreprocessor(
                 mp3_file_path=data["AudioPreproc"]["mp3_audio"],
                 wav_file_path=data["AudioPreproc"]["wav_audio"],
