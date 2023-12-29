@@ -1,0 +1,16 @@
+{
+  "AudioPlayer": {
+    "docx_file": "input\\gaxapari_gerin\\gaxapari_gerin.docx",
+    "input_wav_dir": "output\\gaxapari_gerin\\wavs\\",
+    "metadata_file": "output\\gaxapari_gerin\\metadata.csv",
+    "audio_info": "input\\gaxapari_gerin\\audio_info.json"
+  },
+
+  "AudioPreproc": {
+    "docx_file": "input\\gaxapari_gerin\\gaxapari_gerin.docx",
+    "mp3_audio": "input\\gaxapari_gerin\\001.mp3",
+    "wav_audio": "input\\gaxapari_gerin\\001.wav",
+    "metadata_file": "output\\gaxapari_gerin\\temp_metadata.csv",
+    "audio_start_index": 303
+  }
+}
