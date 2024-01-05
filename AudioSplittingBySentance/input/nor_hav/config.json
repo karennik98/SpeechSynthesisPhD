@@ -1,0 +1,16 @@
+{
+  "AudioPlayer": {
+    "docx_file": "input\\nor_hav\\nor_hav.docx",
+    "input_wav_dir": "output\\nor_hav\\wavs\\",
+    "metadata_file": "output\\nor_hav\\metadata.csv",
+    "audio_info": "input\\nor_hav\\audio_info.json"
+  },
+
+  "AudioPreproc": {
+    "docx_file": "input\\nor_hav\\nor_hav.docx",
+    "mp3_audio": "input\\nor_hav\\001.mp3",
+    "wav_audio": "input\\nor_hav\\001.wav",
+    "metadata_file": "output\\nor_hav\\temp_metadata.csv",
+    "audio_start_index": 303
+  }
+}

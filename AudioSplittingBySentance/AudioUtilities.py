@@ -45,7 +45,7 @@ def get_audio_sample_rate(audio_path):
 def save_audio_files(audio_chunks, output_dir, audio_start_index):
     saved_audio_file_paths = []
     for i, chunk in enumerate(audio_chunks):
-        if i < 3:
+        if i < 2:
             continue
         out_file = output_dir + "segment_{}.wav".format(audio_start_index)
         audio_start_index += 1
