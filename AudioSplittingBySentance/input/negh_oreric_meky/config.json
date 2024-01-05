@@ -1,0 +1,16 @@
+{
+  "AudioPlayer": {
+    "docx_file": "input\\negh_oreric_meky\\negh_oreric_meky.docx",
+    "input_wav_dir": "output\\negh_oreric_meky\\wavs\\",
+    "metadata_file": "output\\negh_oreric_meky\\metadata.csv",
+    "audio_info": "input\\negh_oreric_meky\\audio_info.json"
+  },
+
+  "AudioPreproc": {
+    "docx_file": "input\\negh_oreric_meky\\negh_oreric_meky.docx",
+    "mp3_audio": "input\\negh_oreric_meky\\001.mp3",
+    "wav_audio": "input\\negh_oreric_meky\\001.wav",
+    "metadata_file": "output\\negh_oreric_meky\\temp_metadata.csv",
+    "audio_start_index": 475
+  }
+}
